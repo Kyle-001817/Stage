@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.certificate-container {
+    padding: 20px;
+    background: #f3f3f3;
+}
+.certificate {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px solid #2c3e50;
+    background: #ebf2f6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.water-mark-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+    font-size: 100px;
+    color: #2c3e50;
+    z-index: 0;
+    pointer-events: none;
+}
+.certificate-header .logo {
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.certificate-title {
+    font-size: 24px;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px 0;
+    color: #2980b9;
+}
+.student-name {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+.certificate-content {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+.about-certificate p {
+    text-align: center;
+}
+.topic-title {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+    color: #8e44ad;
+}
+.text-center {
+    text-align: center;
+}
+.text-muted {
+    color: #7f8c8d;
+}
+.certificate-footer {
+    margin-top: 30px;
+    font-size: 16px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.col-md-6 {
+    flex: 0 0 48%;
+}
+.row .row {
+    justify-content: space-between;
+}

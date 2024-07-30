@@ -1,0 +1,103 @@
+@{
+  Layout = "_Layout_register";
+  var genre = ViewData["genre"] as List<Genre>;
+}
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+          
+    <div class="container-fluid page-body-wrapper full-page-wrapper">
+      <div class="content-wrapper d-flex align-items-stretch auth auth-img-bg">
+        <div class="row flex-grow">
+          <div class="col-lg-12 d-flex align-items-center justify-content-center">
+            <div class="auth-form-transparent text-left p-0">
+                <div class="row">
+                <div class="brand-logo">
+                    <center><img src="~/images/logo.png" alt="logo" style="width:300px;" id="floatingLogo"></center>
+                </div>
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="col-md-12 grid-margin grid-margin-md-0 stretch-card">
+                            <div class="card">
+                                <form class="pt-3" method="post" asp-controller="Register" asp-action="InsertProfil">
+                                    <div class="card-body">
+                                    <div class="form-container">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail">Nom</label>
+                                            <div class="input-group">
+                                            <div class="input-group-prepend bg-transparent">
+                                                <span class="input-group-text bg-transparent border-right-0">
+                                                <i class="mdi mdi-rename-box text-primary"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" name="nom" class="form-control form-control-lg border-left-0" id="exampleInputEmail" placeholder="Votre nom">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail">Prenom</label>
+                                            <div class="input-group">
+                                            <div class="input-group-prepend bg-transparent">
+                                                <span class="input-group-text bg-transparent border-right-0">
+                                                <i class="mdi mdi-rename-box text-primary"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" name="prenom" class="form-control form-control-lg border-left-0" id="exampleInputEmail" placeholder="Votre prenom">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-container">
+                                        <div class="form-group">
+                                        <label for="exampleInputEmail">Date de Naissance</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend bg-transparent">
+                                            <span class="input-group-text bg-transparent border-right-0">
+                                                <i class="mdi mdi-calendar-plus text-primary"></i>
+                                            </span>
+                                            </div>
+                                            <input type="date" name="date_naissance" class="form-control form-control-lg border-left-0">
+                                        </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                        <label for="exampleInputEmail">Adresse</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend bg-transparent">
+                                            <span class="input-group-text bg-transparent border-right-0">
+                                                <i class="mdi mdi-home-map-marker text-primary"></i>
+                                            </span>
+                                            </div>
+                                            <input type="text" name="adresse" class="form-control form-control-lg border-left-0" id="exampleInputEmail" placeholder="Votre Adresse">
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    <label for="exampleInputEmail">Genre</label>
+                                    <div class="input-group">
+                                        <select class="js-example-basic-single w-100" name="genre">
+                                            @if(genre != null){
+                                                @foreach(var item in genre){
+                                                    <option value="@item.IdGenre">@item.Nom</option>
+                                                }
+                                            }
+                                        </select>
+                                    </div>
+                                    </div>
+                                    <div class="my-3">
+                                    <button class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" type="submit"> S'INSCRIRE </button>
+                                    </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div></div>
+  </div>

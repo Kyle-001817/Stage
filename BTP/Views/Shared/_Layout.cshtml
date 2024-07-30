@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANDRY CORPORATION</title>
+    <link rel="stylesheet" href="~/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/vendors/base/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="shortcut icon" href="~/images/favicon.png" />
+    <link rel="stylesheet" href="~/vendors/select2/select2.min.css">
+    <link rel="stylesheet" href="~/vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
+</head>
+<body>
+  <div class="horizontal-menu">
+      <nav class="navbar top-navbar col-lg-12 col-12 p-4">
+        <div class="container-fluid">
+          <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
+            <ul class="navbar-nav navbar-nav-left">
+            </ul>
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo" asp-controller="Admin" asp-action="Accueil"><img src="~/images/logo.png" alt="logo"/></a>
+            </div>
+            <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item nav-profile dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
+                    <span class="nav-profile-name">Admin</span>
+                    <span class="online-status"></span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+                      <a class="dropdown-item">
+                        <i class="mdi mdi-settings text-primary"></i>
+                        Settings
+                      </a>
+                      <a class="dropdown-item" asp-controller="Home" asp-action="Deconnect">
+                        <i class="mdi mdi-logout text-primary"></i>
+                        Logout
+                      </a>
+                  </div>
+                </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
+              <span class="mdi mdi-menu"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <nav class="bottom-navbar">
+        <div class="container">
+            <ul class="nav page-navigation">
+              <li class="nav-item">
+                <a class="nav-link" asp-controller="Equipe" asp-action="List_Etapes">
+                  <i class="mdi mdi-arrange-bring-to-front menu-icon"></i>
+                  <span class="menu-title">Accueil</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="mdi mdi-blogger menu-icon"></i>
+                    <span class="menu-title">Bordereaux</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+                  <div class="submenu">
+                      <ul>
+                          <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="F_typeBordereau">Ajouter des types de Bordereaux</a></li>
+                          <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="F_serie_Typebordereau">Ajouter des series dans un type de Bordereau</a></li>
+                          <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="BDQ">BDQ</a></li>
+                          <li class="nav-item"><a class="nav-link" asp-controller="Equipe" asp-action="ClassementCat">BDE</a></li>
+                      </ul>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a asp-controller="Equipe" asp-action="List_Coureurs" class="nav-link">
+                    <i class="mdi mdi-material-ui menu-icon"></i>
+                    <span class="menu-title">Matériaux</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a asp-controller="Equipe" asp-action="Classement" class="nav-link">
+                    <i class="mdi mdi-chart-areaspline menu-icon"></i>
+                    <span class="menu-title">Tableau de Bord</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+    
+    @RenderBody()
+
+    <hr class="divider-d">
+    <footer class="footer">
+          <div class="footer-wrap">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a target="_blank"> R.KYLE </a></span>
+            </div>
+          </div>
+        </footer>
+    <script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/lib/wow/dist/wow.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js" asp-append-version="true"></script>
+    <script src="~/lib/isotope/dist/isotope.pkgd.js" asp-append-version="true"></script>
+    <script src="~/lib/imagesloaded/imagesloaded.pkgd.js" asp-append-version="true"></script>
+    <script src="~/lib/flexslider/jquery.flexslider.js" asp-append-version="true"></script>
+    <script src="~/lib/owl.carousel/dist/owl.carousel.min.js" asp-append-version="true"></script>
+    <script src="~/lib/smoothscroll.js" asp-append-version="true"></script>
+    <script src="~/lib/magnific-popup/dist/jquery.magnific-popup.js" asp-append-version="true"></script>
+    <script src="~/lib/simple-text-rotator/jquery.simple-text-rotator.min.js" asp-append-version="true"></script>
+    <script src="~/js/plugins.js" asp-append-version="true"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/leaflet.js" asp-append-version="true"></script>
+    <script src="~/vendors/base/vendor.bundle.base.js" asp-append-version="true"></script>
+    <script src="~/js/template.js" asp-append-version="true"></script>
+    <script src="~/vendors/select2/select2.min.js" asp-append-version="true"></script>
+    <script src="~/js/select2.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

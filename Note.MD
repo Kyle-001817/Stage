@@ -1,0 +1,5 @@
+-Nom de l'entreprise
+-Serie dans une construction:Installation,Terrassement,Beton et maconnerie en infrastructure...
+-BDQ ve ny atao voalohany?
+-Fomba hi calculena an'ilay quantite ao amin'ny BDE -> Mifandray quantite ao amin'ny BDQ
+-Gestion d'employer
