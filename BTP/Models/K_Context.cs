@@ -10,8 +10,11 @@ public class K_Context : DbContext
         public DbSet<Profil> Profil { get; set; }
         public DbSet<Genre> Genre { get; set; }
         public DbSet<Utilisateur> Utilisateur { get; set; }
+        public DbSet<TypeBordereau> TypeBordereau { get; set; }
+        public DbSet<SerieTravaux> SerieTravaux { get; set; }
+        public DbSet<Bdq> Bdq { get; set; }
 
-        public void ResetDatabase(K_Context context)
+    public void ResetDatabase(K_Context context)
         {
             string sql = "DO $$ DECLARE table_record RECORD; ";
             sql += " BEGIN FOR table_record IN ";
@@ -36,5 +39,20 @@ public class K_Context : DbContext
                 modelBuilder.Entity<Utilisateur>()
                     .Property(p => p.IdUtilisateur)
                     .HasDefaultValueSql($"NEXT VALUE FOR user_seq");
-        }
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<TypeBordereau>()
+                .Property(p => p.IdTypeBordereau)
+                .HasDefaultValueSql($"NEXT VALUE FOR tb_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<SerieTravaux>()
+                .Property(p => p.IdSerieTravaux)
+                .HasDefaultValueSql($"NEXT VALUE FOR st_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Bdq>()
+                .Property(p => p.IdBdq)
+                .HasDefaultValueSql($"NEXT VALUE FOR bdq_seq");
+    }
 }

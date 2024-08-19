@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "D:\\ITU\\Stage\\WEB\\BTP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\register\\f_newcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\register\\f_newcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\bdq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\bdq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\materiaux.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\materiaux.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\login\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\login\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\accueil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\accueil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\register\\forgetpass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\register\\forgetpass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\f_typebordereau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\f_typebordereau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\models\\generatecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:models\\generatecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\models\\serietravaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:models\\serietravaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\models\\bdq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:models\\bdq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\f_bdq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\f_bdq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,87 +50,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginAdmin.cshtml",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Login\\LoginAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\LoginAdmin.cshtml",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Login\\LoginAdmin.cshtml",
-              "RelativeToolTip": "Views\\Login\\LoginAdmin.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T09:13:09.205Z"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA8AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T08:58:27.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ForgetPass.cshtml",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Register\\ForgetPass.cshtml",
-              "RelativeDocumentMoniker": "Views\\Register\\ForgetPass.cshtml",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Register\\ForgetPass.cshtml",
-              "RelativeToolTip": "Views\\Register\\ForgetPass.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAABaAAAA",
+              "Title": "Accueil.cshtml",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\Accueil.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Accueil.cshtml",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\Accueil.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Accueil.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowA0AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T07:59:54.527Z"
+              "WhenOpened": "2024-08-19T15:28:15.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "Controllers\\RegisterController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAIwEwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T05:52:37.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GenerateCode.cs",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\GenerateCode.cs",
-              "RelativeDocumentMoniker": "Models\\GenerateCode.cs",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\GenerateCode.cs",
-              "RelativeToolTip": "Models\\GenerateCode.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAD4vzYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T08:12:21.402Z"
+              "Title": "Materiaux.cshtml",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\Materiaux.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Materiaux.cshtml",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\Materiaux.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Materiaux.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T15:28:02.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "F_NewCode.cshtml",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Register\\F_NewCode.cshtml",
-              "RelativeDocumentMoniker": "Views\\Register\\F_NewCode.cshtml",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Register\\F_NewCode.cshtml",
-              "RelativeToolTip": "Views\\Register\\F_NewCode.cshtml",
-              "ViewState": "AQIAACUAAAAAAAAAAAAiwC8AAAA9AAAA",
+              "Title": "BDQ.cshtml",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\BDQ.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\BDQ.cshtml",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\BDQ.cshtml",
+              "RelativeToolTip": "Views\\Admin\\BDQ.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowB4AAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T07:24:53.158Z",
+              "WhenOpened": "2024-08-19T14:35:58.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SerieTravaux.cs",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\SerieTravaux.cs",
+              "RelativeDocumentMoniker": "Models\\SerieTravaux.cs",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\SerieTravaux.cs",
+              "RelativeToolTip": "Models\\SerieTravaux.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:25:11.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bdq.cs",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\Bdq.cs",
+              "RelativeDocumentMoniker": "Models\\Bdq.cs",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\Bdq.cs",
+              "RelativeToolTip": "Models\\Bdq.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:24:30.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "script.sql ",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\script.sql",
+              "RelativeDocumentMoniker": "script.sql",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\script.sql",
+              "RelativeToolTip": "script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-19T14:22:29.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "F_bdq.cshtml",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_bdq.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\F_bdq.cshtml",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_bdq.cshtml",
+              "RelativeToolTip": "Views\\Admin\\F_bdq.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T13:51:10.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAkwFEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T12:24:41.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "F_typeBordereau.cshtml",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_typeBordereau.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\F_typeBordereau.cshtml",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_typeBordereau.cshtml",
+              "RelativeToolTip": "Views\\Admin\\F_typeBordereau.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T12:23:50.656Z",
               "EditorCaption": ""
             }
           ]
