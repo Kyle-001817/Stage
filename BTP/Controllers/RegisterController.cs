@@ -54,5 +54,61 @@ public class RegisterController : Controller
         _context.SaveChanges();
         return RedirectToAction("LoginAdmin","Login");
     }
+    public IActionResult ForgetPass(){
+        return View();
+    }
+    public IActionResult SendCodeConfirmation(string email) {
+        HttpContext.Session.SetString("email", email);
+        GenerateCode.SendCode(email);
+        return View();
+    }
+    public IActionResult IsCodeValide(int code) 
+    {
+        if (GenerateCode.IsCode(code) == false)
+        {
+            TempData["ErrorMessage"] = "Code de confirmation Invalide, Veuillez verifier s'il vous plait";
+            return RedirectToAction(nameof(ForgetPass));
+        }
+        return RedirectToAction(nameof(F_NewCode));
+    }
+    public IActionResult F_NewCode() {
+        return View();
+    }
+    public IActionResult Update_code(string pass1, string pass2)
+    {
+        // Vérifiez si les deux mots de passe sont identiques
+        if (pass1 == pass2)
+        {
+            string? email = HttpContext.Session.GetString("email");
 
+            // Rechercher l'utilisateur par son email
+            Utilisateur? utilisateurExistant = _context.Utilisateur.FirstOrDefault(u => u.Email == email);
+
+            if (utilisateurExistant != null)
+            {
+                // Mettre à jour le mot de passe et le profil
+                utilisateurExistant.Mdp = pass1;
+                utilisateurExistant.Profil = _context.Profil.Find(email);
+
+                // Sauvegarder les changements
+                _context.Utilisateur.Update(utilisateurExistant);
+                _context.SaveChanges();
+
+                // Rediriger vers la page de connexion après la mise à jour réussie
+                return RedirectToAction("LoginAdmin", "Login");
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Utilisateur non trouvé avec cet email";
+            }
+        }
+        else
+        {
+            // Si les mots de passe ne sont pas identiques, définir un message d'erreur
+            TempData["ErrorMessage"] = "Les deux mots de passe ne sont pas identiques";
+        }
+
+        // Si une erreur s'est produite, rediriger vers la page F_NewCode
+        return RedirectToAction(nameof(F_NewCode));
+    }
 }

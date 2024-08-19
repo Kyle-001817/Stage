@@ -9,91 +9,103 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BTP
 build_property.RootNamespace = BTP
-build_property.ProjectDir = D:\ITU\Stage\BTP\
+build_property.ProjectDir = D:\ITU\Stage\WEB\BTP\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ITU\Stage\BTP
+build_property.MSBuildProjectDirectory = D:\ITU\Stage\WEB\BTP
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ITU/Stage/BTP/Views/Admin/Accueil.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Admin/Accueil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjdWVpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Admin/BDQ.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Admin/BDQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQkRRLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Admin/F_bdq.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_bdq.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9iZHEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Admin/F_convention.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_convention.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9jb252ZW50aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Admin/F_serie_Typebordereau.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_serie_Typebordereau.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9zZXJpZV9UeXBlYm9yZGVyZWF1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Admin/F_typeBordereau.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_typeBordereau.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl90eXBlQm9yZGVyZWF1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Error/ErrorPage.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Error/ErrorPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3JQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Home/Index.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Home/Privacy.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Login/LoginAdmin.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Login/LoginAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5BZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Register/F_Inscription.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Register/ForgetPass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRm9yZ2V0UGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/Stage/WEB/BTP/Views/Register/F_Inscription.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRl9JbnNjcmlwdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Register/F_Utilisateur.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Register/F_NewCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRl9OZXdDb2RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/Stage/WEB/BTP/Views/Register/F_Utilisateur.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRl9VdGlsaXNhdGV1ci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Shared/Error.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Register/SendCodeConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcU2VuZENvZGVDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/Stage/WEB/BTP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Shared/_Layout_Error.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Shared/_Layout_Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Shared/_Layout_loginAdmin.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Shared/_Layout_loginAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfbG9naW5BZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Shared/_Layout_register.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Shared/_Layout_register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfcmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/_ViewImports.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/_ViewStart.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ITU/Stage/BTP/Views/Shared/_Layout.cshtml]
+[D:/ITU/Stage/WEB/BTP/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-czfedbllc5

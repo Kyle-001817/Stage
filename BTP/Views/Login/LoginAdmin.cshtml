@@ -37,11 +37,24 @@
                   <div class="form-check">
                   </div>
                 </div>
-                <div class="my-3">
-                  <button class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" type="submit"> CONNECTER</button>
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+                <div class="row">
+                  <div class="col-md-6">
+                    <button class="btn btn-primary btn-lg font-weight-medium auth-form-btn mr-3" type="submit">CONNECTER</button>
+                  </div>
+                  <div class="col-md-6">
+                    <a asp-controller="Register" asp-action="F_Inscription" class="btn btn-outline-success btn-fw" style="margin-left: 50px; height: 50px; padding-top: 17px;">S'INSCRIRE</a>
+                  </div>
                 </div>
+
+
                 <div class="text-center mt-4 font-weight-light">
-                  Créer un nouveau compte || <a asp-controller="Register" asp-action="F_Inscription" class="text-primary"> S'inscrire </a>
+                  <a asp-controller="Register" asp-action="ForgetPass" class="text-primary"> Mot de passe oublié? </a>
                 </div>
               </form>
             </div>

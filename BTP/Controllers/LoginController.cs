@@ -12,6 +12,7 @@ public class LoginController : Controller
         _logger = logger;
         _context = context;
     }
+    
     public IActionResult LoginAdmin()
     {
         return View();
@@ -37,4 +38,5 @@ public class LoginController : Controller
         errors.Add("login", "Email ou mot de passe incorrect.");
         return Json(new { success = false, errors });
     }
+
 }
