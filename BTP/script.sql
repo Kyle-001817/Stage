@@ -73,10 +73,8 @@ CREATE TABLE materiaux(
    id_materiaux VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('MATX', LPAD(nextval('matx_seq')::TEXT, 3, '0')),
    nom VARCHAR(250)  NOT NULL,
    prix_unitaire NUMERIC(15,2)   NOT NULL,
-   id_bdq VARCHAR(50)  NOT NULL,
    id_unite VARCHAR(50)  NOT NULL,
    id_type_materiel VARCHAR(50)  NOT NULL,
-   FOREIGN KEY(id_bdq) REFERENCES bdq(id_bdq),
    FOREIGN KEY(id_unite) REFERENCES unite(id_unite),
    FOREIGN KEY(id_type_materiel) REFERENCES type_materiel(id_type_materiel)
 );

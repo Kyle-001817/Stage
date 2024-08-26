@@ -8,8 +8,10 @@ public class Profil {
     [Column("id_profil")]
     public string? IdProfil{ get; set; }
 
+
     [Column("nom")]
     public string? Nom{ get; set; }
+
 
     [Column("prenom")]
     public string? Prenom{ get; set; }

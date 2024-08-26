@@ -1,0 +1,71 @@
+/* customStyles.css */
+
+/* Style pour le titre et le contenu de la modale */
+.modal-title,
+.modal-body {
+    color: #ffffff; /* Couleur du texte */
+}
+
+/* Style pour le contenu de la modale */
+.modal-body {
+    background-color: #170407; /* Couleur de fond */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 5px; /* Bordures arrondies */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+.modal.fade .modal-dialog {
+    animation: slideIn 0.5s forwards;
+}
+
+.modal.fade .modal-dialog.hide {
+    animation: slideOut 0.5s forwards;
+}
+
+/* Ajout d'un effet de boîte ombrée et de surbrillance */
+.modal-content {
+    background: linear-gradient(135deg, #1c1c1c, #343a40);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.modal-header {
+    background: #d1270d;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Espacement pour l'en-tête */
+}
+
+/* Masquer le pied de la modale */
+.modal-footer {
+    display: none; /* Cacher le footer car nous n'avons pas besoin du bouton de fermeture */
+}
+
+/* Ajout d'un effet d'ombre pour l'en-tête */
+.modal-header {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

@@ -41,6 +41,7 @@ namespace BTP.Models
             {
                 GenerateNewCode();
             }
+            Console.WriteLine(currentCode);
             return currentCode;
         }
 
@@ -52,7 +53,7 @@ namespace BTP.Models
         {
             string mail_emetteur = "manbad614@gmail.com";
             int? code = Valiny();
-            Console.WriteLine(code);
+            
             if (code.HasValue)
             {
                 MailMessage message = new();
@@ -75,6 +76,7 @@ namespace BTP.Models
             if(code != Valiny()){
                 ans = false;
             }
+            Console.WriteLine(ans);
             return ans;
         }
     }

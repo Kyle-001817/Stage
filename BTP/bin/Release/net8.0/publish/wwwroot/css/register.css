@@ -1,0 +1,7 @@
+.form-container {
+    display: flex;
+    gap: 20px;
+  }
+  .form-group {
+    flex: 1;
+  }

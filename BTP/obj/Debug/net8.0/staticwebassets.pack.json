@@ -1,1935 +1,1935 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTP.bundle.scp.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTP.bundle.scp.css",
       "PackagePath": "staticwebassets\\BTP.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\Chart.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\Chart.css",
       "PackagePath": "staticwebassets\\css\\Chart.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\colors\\default-rtl.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\colors\\default-rtl.css",
       "PackagePath": "staticwebassets\\css\\colors\\default-rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\colors\\default.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\colors\\default.css",
       "PackagePath": "staticwebassets\\css\\colors\\default.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\leaflet.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\leaflet.css",
       "PackagePath": "staticwebassets\\css\\leaflet.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\maps\\horizontal-layout-light\\style.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\maps\\horizontal-layout-light\\style.css.map",
       "PackagePath": "staticwebassets\\css\\maps\\horizontal-layout-light\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\maps\\style.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\maps\\style.css.map",
       "PackagePath": "staticwebassets\\css\\maps\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\popup.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\popup.css",
       "PackagePath": "staticwebassets\\css\\popup.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\register.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\register.css",
       "PackagePath": "staticwebassets\\css\\register.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\site.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\style-rtl.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\style-rtl.css",
       "PackagePath": "staticwebassets\\css\\style-rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\css\\style.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\docs\\documentation.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\docs\\documentation.html",
       "PackagePath": "staticwebassets\\docs\\documentation.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\docs\\documentation.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\docs\\documentation.js",
       "PackagePath": "staticwebassets\\docs\\documentation.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\favicon.ico",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.eot",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Black.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.ttf",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.woff",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Black.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.woff2",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Black.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Bold.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Bold.eot",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Bold.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Bold.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Bold.ttf",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Bold.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Bold.woff",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Bold.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Bold.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Bold.woff2",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Bold.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.eot",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.woff",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.woff2",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-ExtraLight.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Light.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Light.eot",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Light.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Light.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Light.ttf",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Light.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Light.woff",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Light.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Light.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Light.woff2",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Light.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Regular.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Regular.eot",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Regular.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Regular.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Regular.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Regular.woff",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Regular.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Regular.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Regular.woff2",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Regular.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.eot",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.ttf",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.woff",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.woff2",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\Certificat.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\Certificat.png",
       "PackagePath": "staticwebassets\\images\\Certificat.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\Logo3.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\Logo3.png",
       "PackagePath": "staticwebassets\\images\\Logo3.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\Tritriva.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\Tritriva.png",
       "PackagePath": "staticwebassets\\images\\Tritriva.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\accueil\\accueil.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\accueil\\accueil.jpg",
       "PackagePath": "staticwebassets\\images\\accueil\\accueil.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\auth\\login.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\auth\\login.jpg",
       "PackagePath": "staticwebassets\\images\\auth\\login.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\dashboard\\bg.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\dashboard\\bg.png",
       "PackagePath": "staticwebassets\\images\\dashboard\\bg.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\dashboard\\face29.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\dashboard\\face29.png",
       "PackagePath": "staticwebassets\\images\\dashboard\\face29.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\dashboard\\live.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\dashboard\\live.png",
       "PackagePath": "staticwebassets\\images\\dashboard\\live.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face1.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face1.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face1.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face10.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face10.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face10.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face11.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face11.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face11.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face12.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face12.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face12.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face13.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face13.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face13.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face14.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face14.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face14.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face15.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face15.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face15.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face16.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face16.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face16.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face17.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face17.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face17.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face18.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face18.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face18.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face19.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face19.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face19.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face2.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face2.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face2.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face20.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face20.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face20.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face21.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face21.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face21.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face22.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face22.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face22.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face23.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face23.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face23.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face24.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face24.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face24.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face25.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face25.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face25.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face26.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face26.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face26.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face27.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face27.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face27.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face28.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face28.png",
       "PackagePath": "staticwebassets\\images\\faces\\face28.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face3.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face3.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face3.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face4.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face4.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face4.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face5.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face5.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face5.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face6.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face6.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face6.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face7.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face7.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face7.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face8.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face8.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face8.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face9.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\faces\\face9.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face9.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\favicon.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\favicon.png",
       "PackagePath": "staticwebassets\\images\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\logo-mini.svg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\logo-mini.svg",
       "PackagePath": "staticwebassets\\images\\logo-mini.svg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\logo.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\logo.svg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\logo1.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\logo1.png",
       "PackagePath": "staticwebassets\\images\\logo1.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\marker-icon.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\marker-icon.png",
       "PackagePath": "staticwebassets\\images\\marker-icon.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\section-4.jpg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\images\\section-4.jpg",
       "PackagePath": "staticwebassets\\images\\section-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\Chart.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\Chart.js",
       "PackagePath": "staticwebassets\\js\\Chart.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\TimeFormat.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\TimeFormat.js",
       "PackagePath": "staticwebassets\\js\\TimeFormat.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\dashboard.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\dashboard.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\dateTimeFormat.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\dateTimeFormat.js",
       "PackagePath": "staticwebassets\\js\\dateTimeFormat.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\file-upload.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\file-upload.js",
       "PackagePath": "staticwebassets\\js\\file-upload.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\formValidation.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\formValidation.js",
       "PackagePath": "staticwebassets\\js\\formValidation.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\html2canvas.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\html2canvas.min.js",
       "PackagePath": "staticwebassets\\js\\html2canvas.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\jquery-3.6.0.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\jquery.cookie.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\jquery.cookie.js",
       "PackagePath": "staticwebassets\\js\\jquery.cookie.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\jquery.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\jquery2.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\jquery2.min.js",
       "PackagePath": "staticwebassets\\js\\jquery2.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\jspdf.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\jspdf.min.js",
       "PackagePath": "staticwebassets\\js\\jspdf.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\leaflet.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\leaflet.js",
       "PackagePath": "staticwebassets\\js\\leaflet.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\main.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\plugins.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\plugins.js",
       "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\select2.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\select2.js",
       "PackagePath": "staticwebassets\\js\\select2.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\site.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\style.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\style.js",
       "PackagePath": "staticwebassets\\js\\style.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\template.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\template.js",
       "PackagePath": "staticwebassets\\js\\template.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\typeahead.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\typeahead.js",
       "PackagePath": "staticwebassets\\js\\typeahead.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\js\\validate.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\js\\validate.js",
       "PackagePath": "staticwebassets\\js\\validate.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\animate.css\\animate.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\animate.css\\animate.css",
       "PackagePath": "staticwebassets\\lib\\animate.css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\npm.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\css\\font-awesome.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\lib\\components-font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\FontAwesome.otf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\lib\\components-font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\lib\\components-font-awesome\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\desandro-matches-selector\\matches-selector.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\desandro-matches-selector\\matches-selector.js",
       "PackagePath": "staticwebassets\\lib\\desandro-matches-selector\\matches-selector.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\Read Me.txt",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\Read Me.txt",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\Read Me.txt"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\et-line-font.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\et-line-font.css",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\et-line-font.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\et-line.dev.svg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\et-line.dev.svg",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\et-line.dev.svg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\fonts\\et-line.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\fonts\\et-line.eot",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\fonts\\et-line.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\fonts\\et-line.svg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\fonts\\et-line.svg",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\fonts\\et-line.svg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\fonts\\et-line.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\fonts\\et-line.ttf",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\fonts\\et-line.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\fonts\\et-line.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\fonts\\et-line.woff",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\fonts\\et-line.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\index.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\index.html",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\index.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\lte-ie7.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\et-line-font\\lte-ie7.js",
       "PackagePath": "staticwebassets\\lib\\et-line-font\\lte-ie7.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\ev-emitter\\ev-emitter.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\ev-emitter\\ev-emitter.js",
       "PackagePath": "staticwebassets\\lib\\ev-emitter\\ev-emitter.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\fizzy-ui-utils\\utils.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\fizzy-ui-utils\\utils.js",
       "PackagePath": "staticwebassets\\lib\\fizzy-ui-utils\\utils.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\flexslider\\flexslider.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\flexslider\\flexslider.css",
       "PackagePath": "staticwebassets\\lib\\flexslider\\flexslider.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\flexslider\\fonts\\flexslider-icon.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\flexslider\\fonts\\flexslider-icon.eot",
       "PackagePath": "staticwebassets\\lib\\flexslider\\fonts\\flexslider-icon.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\flexslider\\fonts\\flexslider-icon.svg",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\flexslider\\fonts\\flexslider-icon.svg",
       "PackagePath": "staticwebassets\\lib\\flexslider\\fonts\\flexslider-icon.svg"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\flexslider\\fonts\\flexslider-icon.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\flexslider\\fonts\\flexslider-icon.ttf",
       "PackagePath": "staticwebassets\\lib\\flexslider\\fonts\\flexslider-icon.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\flexslider\\fonts\\flexslider-icon.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\flexslider\\fonts\\flexslider-icon.woff",
       "PackagePath": "staticwebassets\\lib\\flexslider\\fonts\\flexslider-icon.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\flexslider\\jquery.flexslider.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\flexslider\\jquery.flexslider.js",
       "PackagePath": "staticwebassets\\lib\\flexslider\\jquery.flexslider.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\get-size\\get-size.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\get-size\\get-size.js",
       "PackagePath": "staticwebassets\\lib\\get-size\\get-size.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\imagesloaded\\imagesloaded.pkgd.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\imagesloaded\\imagesloaded.pkgd.js",
       "PackagePath": "staticwebassets\\lib\\imagesloaded\\imagesloaded.pkgd.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\isotope\\dist\\isotope.pkgd.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\isotope\\dist\\isotope.pkgd.js",
       "PackagePath": "staticwebassets\\lib\\isotope\\dist\\isotope.pkgd.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery.mb.ytplayer\\dist\\jquery.mb.YTPlayer.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery.mb.ytplayer\\dist\\jquery.mb.YTPlayer.js",
       "PackagePath": "staticwebassets\\lib\\jquery.mb.ytplayer\\dist\\jquery.mb.YTPlayer.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\magnific-popup\\dist\\jquery.magnific-popup.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\magnific-popup\\dist\\jquery.magnific-popup.js",
       "PackagePath": "staticwebassets\\lib\\magnific-popup\\dist\\jquery.magnific-popup.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\magnific-popup\\dist\\magnific-popup.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\magnific-popup\\dist\\magnific-popup.css",
       "PackagePath": "staticwebassets\\lib\\magnific-popup\\dist\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\masonry\\dist\\masonry.pkgd.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\masonry\\dist\\masonry.pkgd.js",
       "PackagePath": "staticwebassets\\lib\\masonry\\dist\\masonry.pkgd.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\outlayer\\outlayer.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\outlayer\\outlayer.js",
       "PackagePath": "staticwebassets\\lib\\outlayer\\outlayer.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\CONTRIBUTING.md",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\CONTRIBUTING.md",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\CONTRIBUTING.md"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\Gruntfile.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\Gruntfile.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\Gruntfile.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\README.md",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\README.md",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\README.md"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\ROADMAP.md",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\ROADMAP.md",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\ROADMAP.md"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\_config.json",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\_config.json",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\_config.json"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\bower.json",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\bower.json",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\bower.json"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\README.md",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\README.md",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\README.md"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\ajax-loader.gif",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.carousel.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\assets\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.carousel.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.theme.default.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.theme.default.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.theme.green.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.theme.green.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.video.play.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\owl.carousel.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\owl.carousel.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\dist\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\dist\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\css\\animate.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\css\\animate.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\css\\docs.theme.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\css\\docs.theme.min.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\css\\docs.theme.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\bird_blue_32.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\bird_blue_32.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\bird_blue_32.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\download.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\download.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\download.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-drag.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-drag.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\feature-drag.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-modern.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-modern.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\feature-modern.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-module.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-module.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\feature-module.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-options.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-options.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\feature-options.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-responsive.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-responsive.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\feature-responsive.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-zombie.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\feature-zombie.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\feature-zombie.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\owl-logo.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\owl-logo.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\owl-logo.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\twitter_25.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\img\\twitter_25.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\img\\twitter_25.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\js\\app.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\js\\app.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\js\\app.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\js\\foundation.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\js\\foundation.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\js\\foundation.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\README.md",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\README.md",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\README.md"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\foundation.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\foundation.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\vendors\\foundation.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\highlight.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\highlight.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\vendors\\highlight.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.min.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.mousewheel.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.mousewheel.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\assets\\vendors\\jquery.mousewheel.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\animate.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\animate.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\animate.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\autoheight.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\autoheight.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\autoheight.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\autoplay.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\autoplay.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\autoplay.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\autowidth.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\autowidth.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\autowidth.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\basic.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\basic.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\basic.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\center.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\center.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\center.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\demos.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\demos.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\demos.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\events.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\events.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\events.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\lazyLoad.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\lazyLoad.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\lazyLoad.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\merge.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\merge.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\merge.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\mousewheel.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\mousewheel.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\mousewheel.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\responsive.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\responsive.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\responsive.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\rtl.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\rtl.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\rtl.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\stagepadding.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\stagepadding.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\stagepadding.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\test.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\test.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\test.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\urlhashnav.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\urlhashnav.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\urlhashnav.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\video.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\demos\\video.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\demos\\video.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\api-classes.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\api-classes.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\api-classes.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\api-events.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\api-events.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\api-events.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\api-options.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\api-options.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\api-options.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\dev-buildin-plugins.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\dev-buildin-plugins.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\dev-buildin-plugins.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\dev-external.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\dev-external.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\dev-external.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\dev-plugin-api.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\dev-plugin-api.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\dev-plugin-api.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\dev-styles.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\dev-styles.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\dev-styles.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\started-faq.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\started-faq.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\started-faq.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\started-installation.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\started-installation.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\started-installation.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\started-welcome.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\started-welcome.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\started-welcome.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\support-changelog.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\support-changelog.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\support-changelog.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\support-contact.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\support-contact.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\support-contact.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\support-contributing.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\docs\\support-contributing.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\docs\\support-contributing.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\index.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs\\index.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs\\index.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\css\\animate.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\css\\animate.css",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\bird_blue_32.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\bird_blue_32.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\bird_blue_32.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\download.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\download.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\download.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-drag.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-drag.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-drag.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-modern.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-modern.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-modern.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-module.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-module.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-module.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-options.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-options.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-options.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-responsive.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-responsive.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-responsive.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-zombie.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-zombie.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\feature-zombie.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\owl-logo.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\owl-logo.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\owl-logo.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\twitter_25.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\img\\twitter_25.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\img\\twitter_25.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\js\\app.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\js\\app.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\js\\app.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\js\\foundation.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\js\\foundation.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\js\\foundation.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\_settings.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\_settings.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\scss\\_settings.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\custom.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\custom.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\scss\\custom.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\demos.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\demos.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\scss\\demos.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\docs.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\docs.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\scss\\docs.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\docs.theme.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\docs.theme.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\scss\\docs.theme.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\highlight.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\scss\\highlight.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\scss\\highlight.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\foundation.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\foundation.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\vendors\\foundation.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\highlight.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\highlight.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\vendors\\highlight.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\data\\classes.json",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\data\\classes.json",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\data\\classes.json"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\data\\events.json",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\data\\events.json",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\data\\events.json"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\data\\features.json",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\data\\features.json",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\data\\features.json"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\data\\options.json",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\data\\options.json",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\data\\options.json"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\helpers\\modulo.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\helpers\\modulo.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\helpers\\modulo.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\helpers\\test.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\helpers\\test.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\helpers\\test.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\layouts\\demos.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\layouts\\demos.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\layouts\\demos.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\layouts\\docs.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\layouts\\docs.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\layouts\\docs.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\layouts\\home.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\layouts\\home.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\layouts\\home.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\animate.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\animate.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\animate.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoheight.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoheight.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoheight.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoplay.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoplay.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autoplay.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autowidth.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autowidth.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\autowidth.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\basic.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\basic.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\basic.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\center.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\center.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\center.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\demos.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\demos.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\demos.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\events.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\events.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\events.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\merge.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\merge.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\merge.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\mousewheel.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\mousewheel.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\mousewheel.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\responsive.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\responsive.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\responsive.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\rtl.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\rtl.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\rtl.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\stagepadding.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\stagepadding.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\stagepadding.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\test.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\test.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\test.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\video.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\video.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\demos\\video.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-classes.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-classes.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-classes.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-events.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-events.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-events.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-options.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-options.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\api-options.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-external.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-external.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-external.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-styles.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-styles.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\dev-styles.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-faq.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-faq.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-faq.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-installation.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-installation.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-installation.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-welcome.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-welcome.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\started-welcome.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-changelog.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-changelog.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-changelog.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contact.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contact.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contact.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contributing.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contributing.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\docs\\support-contributing.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\index.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\pages\\index.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\pages\\index.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\footer.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\footer.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\footer.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\head.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\head.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\head.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\header.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\header.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\header.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-carousel.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-carousel.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-carousel.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-features.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-features.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-features.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-hero.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-hero.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-hero.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-teaser-text.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-teaser-text.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\home-teaser-text.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\javascripts.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\javascripts.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\javascripts.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\releated-docs.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\releated-docs.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\releated-docs.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\sidenav-docs.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\sidenav-docs.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\sidenav-docs.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\title.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\title.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\title.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\vendors.hbs",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\docs_src\\templates\\partials\\vendors.hbs",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\docs_src\\templates\\partials\\vendors.hbs"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\package.json",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\package.json",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\package.json"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\img\\ajax-loader.gif",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\img\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\img\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\img\\owl.video.play.png",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\img\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\img\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.animate.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.animate.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.animate.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.autoheight.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.autoheight.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.autoheight.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.autoplay.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.autoplay.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.autoplay.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.autorefresh.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.autorefresh.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.autorefresh.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.carousel.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.hash.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.hash.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.hash.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.lazyload.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.lazyload.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.lazyload.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.navigation.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.navigation.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.navigation.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.support.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.support.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.support.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.support.modernizr.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.support.modernizr.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.support.modernizr.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.video.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\js\\owl.video.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\js\\owl.video.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_animate.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_animate.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\_animate.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_autoheight.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_autoheight.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\_autoheight.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_core.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\_core.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_lazyload.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_lazyload.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\_lazyload.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_theme.default.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_theme.default.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\_theme.default.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_theme.green.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_theme.green.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\_theme.green.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_theme.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_theme.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\_theme.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_video.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\_video.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\_video.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\owl.carousel.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\owl.carousel.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\owl.carousel.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\owl.theme.default.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\owl.theme.default.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\owl.theme.default.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\owl.theme.green.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\src\\scss\\owl.theme.green.scss",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\src\\scss\\owl.theme.green.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\test\\index.html",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\test\\index.html",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\test\\index.html"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\test\\unit\\core.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\owl.carousel\\test\\unit\\core.js",
       "PackagePath": "staticwebassets\\lib\\owl.carousel\\test\\unit\\core.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\prettify.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\prettify.js",
       "PackagePath": "staticwebassets\\lib\\prettify.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\simple-text-rotator\\jquery.simple-text-rotator.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\simple-text-rotator\\jquery.simple-text-rotator.min.js",
       "PackagePath": "staticwebassets\\lib\\simple-text-rotator\\jquery.simple-text-rotator.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\simple-text-rotator\\simpletextrotator.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\simple-text-rotator\\simpletextrotator.css",
       "PackagePath": "staticwebassets\\lib\\simple-text-rotator\\simpletextrotator.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\skrollr\\src\\skrollr.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\skrollr\\src\\skrollr.js",
       "PackagePath": "staticwebassets\\lib\\skrollr\\src\\skrollr.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\smoothscroll.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\smoothscroll.js",
       "PackagePath": "staticwebassets\\lib\\smoothscroll.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\lib\\wow\\dist\\wow.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\lib\\wow\\dist\\wow.js",
       "PackagePath": "staticwebassets\\lib\\wow\\dist\\wow.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_background.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_background.scss",
       "PackagePath": "staticwebassets\\scss\\_background.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_blogpost.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_blogpost.scss",
       "PackagePath": "staticwebassets\\scss\\_blogpost.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_button.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_button.scss",
       "PackagePath": "staticwebassets\\scss\\_button.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_client.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_client.scss",
       "PackagePath": "staticwebassets\\scss\\_client.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_comment_box.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_comment_box.scss",
       "PackagePath": "staticwebassets\\scss\\_comment_box.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_common.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_common.scss",
       "PackagePath": "staticwebassets\\scss\\_common.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_config.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_config.scss",
       "PackagePath": "staticwebassets\\scss\\_config.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_cta.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_cta.scss",
       "PackagePath": "staticwebassets\\scss\\_cta.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_dashboard.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_dashboard.scss",
       "PackagePath": "staticwebassets\\scss\\_dashboard.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_demo.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_demo.scss",
       "PackagePath": "staticwebassets\\scss\\_demo.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_documentation.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_documentation.scss",
       "PackagePath": "staticwebassets\\scss\\_documentation.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_fonts.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_fonts.scss",
       "PackagePath": "staticwebassets\\scss\\_fonts.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_footer.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_footer.scss",
       "PackagePath": "staticwebassets\\scss\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_forms.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_functions.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_funfact.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_funfact.scss",
       "PackagePath": "staticwebassets\\scss\\_funfact.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_gallery.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_gallery.scss",
       "PackagePath": "staticwebassets\\scss\\_gallery.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_gmap.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_gmap.scss",
       "PackagePath": "staticwebassets\\scss\\_gmap.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_header.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_header.scss",
       "PackagePath": "staticwebassets\\scss\\_header.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_horizontal-menu.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_horizontal-menu.scss",
       "PackagePath": "staticwebassets\\scss\\_horizontal-menu.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_horizontal-wrappers.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_horizontal-wrappers.scss",
       "PackagePath": "staticwebassets\\scss\\_horizontal-wrappers.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_media_querries.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_media_querries.scss",
       "PackagePath": "staticwebassets\\scss\\_media_querries.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_misc.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_misc.scss",
       "PackagePath": "staticwebassets\\scss\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_navbar.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_portfolio.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_portfolio.scss",
       "PackagePath": "staticwebassets\\scss\\_portfolio.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_preloader.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_preloader.scss",
       "PackagePath": "staticwebassets\\scss\\_preloader.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_price_table.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_price_table.scss",
       "PackagePath": "staticwebassets\\scss\\_price_table.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_reset.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_reset.scss",
       "PackagePath": "staticwebassets\\scss\\_reset.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_restaurant_menu.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_restaurant_menu.scss",
       "PackagePath": "staticwebassets\\scss\\_restaurant_menu.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_services_and_features.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_services_and_features.scss",
       "PackagePath": "staticwebassets\\scss\\_services_and_features.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_shop_items.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_shop_items.scss",
       "PackagePath": "staticwebassets\\scss\\_shop_items.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_shop_single_product.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_shop_single_product.scss",
       "PackagePath": "staticwebassets\\scss\\_shop_single_product.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_showcase.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_showcase.scss",
       "PackagePath": "staticwebassets\\scss\\_showcase.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_single_portfolio.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_single_portfolio.scss",
       "PackagePath": "staticwebassets\\scss\\_single_portfolio.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_slider.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_slider.scss",
       "PackagePath": "staticwebassets\\scss\\_slider.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_team.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_team.scss",
       "PackagePath": "staticwebassets\\scss\\_team.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_testimonial.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_testimonial.scss",
       "PackagePath": "staticwebassets\\scss\\_testimonial.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_typography.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_typography.scss",
       "PackagePath": "staticwebassets\\scss\\_typography.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_utilities.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_variables.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_video_box.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_video_box.scss",
       "PackagePath": "staticwebassets\\scss\\_video_box.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_widgets.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\_widgets.scss",
       "PackagePath": "staticwebassets\\scss\\_widgets.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\colors\\default.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\colors\\default.scss",
       "PackagePath": "staticwebassets\\scss\\colors\\default.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\common.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\common.scss",
       "PackagePath": "staticwebassets\\scss\\common.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_bootstrap-progress.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_bootstrap-progress.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_bootstrap-progress.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_buttons.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_cards.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_cards.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_checkbox-radio.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_checkbox-radio.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_checkbox-radio.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_dropdown.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_forms.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_icons.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_icons.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_icons.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_lists.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_preview.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_preview.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_preview.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_tables.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_tabs.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_tabs.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_tabs.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\_toggle-switch.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\_toggle-switch.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_toggle-switch.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\plugin-overrides\\_jvectormap.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\plugin-overrides\\_jvectormap.scss",
       "PackagePath": "staticwebassets\\scss\\components\\plugin-overrides\\_jvectormap.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\plugin-overrides\\_progressbar-js.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\plugin-overrides\\_progressbar-js.scss",
       "PackagePath": "staticwebassets\\scss\\components\\plugin-overrides\\_progressbar-js.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\components\\plugin-overrides\\_typeahead.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\components\\plugin-overrides\\_typeahead.scss",
       "PackagePath": "staticwebassets\\scss\\components\\plugin-overrides\\_typeahead.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\landing-screens\\_auth.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\landing-screens\\_auth.scss",
       "PackagePath": "staticwebassets\\scss\\landing-screens\\_auth.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\mixins\\_animation.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\mixins\\_animation.scss",
       "PackagePath": "staticwebassets\\scss\\mixins\\_animation.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\mixins\\_blockqoute.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\mixins\\_blockqoute.scss",
       "PackagePath": "staticwebassets\\scss\\mixins\\_blockqoute.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\mixins\\_buttons.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\mixins\\_cards.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\mixins\\_cards.scss",
       "PackagePath": "staticwebassets\\scss\\mixins\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\mixins\\_menu.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\mixins\\_menu.scss",
       "PackagePath": "staticwebassets\\scss\\mixins\\_menu.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\mixins\\_misc.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\mixins\\_misc.scss",
       "PackagePath": "staticwebassets\\scss\\mixins\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\style.scss",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\base\\bootstrap.min.js.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\base\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\vendors\\base\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\base\\vendor.bundle.base.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\base\\vendor.bundle.base.css",
       "PackagePath": "staticwebassets\\vendors\\base\\vendor.bundle.base.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\base\\vendor.bundle.base.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\base\\vendor.bundle.base.js",
       "PackagePath": "staticwebassets\\vendors\\base\\vendor.bundle.base.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\chart.js\\Chart.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\chart.js\\Chart.min.js",
       "PackagePath": "staticwebassets\\vendors\\chart.js\\Chart.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\chartjs-plugin-datalabels\\chartjs-plugin-datalabels.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\chartjs-plugin-datalabels\\chartjs-plugin-datalabels.js",
       "PackagePath": "staticwebassets\\vendors\\chartjs-plugin-datalabels\\chartjs-plugin-datalabels.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\chartjs-plugin-datalabels\\chartjs-plugin-datalabels.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\chartjs-plugin-datalabels\\chartjs-plugin-datalabels.min.js",
       "PackagePath": "staticwebassets\\vendors\\chartjs-plugin-datalabels\\chartjs-plugin-datalabels.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\jquery-file-upload\\uploadfile.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\jquery-file-upload\\uploadfile.css",
       "PackagePath": "staticwebassets\\vendors\\jquery-file-upload\\uploadfile.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\justgage\\justgage.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\justgage\\justgage.js",
       "PackagePath": "staticwebassets\\vendors\\justgage\\justgage.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\justgage\\raphael-2.1.4.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\justgage\\raphael-2.1.4.min.js",
       "PackagePath": "staticwebassets\\vendors\\justgage\\raphael-2.1.4.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\jvectormap\\jquery-jvectormap-world-mill-en.js",
       "PackagePath": "staticwebassets\\vendors\\jvectormap\\jquery-jvectormap-world-mill-en.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\jvectormap\\jquery-jvectormap.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\jvectormap\\jquery-jvectormap.css",
       "PackagePath": "staticwebassets\\vendors\\jvectormap\\jquery-jvectormap.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\jvectormap\\jquery-jvectormap.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\jvectormap\\jquery-jvectormap.min.js",
       "PackagePath": "staticwebassets\\vendors\\jvectormap\\jquery-jvectormap.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\mdi\\css\\materialdesignicons.min.css",
       "PackagePath": "staticwebassets\\vendors\\mdi\\css\\materialdesignicons.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
       "PackagePath": "staticwebassets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
       "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
       "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
       "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
       "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\progressbar.js\\progressbar.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\progressbar.js\\progressbar.min.js",
       "PackagePath": "staticwebassets\\vendors\\progressbar.js\\progressbar.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\progressbar.js\\progressbar.min.js.map",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\progressbar.js\\progressbar.min.js.map",
       "PackagePath": "staticwebassets\\vendors\\progressbar.js\\progressbar.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\raphael\\raphael.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\raphael\\raphael.min.js",
       "PackagePath": "staticwebassets\\vendors\\raphael\\raphael.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css",
       "PackagePath": "staticwebassets\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\select2\\select2.min.css",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\select2\\select2.min.css",
       "PackagePath": "staticwebassets\\vendors\\select2\\select2.min.css"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\select2\\select2.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\select2\\select2.min.js",
       "PackagePath": "staticwebassets\\vendors\\select2\\select2.min.js"
     },
     {
-      "Id": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\typeahead.js\\typeahead.bundle.min.js",
+      "Id": "D:\\ITU\\Stage\\BTP\\wwwroot\\vendors\\typeahead.js\\typeahead.bundle.min.js",
       "PackagePath": "staticwebassets\\vendors\\typeahead.js\\typeahead.bundle.min.js"
     },
     {

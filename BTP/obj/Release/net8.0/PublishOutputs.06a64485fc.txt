@@ -1,0 +1,15 @@
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\BTP.exe
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\appsettings.Development.json
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\appsettings.json
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\BTP.dll
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\BTP.deps.json
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\BTP.runtimeconfig.json
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\BTP.pdb
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\BouncyCastle.Crypto.dll
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\CsvHelper.dll
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\itextsharp.dll
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\Microsoft.EntityFrameworkCore.dll
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\Npgsql.dll
+D:\ITU\Stage\BTP\bin\Release\net8.0\publish\Npgsql.EntityFrameworkCore.PostgreSQL.dll

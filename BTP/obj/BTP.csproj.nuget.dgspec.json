@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\BTP.csproj": {}
+    "D:\\ITU\\Stage\\BTP\\BTP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\BTP.csproj": {
+    "D:\\ITU\\Stage\\BTP\\BTP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\BTP.csproj",
+        "projectUniqueName": "D:\\ITU\\Stage\\BTP\\BTP.csproj",
         "projectName": "BTP",
-        "projectPath": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\BTP.csproj",
+        "projectPath": "D:\\ITU\\Stage\\BTP\\BTP.csproj",
         "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\obj\\",
+        "outputPath": "D:\\ITU\\Stage\\BTP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,11 +52,11 @@
           "dependencies": {
             "CsvHelper": {
               "target": "Package",
-              "version": "[33.0.1, )"
+              "version": "[32.0.3, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.6, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -64,7 +64,7 @@
             },
             "iTextSharp": {
               "target": "Package",
-              "version": "[5.5.13.4, )"
+              "version": "[5.5.13.3, )"
             },
             "npgsql": {
               "target": "Package",

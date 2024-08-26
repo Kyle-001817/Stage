@@ -50,7 +50,7 @@
         <div class="container">
             <ul class="nav page-navigation">
               <li class="nav-item">
-                        <a class="nav-link" asp-controller="Admin" asp-action="Accueil">
+                <a class="nav-link" asp-controller="Equipe" asp-action="List_Etapes">
                   <i class="mdi mdi-arrange-bring-to-front menu-icon"></i>
                   <span class="menu-title">Accueil</span>
                 </a>
@@ -70,18 +70,13 @@
                       </ul>
                   </div>
               </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                            <i class="mdi mdi-material-ui menu-icon"></i>
-                        <span class="menu-title">Materiaux</span>
-                        <i class="menu-arrow"></i>
-                    </a>
-                    <div class="submenu">
-                        <ul>
-                            <li class="nav-item"><a class="nav-link" asp-controller="Admin" asp-action="F_TypeMateriel">Ajouter des types de Materiaux</a></li>
-                        </ul>
-                    </div>
-                </li>
+              <li class="nav-item">
+                  <a asp-controller="Equipe" asp-action="List_Coureurs" class="nav-link">
+                    <i class="mdi mdi-material-ui menu-icon"></i>
+                    <span class="menu-title">Matériaux</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+              </li>
               <li class="nav-item">
                   <a asp-controller="Equipe" asp-action="Classement" class="nav-link">
                     <i class="mdi mdi-chart-areaspline menu-icon"></i>
