@@ -13,6 +13,9 @@ public class K_Context : DbContext
         public DbSet<TypeBordereau> TypeBordereau { get; set; }
         public DbSet<SerieTravaux> SerieTravaux { get; set; }
         public DbSet<Bdq> Bdq { get; set; }
+        public DbSet<TypeMateriel> TypeMateriel {  get; set; }
+        public DbSet<Unite> Unite {  get; set; }
+        public DbSet<Materiel> Materiel {  get; set; }
 
     public void ResetDatabase(K_Context context)
         {
@@ -54,5 +57,20 @@ public class K_Context : DbContext
             modelBuilder.Entity<Bdq>()
                 .Property(p => p.IdBdq)
                 .HasDefaultValueSql($"NEXT VALUE FOR bdq_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<TypeMateriel>()
+                .Property(p => p.IdTypeMateriel)
+                .HasDefaultValueSql($"NEXT VALUE FOR tm_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Unite>()
+                .Property(p => p.IdUnite)
+                .HasDefaultValueSql($"NEXT VALUE FOR unite_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Materiel>()
+                .Property(p => p.IdMateriel)
+                .HasDefaultValueSql($"NEXT VALUE FOR matx_seq");
     }
 }

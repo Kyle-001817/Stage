@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dFzCkegQ1bc=",
+  "dgSpecHash": "HbvLEjcC+YY=",
   "success": true,
-  "projectFilePath": "D:\\ITU\\Stage\\WEB\\BTP\\BTP.csproj",
+  "projectFilePath": "C:\\Users\\Kyle\\Documents\\GitHub\\Stage\\BTP\\BTP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kyle\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\Kyle\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",

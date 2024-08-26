@@ -1,0 +1,60 @@
+﻿
+@{
+    var unite = ViewData["unite"] as List<Unite>;
+}
+<!-- Second Modal -->
+<div class="modal fade show" id="secondModal" tabindex="-1" aria-labelledby="secondModalLabel" aria-hidden="true" style="display: block;">
+    <div class="modal-dialog">
+        <form class="forms-sample" asp-controller="Admin" asp-action="InsertMateriel" method="post">
+        <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ajouter de nouveau matériel</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="closeButton"></button>
+                </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Matériel:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" name="nom" placeholder="Série de travaux" value="" />
+                    </div>
+                </div>
+                <div class="form-group row mt-3">
+                    <label class="col-sm-4 col-form-label">Unité:</label>
+                    <div class="col-sm-8">
+                        <select class="form-select" name="unite">
+                            @if (unite != null)
+                            {
+                                @foreach (var item in unite)
+                                {
+                                    <option value="@item.IdUnite">@item.Nom</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row mt-3">
+                    <label class="col-sm-4 col-form-label">Prix Unitaire:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" name="pu" placeholder="Prix unitaire" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <hr class="w-100" />
+                    <center><button type="submit" style="width: 200px; height: 50px;" class="btn btn-primary">VALIDER</button></center>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    var secondModal = new bootstrap.Modal(document.getElementById('secondModal'));
+    secondModal.show();
+</script>
+<script>
+    document.getElementById('closeButton').addEventListener('click', function () {
+        // Redirect to the Materiaux action in the Admin controller
+        window.location.href = '@Url.Action("Materiaux", "Admin")';
+    });
+</script>

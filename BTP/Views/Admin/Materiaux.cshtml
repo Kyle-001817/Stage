@@ -1,6 +1,10 @@
 ﻿@{
-    Layout = "_Layout";
+    var searchTerm = ViewData["searchTerm"] as string;
+    var type_materiaux = ViewData["type_materiaux"] as List<TypeMateriel>;
+    var type_materiauxByBdq = ViewData["type_materiauxbyBdq"] as List<Materiel>;
+    var materiaux_byBdq = ViewData["materiaux_byBdq"] as Dictionary<string, List<Materiel>>;
 }
+
 <div class="container-scroller">
     <div class="main-panel">
         <div class="content-wrapper">
@@ -9,13 +13,74 @@
                     <div class="col-lg-12 grid-margin stretch-card">
                         <div class="col-md-12 grid-margin grid-margin-md-0 stretch-card">
                             <div class="card">
+                                <form class="forms-sample" asp-controller="Admin" asp-action="Materiaux" method="get">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search" name="searchTerm" value="@searchTerm">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-sm btn-primary" type="submit">Rechercher</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <hr />
                                 <form class="forms-sample" asp-controller="Admin" asp-action="F_bdq" method="post" novalidate enctype="multipart/form-data">
                                     <center>
-                                        <div class="card-body" id="body">
-                                            <button type="submit" class="btn btn-primary me-2" id="accueil">LES MATERIAUX</button>
-                                        </div>
+                                        <button type="button" class="btn btn-inverse-success btn-fw" style="margin-top:-5px" id="accueil" data-bs-toggle="modal" data-bs-target="#myModal">
+                                            Ajouter de nouveau matériel
+                                        </button>
                                     </center>
                                 </form>
+                               <hr />
+                                <div class="card-body">
+                                    <h4 class="card-title">Liste des materiaux</h4>
+                                    @if (type_materiauxByBdq != null)
+                                    {
+                                        @for (int i = 0; i < type_materiauxByBdq.Count; i++)
+                                        {
+                                            var idTypeMateriel = type_materiauxByBdq[i]?.IdTypeMateriel;
+                                            <center><h5><b>@type_materiauxByBdq[i].TypeMateriel?.Nom</b></h5></center>
+                                            <div class="table-responsive">
+                                                <hr>
+                                                <table class="table table-striped" style="height: 100px;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Materiaux</th>
+                                                            <th>Unite</th>
+                                                            <th>Prix Unitaire</th>
+                                                            <th>Suppression</th>
+                                                            <th>Modification</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @if (materiaux_byBdq != null && materiaux_byBdq.ContainsKey(idTypeMateriel))
+                                                        {
+                                                            var materiaux = materiaux_byBdq[idTypeMateriel];
+                                                            @for (int j = 0; j < materiaux.Count; j++)
+                                                            {
+                                                                <tr>
+                                                                    <td>@materiaux[j].Nom</td>
+                                                                    <td>@materiaux[j].IdUnite</td>
+                                                                    <td>@materiaux[j].PrixUnitaire</td>
+                                                                    <td>
+                                                                        <a class="nav-link dropdown-toggle" asp-controller="Admin" asp-action="Suppression" asp-route-id="@materiaux[j].IdMateriel">Supprimer</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a class="nav-link dropdown-toggle" asp-controller="Admin" asp-action="Modification" asp-route-id="@materiaux[j].IdMateriel">Modifier</a>
+                                                                    </td>
+                                                                </tr>
+                                                            }
+                                                        }
+                                                    </tbody>
+
+                                                </table>
+                                                <hr>
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <p>Aucun type de matériel trouvé pour la BDQ sélectionnée.</p>
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -24,3 +89,61 @@
         </div>
     </div>
 </div>
+
+
+<!-- Premier Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ajouter de nouveau matériel</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="/Admin/SecondModal">
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label">Type de matériel:</label>
+                        <div class="col-sm-8">
+                            <select class="form-select w-100" name="idmateriel">
+                                @if (type_materiaux != null)
+                                {
+                                    @foreach (var item in type_materiaux)
+                                    {
+                                        <option value="@item.IdTypeMateriel">@item.Nom</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <button type="submit" class="btn btn-primary">Enregistrer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div id="secondModalContainer">
+                @if (ViewBag.ShowSecondModal != null && ViewBag.ShowSecondModal)
+                {
+                    Html.RenderPartial("SecondModal");
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        var showSecondModal = @Html.Raw(ViewBag.ShowSecondModal != null && ViewBag.ShowSecondModal ? "true" : "false");
+        if (showSecondModal) {
+            var secondModal = new bootstrap.Modal(document.getElementById('secondModal'));
+            secondModal.show();
+        }
+    });
+</script>
+
