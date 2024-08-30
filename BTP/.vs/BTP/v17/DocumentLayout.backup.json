@@ -41,6 +41,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -63,7 +67,8 @@
               "ViewState": "AgIAAHYAAAAAAAAAAAAowJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T12:24:41.373Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,7 +81,8 @@
               "ViewState": "AgIAAAkAAAAAAAAAAIBJwCQAAACNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-26T13:59:52.193Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -89,22 +95,20 @@
               "ViewState": "AgIAACEAAAAAAAAAAIBJwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-28T18:18:04.859Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "script.sql",
+              "Title": "script.sql ",
               "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\script.sql",
               "RelativeDocumentMoniker": "script.sql",
               "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\script.sql",
               "RelativeToolTip": "script.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-29T07:49:21.281Z"
+              "WhenOpened": "2024-08-29T07:49:21.281Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,7 +120,8 @@
               "RelativeToolTip": "Views\\Admin\\Materiaux.cshtml",
               "ViewState": "AgIAAFEAAAAAAAAAAAAowJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T06:58:10.987Z"
+              "WhenOpened": "2024-08-29T06:58:10.987Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -128,7 +133,8 @@
               "RelativeToolTip": "Views\\Admin\\SecondModal.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T06:29:20.591Z"
+              "WhenOpened": "2024-08-29T06:29:20.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -140,7 +146,8 @@
               "RelativeToolTip": "Views\\Admin\\BDQ.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T06:19:51.031Z"
+              "WhenOpened": "2024-08-29T06:19:51.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -164,7 +171,12 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T06:10:55.127Z"
+              "WhenOpened": "2024-08-29T06:10:55.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

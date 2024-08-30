@@ -1,6 +1,6 @@
 ﻿@{
     Layout = "_Layout";
-    var serieTravaux = ViewData["serie_travaux"] as List<SerieTravaux>;
+    var materiaux = ViewData["materiaux"] as List<Materiel>;
 }
 <div class="container-scroller">
     <div class="main-panel">
@@ -10,29 +10,30 @@
                     <div class="col-lg-12 grid-margin stretch-card">
                         <div class="col-md-12 grid-margin grid-margin-md-0 stretch-card">
                             <div class="card">
-                                <form class="forms-sample" asp-controller="Admin" asp-action="F_detailBdq" method="post">
+                                <form class="forms-sample" asp-controller="Admin" asp-action="Insert_detailMateriel" method="post">
                                     <div class="card-body">
                                         <div class="form-group row align-items-center">
-                                            <label class="col-sm-2 col-form-label">Serie de Travaux: </label>
-                                            <div class="col-sm-10">
-                                                <select class="js-example-basic-single w-100" name="id_serieTravaux">
-                                                    @if (serieTravaux != null)
+                                            <label class="col-sm-1 col-form-label">Materiel: </label>
+                                            <div class="col-sm-4">
+                                                <select class="js-example-basic-multiple w-100" name="materiel">
+                                                    @if (materiaux != null)
                                                     {
-                                                        @foreach (var item in serieTravaux)
+                                                        @foreach(var item in materiaux)
                                                         {
-                                                            <option value="@item.IdSerieTravaux">@item.Nom</option>
+                                                            <option value="@item.IdMateriel">@item.Nom</option>
                                                         }
                                                     }
                                                 </select>
+                                            </div>
+                                            <label class="col-sm-1 col-form-label">Quantite: </label>
+                                            <div class="col-sm-4">
+                                                <input class="form-control" type="text" name="quantite" placeholder="Quantite"  lang="en" inputmode="decimal"/>
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <div class="col-sm-12 text-right">
                                                 <center><button type="submit" style="width: 200px; height: 50px;" class="btn btn-primary">VALIDER</button></center>
                                             </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <a class="nav-link dropdown-toggle" asp-controller="Admin" asp-action="Details">Afficher le detail</a>
                                         </div>
                                     </div>
                                 </form>
@@ -44,3 +45,12 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.querySelector('form').addEventListener('submit', function (event) {
+        let quantiteField = document.querySelector('input[name="quantite"]');
+        if (quantiteField) {
+            quantiteField.value = quantiteField.value.replace('.', ',');
+        }
+    });
+</script>

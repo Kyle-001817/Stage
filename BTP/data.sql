@@ -1,6 +1,37 @@
 INSERT INTO genre(nom) values ('Homme');
 INSERT INTO genre(nom) values ('Femme');
 
-INSERT INTO profil(nom,prenom,date_naissance,adresse,id_genre) values('RAKOTOARIMANDIMBY','Ando','2000-10-26','2H 42A Faravohitra Antananarivo','GENRE001');
+INSERT INTO unite(nom) VALUES ('U');
+INSERT INTO unite(nom) VALUES ('m3');
+INSERT INTO unite(nom) VALUES ('sac');
+INSERT INTO unite(nom) VALUES ('barre');
+INSERT INTO unite(nom) VALUES ('kg');
+INSERT INTO unite(nom) VALUES ('feuille');
+INSERT INTO unite(nom) VALUES ('L');
+INSERT INTO unite(nom) VALUES ('Fft');
 
-INSERT INTO utilisateur(email,mdp,id_profil) VALUES ('ando@gmail.com','Ando1817','PROFIL001');
+CREATE VIEW v_bdq AS
+SELECT 
+    dbq.id_detail_dbq,
+    dbq.designation,
+    dbq.id_bdq,
+    u1.nom AS nom_unite_dbq,
+    dbq.quantite AS quantite_dbq,
+    m.nom AS nom_materiaux,
+    u2.nom AS nom_unite_materiaux,
+    dm.quantite AS quantite_materiaux,
+    m.prix_unitaire,
+    dm.quantite * m.prix_unitaire AS montant
+FROM 
+    detail_bdq dbq
+LEFT JOIN 
+    detail_materiaux dm ON dbq.id_detail_dbq = dm.id_detail_dbq
+LEFT JOIN 
+    materiaux m ON dm.id_materiaux = m.id_materiaux
+LEFT JOIN 
+    unite u1 ON dbq.id_unite = u1.id_unite
+LEFT JOIN 
+    unite u2 ON m.id_unite = u2.id_unite
+ORDER BY 
+    dbq.id_detail_dbq;
+
