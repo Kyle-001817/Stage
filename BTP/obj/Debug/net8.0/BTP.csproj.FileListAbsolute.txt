@@ -12,6 +12,7 @@ D:\ITU\Stage\WEB\BTP\bin\Debug\net8.0\itextsharp.dll
 D:\ITU\Stage\WEB\BTP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\ITU\Stage\WEB\BTP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\ITU\Stage\WEB\BTP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITU\Stage\WEB\BTP\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\ITU\Stage\WEB\BTP\bin\Debug\net8.0\Npgsql.dll
 D:\ITU\Stage\WEB\BTP\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\ITU\Stage\WEB\BTP\obj\Debug\net8.0\BTP.csproj.AssemblyReference.cache

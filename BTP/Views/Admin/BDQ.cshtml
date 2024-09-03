@@ -13,6 +13,7 @@
                             @for (int i = 0; i < bdq.Count; i++)
                             {
                             <div class="col-md-5">
+                                <a asp-controller="Admin" asp-action="V_bdq" asp-route-idBdq="@bdq[i].IdBdq" class="card-link" style="text-decoration: none; color: inherit;">
                                 <div class="card border-info mb-3 mt-4" style="">
                                         <center>
                                             <div class="card-header uppercase" style="text-transform: uppercase; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
@@ -32,6 +33,7 @@
                                             </a>
                                     </div>
                                 </div>
+                                </a>
                             </div>
                             }
                         }

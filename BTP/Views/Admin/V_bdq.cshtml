@@ -1,0 +1,100 @@
+﻿@model List<BdqGroupViewModel>
+
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="table-responsive">
+                            <div class="card-body">
+                                <center><h4 class="card-title">BORDEREAU DU DETAIL QUANTITATIF</h4></center>
+                                <center><h4 class="card-title">@ViewBag.Bdq.Titre</h4></center>
+                                @if (Model != null && Model.Any())
+                                {
+                                    foreach (var group in Model)
+                                    {
+                                        <hr />
+                                        <center><h5>@group.SerieTravaux.Nom</h5></center>
+                                        <hr />
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Designation des travaux</th>
+                                                    <th>Unite</th>
+                                                    <th>Quantite</th>
+                                                    <th>Materiaux</th>
+                                                    <th>Unite</th>
+                                                    <th>Quantite</th>
+                                                    <th>PU (Ar)</th>
+                                                    <th>Montant</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in group.Bdqs)
+                                                {
+                                                    <tr style="height: 50px">
+                                                        <td>@item.Designation</td>
+                                                        <td>@item.NomUniteBdq</td>
+                                                        <td>@item.QuantiteBdq</td>
+                                                        <td style="width:150px">
+                                                            @foreach (var mat in item.NomMateriaux)
+                                                            {
+                                                                <div>@mat</div>
+                                                            }
+                                                        </td>
+                                                        <td>
+                                                            @foreach (var unit in item.NomUniteMateriaux)
+                                                            {
+                                                                <div>@unit</div>
+                                                            }
+                                                        </td>
+                                                        <td>
+                                                            @foreach (var quant in item.QuantiteMateriaux)
+                                                            {
+                                                                <div>@(quant.HasValue ? quant.Value.ToString("N2") : "N/A")</div>
+                                                            }
+                                                        </td>
+                                                        <td>
+                                                            @foreach (var price in item.PrixUnitaire)
+                                                            {
+                                                                <div>@(price.HasValue ? price.Value.ToString("N2") : "N/A")</div>
+                                                            }
+                                                        </td>
+                                                        <td>
+                                                            @foreach (var amount in item.Montant)
+                                                            {
+                                                                <div>@(amount.HasValue ? amount.Value.ToString("N2") : "N/A")</div>
+                                                            }
+                                                        </td>
+                                                    </tr>
+                                                }
+                                                <tr>
+                                                    <td colspan="6"></td>
+                                                    <td style="width:300px">SOUS TOTAL @group.SerieTravaux.Nom</td>
+                                                    <td>@(group.SousTotal.HasValue ? group.SousTotal.Value.ToString("N2") : "N/A")</td>
+                                                </tr>
+                                                @if (!group.Bdqs.Any())
+                                                {
+                                                    <tr>
+                                                        <td colspan="8">Aucun Détail trouvé pour cet ID.</td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="8">Aucun Détail trouvé.</td>
+                                    </tr>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

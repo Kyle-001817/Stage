@@ -14,6 +14,7 @@ CREATE VIEW v_bdq AS
 SELECT 
     dbq.id_detail_dbq,
     dbq.designation,
+    dbq.id_serie_travaux,
     dbq.id_bdq,
     u1.nom AS nom_unite_dbq,
     dbq.quantite AS quantite_dbq,
@@ -34,4 +35,3 @@ LEFT JOIN
     unite u2 ON m.id_unite = u2.id_unite
 ORDER BY 
     dbq.id_detail_dbq;
-

@@ -18,6 +18,7 @@ public class K_Context : DbContext
         public DbSet<Materiel> Materiel {  get; set; }
         public DbSet<DetailBdq> DetailBdq { get; set; }
         public DbSet<DetailMateriaux> DetailMateriaux { get; set; }
+        public DbSet<V_bdq> V_bdq { get; set; }
 
     public void ResetDatabase(K_Context context)
         {
@@ -37,6 +38,9 @@ public class K_Context : DbContext
             .HasNoKey();
         modelBuilder.Entity<DetailMateriaux>()
             .HasKey(dm => new { dm.IdMateriaux, dm.IdDetailBdq });
+
+        modelBuilder.Entity<V_bdq>()
+            .HasNoKey();
 
         base.OnModelCreating(modelBuilder);
                 modelBuilder.Entity<Profil>()

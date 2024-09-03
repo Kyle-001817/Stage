@@ -61,6 +61,46 @@ public class AdminController : Controller
         ViewData["bdq"] = bdq;
         return View();
     }
+    public IActionResult V_bdq(string idBdq)
+    {
+        var bdqs = _context.V_bdq
+            .Where(b => b.IdBdq == idBdq)
+            .ToList();
+
+        var serieTravauxIds = bdqs.Select(b => b.IdSerieTravaux).Distinct().ToList();
+
+        var serieTravauxList = _context.SerieTravaux
+            .Where(st => serieTravauxIds.Contains(st.IdSerieTravaux))
+            .ToDictionary(st => st.IdSerieTravaux);
+
+        var groupedBdq = bdqs
+            .GroupBy(b => b.IdSerieTravaux)
+            .Select(g => new BdqGroupViewModel
+            {
+                IdSerieTravaux = g.Key,
+                SerieTravaux = serieTravauxList.ContainsKey(g.Key) ? serieTravauxList[g.Key] : null,
+                Bdqs = g.GroupBy(b => new { b.Designation, b.NomUniteBdq, b.QuantiteBdq })
+                        .Select(gg => new BdqViewModel
+                        {
+                            Designation = gg.Key.Designation,
+                            NomUniteBdq = gg.Key.NomUniteBdq,
+                            QuantiteBdq = gg.Key.QuantiteBdq,
+                            NomMateriaux = gg.Select(x => x.NomMateriaux).ToList(),
+                            NomUniteMateriaux = gg.Select(x => x.NomUniteMateriaux).ToList(),
+                            QuantiteMateriaux = gg.Select(x => x.QuantiteMateriaux).ToList(),
+                            PrixUnitaire = gg.Select(x => x.PrixUnitaire).ToList(),
+                            Montant = gg.Select(x => x.Montant).ToList()
+                        }).ToList(),
+                SousTotal = g.Sum(b => b.Montant) // Calculer le sous-total des montants
+            })
+            .ToList();
+
+        ViewBag.Bdq = _context.Bdq.Find(idBdq) ?? new Bdq();
+        ViewData["groupedBdq"] = groupedBdq;
+        return View(groupedBdq);
+    }
+
+
     public IActionResult F_serie_Typebordereau()
     {
         ViewData["type_bordereau"] = _context.TypeBordereau.ToList();
@@ -89,7 +129,6 @@ public class AdminController : Controller
         _context.SaveChanges();
         return RedirectToAction(nameof(F_typeMateriel));
     }
-    // Dans le contrôleur Materiaux
     public IActionResult Materiaux(string idBdq, string searchTerm, int pageNumber = 1, int pageSize = 10)
     {
         if (!string.IsNullOrEmpty(idBdq))
@@ -136,16 +175,14 @@ public class AdminController : Controller
         ViewData["idBdq"] = idBdq;
         ViewData["totalItems"] = totalItems;
 
-        // Charger la liste des unités si le SecondModal doit être affiché
         if (TempData["ShowSecondModal"] != null && (bool)TempData["ShowSecondModal"])
         {
             ViewBag.ShowSecondModal = true;
-            ViewData["unite"] = _context.Unite.ToList(); // Charger la liste des unités
+            ViewData["unite"] = _context.Unite.ToList();
         }
 
         return View();
     }
-
 
     [HttpPost]
     public IActionResult SecondModal(string idmateriel)
