@@ -116,6 +116,14 @@
 /* === Import template variables === */
 /*-------------------------------------------------------------------*/
 /* === SCSS Compass Functions === */
+
+.custom-validation-summary {
+    font-weight: bold;
+    padding: 10px;
+    color: #721c24;
+    text-align: center;
+}
+
 @-moz-keyframes flash {
   0% {
     opacity: 1;

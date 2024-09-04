@@ -36,6 +36,7 @@ CREATE TABLE bdq(
    id_bdq VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('BDQ', LPAD(nextval('bdq_seq')::TEXT, 3, '0')),
    titre VARCHAR(250)  NOT NULL,
    id_type_bordereau VARCHAR(50)  NOT NULL,
+   etat int DEFAULT 1,
    FOREIGN KEY(id_type_bordereau) REFERENCES type_bordereau(id_type_bordereau)
 );
 CREATE SEQUENCE dbdq_seq;

@@ -6,39 +6,37 @@
     <div class="main-panel">
         <div class="content-wrapper">
             <div class="row">
-                <div class="col-lg-12 grid-margin stretch-card">
-                    <div class="row">
-                        @if (bdq != null)
-                        {
-                            @for (int i = 0; i < bdq.Count; i++)
-                            {
-                            <div class="col-md-5">
-                                <a asp-controller="Admin" asp-action="V_bdq" asp-route-idBdq="@bdq[i].IdBdq" class="card-link" style="text-decoration: none; color: inherit;">
-                                <div class="card border-info mb-3 mt-4" style="">
-                                        <center>
-                                            <div class="card-header uppercase" style="text-transform: uppercase; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
-                                                @bdq[i].TypeBordereau?.Nom
-                                            </div>
-                                        </center>
+                @if (bdq != null)
+                {
+                    @for (int i = 0; i < bdq.Count; i++)
+                    {
+                        <div class="col-md-4 mb-4">
+                            <form method="post" asp-action="DeleteBdq" asp-controller="Admin" asp-route-idBdq="@bdq[i].IdBdq">
+                                <div class="card border-info mb-3" style="">
+                                    <center>
+                                        <div class="card-header uppercase" style="text-transform: uppercase; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                                            @bdq[i].TypeBordereau?.Nom
+                                        </div>
+                                    </center>
                                     <div class="card-body text-info">
                                         <center><h5 class="card-title">@bdq[i].Titre</h5></center>
-                                            <a asp-controller="Admin" asp-action="Materiaux" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
-                                                <p class="card-text">Les matériaux</p>
-                                            </a>
-                                            <a asp-controller="Plans" asp-action="Details" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
-                                                <p class="card-text">Plans</p>
-                                            </a>
-                                            <a asp-controller="Admin" asp-action="F1_AjoutTravaux" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
-                                                <p class="card-text">Ajouter les travaux</p>
-                                            </a>
+                                        <a asp-controller="Admin" asp-action="Materiaux" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
+                                            <p class="card-text">Les matériaux</p>
+                                        </a>
+                                        <a asp-controller="Plans" asp-action="Details" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
+                                            <p class="card-text">Plans</p>
+                                        </a>
+                                        <a asp-controller="Admin" asp-action="F1_AjoutTravaux" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
+                                            <p class="card-text">Ajouter les travaux</p>
+                                        </a>
+                                        <hr />
+                                        <center><button type="submit" class="btn btn-outline-youtube"><i class="mdi mdi-delete"></i></button></center>
                                     </div>
                                 </div>
-                                </a>
-                            </div>
-                            }
-                        }
-                    </div>
-                </div>
+                            </form>
+                        </div>
+                    }
+                }
             </div>
         </div>
     </div>

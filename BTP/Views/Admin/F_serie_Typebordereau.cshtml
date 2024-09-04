@@ -30,6 +30,7 @@
                                         <input class="form-control" type="text" name="serie" placeholder="Serie de travaux"/>
                                     </div>
                                 </div>
+                                        @Html.ValidationSummary(true, "", new { @class = "form-group custom-validation-summary" })
                                 <div class="form-group row">
                                     <div class="col-sm-12 text-right">
                                         <center><button type="submit" style="width: 200px; height: 50px;" class="btn btn-primary">VALIDER</button></center>

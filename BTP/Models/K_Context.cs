@@ -66,8 +66,11 @@ public class K_Context : DbContext
             modelBuilder.Entity<Bdq>()
                 .Property(p => p.IdBdq)
                 .HasDefaultValueSql($"NEXT VALUE FOR bdq_seq");
+            modelBuilder.Entity<Bdq>()
+                .Property(p => p.Etat)
+                .HasDefaultValue(1);
 
-            base.OnModelCreating(modelBuilder);
+        base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<TypeMateriel>()
                 .Property(p => p.IdTypeMateriel)
                 .HasDefaultValueSql($"NEXT VALUE FOR tm_seq");

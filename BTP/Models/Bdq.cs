@@ -18,5 +18,8 @@
 
         [Column("id_type_bordereau")]
         public string? IdTypeBordereau { get; set; }
+
+        [Column("etat")]
+        public int? Etat { get; set; }
     }
 }

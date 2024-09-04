@@ -4,6 +4,7 @@ using System.Globalization;
 using Microsoft.EntityFrameworkCore;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using Microsoft.AspNetCore.Http;
+using System.Data;
 
 namespace BTP.Controllers;
 public class AdminController : Controller
@@ -46,7 +47,14 @@ public class AdminController : Controller
         return View();
     }
     public IActionResult Insert_TypeBordereau(string type) {
-        TypeBordereau tb = new() { 
+        bool exists = _context.TypeBordereau
+        .Any(st => st.Nom == type);
+        if (exists)
+        {
+            ModelState.AddModelError(string.Empty, "Ce Type de Bordereau existe deja");
+            return View("F_typeBordereau");
+        }
+            TypeBordereau tb = new() { 
             Nom = type
         };
         _context.TypeBordereau.Add(tb);
@@ -57,9 +65,22 @@ public class AdminController : Controller
     {
         List<Bdq> bdq = _context.Bdq
             .Include(t =>t.TypeBordereau)
+            .OrderBy(t => t.IdBdq)
+            .Where(t => t.Etat == 1)
             .ToList();
         ViewData["bdq"] = bdq;
         return View();
+    }
+    public IActionResult DeleteBdq(string idBdq)
+    {
+        var Bdq = _context.Bdq.Find(idBdq);
+        if (Bdq != null)
+        {
+            Bdq.Etat = 11;
+            _context.Bdq.Update(Bdq);
+            _context.SaveChanges();
+        }
+        return RedirectToAction(nameof(BDQ));
     }
     public IActionResult V_bdq(string idBdq)
     {
@@ -91,7 +112,7 @@ public class AdminController : Controller
                             PrixUnitaire = gg.Select(x => x.PrixUnitaire).ToList(),
                             Montant = gg.Select(x => x.Montant).ToList()
                         }).ToList(),
-                SousTotal = g.Sum(b => b.Montant) // Calculer le sous-total des montants
+                SousTotal = g.Sum(b => b.Montant)
             })
             .ToList();
 
@@ -108,6 +129,16 @@ public class AdminController : Controller
     }
     public IActionResult InsertSerie_TypeBordereau(string? id_type, string? serie)
     {
+        bool exists = _context.SerieTravaux
+            .Any(st => st.IdTypeBordereau == id_type && st.Nom == serie);
+
+        if (exists)
+        {
+            ModelState.AddModelError(string.Empty, "Vous avez deja insere cette serie dans ce type de bordereau.");
+            ViewData["type_bordereau"] = _context.TypeBordereau.ToList();
+            return View("F_serie_Typebordereau");
+        }
+
         SerieTravaux s = new()
         {
             IdTypeBordereau = id_type,
@@ -115,13 +146,22 @@ public class AdminController : Controller
         };
         _context.SerieTravaux.Add(s);
         _context.SaveChanges();
+
         return RedirectToAction(nameof(F_serie_Typebordereau));
     }
+
     public IActionResult F_typeMateriel() {
         return View();
     }
     public IActionResult Insert_typeMateriel(string materiel) {
-        TypeMateriel tm = new()
+        bool exists = _context.TypeMateriel
+        .Any(st => st.Nom == materiel);
+        if (exists)
+        {
+            ModelState.AddModelError(string.Empty, "Ce Type de Materiel existe deja.");
+            return View("F_typeMateriel");
+        }
+            TypeMateriel tm = new()
         {
             Nom = materiel
         };
