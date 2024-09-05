@@ -11,29 +11,61 @@
                     @for (int i = 0; i < bdq.Count; i++)
                     {
                         <div class="col-md-4 mb-4">
-                            <form method="post" asp-action="DeleteBdq" asp-controller="Admin" asp-route-idBdq="@bdq[i].IdBdq">
-                                <div class="card border-info mb-3" style="">
-                                    <center>
-                                        <div class="card-header uppercase" style="text-transform: uppercase; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
-                                            @bdq[i].TypeBordereau?.Nom
-                                        </div>
-                                    </center>
-                                    <div class="card-body text-info">
-                                        <center><h5 class="card-title">@bdq[i].Titre</h5></center>
-                                        <a asp-controller="Admin" asp-action="Materiaux" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
-                                            <p class="card-text">Les matériaux</p>
-                                        </a>
-                                        <a asp-controller="Plans" asp-action="Details" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
-                                            <p class="card-text">Plans</p>
-                                        </a>
-                                        <a asp-controller="Admin" asp-action="F1_AjoutTravaux" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link">
-                                            <p class="card-text">Ajouter les travaux</p>
-                                        </a>
+                            <a asp-controller="Admin" asp-action="V_bdq" asp-route-idBdq="@bdq[i].IdBdq" class="card-link" style="text-decoration: none;">
+                                <div class="card border-info mb-3 shadow-sm">
+                                    <div class="card-header text-center text-uppercase font-weight-bold" style="font-family: 'Roboto', sans-serif; background-color: #f8f9fa;">
+                                        @bdq[i].TypeBordereau?.Nom
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center text-primary">@bdq[i].Titre</h5>
+                                        <hr>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a asp-controller="Admin" asp-action="Materiaux" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link text-dark d-block mb-2">
+                                                    <i class="mdi mdi-cube-outline"></i> Les matériaux
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a asp-controller="Plans" asp-action="Details" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link text-dark d-block mb-2">
+                                                    <i class="mdi mdi-map-outline"></i> Plans
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a asp-controller="Admin" asp-action="F1_AjoutTravaux" asp-route-idBdq="@bdq[i].IdBdq" class="nav-link text-dark d-block">
+                                                    <i class="mdi mdi-clipboard-outline"></i> Ajouter les travaux
+                                                </a>
+                                            </li>
+                                        </ul>
                                         <hr />
-                                        <center><button type="submit" class="btn btn-outline-youtube"><i class="mdi mdi-delete"></i></button></center>
+                                        <div class="text-center">
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal-@bdq[i].IdBdq">
+                                                <i class="mdi mdi-delete"></i> Supprimer
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </form>
+                            </a>
+                        </div>
+
+                        <!-- Modale spécifique pour chaque BDQ -->
+                        <div class="modal fade" id="deleteModal-@bdq[i].IdBdq" tabindex="-1" style="margin-top: 200px;" aria-labelledby="deleteModalLabel-@bdq[i].IdBdq" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="deleteModalLabel-@bdq[i].IdBdq">Voulez-vous vraiment supprimer cette BDQ ?</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Êtes-vous sûr de vouloir supprimer "@bdq[i].Titre" ?</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <form method="post" asp-action="DeleteBdq" asp-controller="Admin" asp-route-idBdq="@bdq[i].IdBdq">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="submit" class="btn btn-danger">Supprimer</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     }
                 }

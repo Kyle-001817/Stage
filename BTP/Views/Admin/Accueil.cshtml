@@ -1,26 +1,77 @@
 @{
-  Layout = "_Layout";
+    Layout = "_Layout";
 }
 <div class="container-scroller">
     <div class="main-panel">
         <div class="content-wrapper">
-          <div class="row">
-            <div class="col-lg-12 grid-margin stretch-card">
-                <div class="col-lg-12 grid-margin stretch-card">
-                    <div class="col-md-12 grid-margin grid-margin-md-0 stretch-card">
-                        <div class="card">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-center">
+                            <h3>Bienvenue dans le Gestionnaire de Projets</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center mb-4">
+                                <p class="lead">Creez et gerez vos projets de maniere efficace et organisee.</p>
+                            </div>
                             <form class="forms-sample" asp-controller="Admin" asp-action="F_bdq" method="post" novalidate enctype="multipart/form-data">
-                            <center>
-                              <div class="card-body" id="body">
-                                <button type="submit" class="btn btn-primary me-2" id="accueil">CREER UN NOUVEAU PROJET</button>
-                              </div>
-                            </center>
+                                <div class="text-center mb-4" id="body">
+                                    <button type="submit" class="btn btn-lg btn-outline-primary btn-icon-text" id="accueil" style="color: black;">
+                                        <i class="mdi mdi-plus-box btn-icon-prepend"></i>
+                                        CREER UN NOUVEAU PROJET
+                                    </button>
+                                </div>
                             </form>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
         </div>
     </div>
 </div>
+
+<style>
+    .container-scroller {
+        background-color: #f5f6fa;
+    }
+
+    .card {
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+        border-bottom: 2px solid #d1d1d1;
+    }
+
+    .btn-outline-primary {
+        border: 2px solid #007bff;
+        color: #007bff;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #007bff;
+            color: white;
+        }
+
+    .mdi {
+        font-size: 1.2rem;
+    }
+
+    #accueil {
+        padding: 12px 24px;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    p.lead {
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: #555;
+    }
+</style>
