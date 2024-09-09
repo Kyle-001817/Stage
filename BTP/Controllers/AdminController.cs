@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using Microsoft.AspNetCore.Http;
 using System.Data;
+using System.Linq;
 
 namespace BTP.Controllers;
 public class AdminController : Controller
@@ -84,6 +85,7 @@ public class AdminController : Controller
     }
     public IActionResult V_bdq(string idBdq)
     {
+        HttpContext.Session.SetString("id_bdq", idBdq);
         var bdqs = _context.V_bdq
             .Where(b => b.IdBdq == idBdq)
             .ToList();
@@ -115,11 +117,84 @@ public class AdminController : Controller
                 SousTotal = g.Sum(b => b.Montant)
             })
             .ToList();
-
         ViewBag.Bdq = _context.Bdq.Find(idBdq) ?? new Bdq();
         ViewData["groupedBdq"] = groupedBdq;
         return View(groupedBdq);
     }
+    public IActionResult F_bde()
+    {
+        string? idBdq = HttpContext.Session.GetString("id_bdq");
+        List<DetailBdq> dbdq = _context.DetailBdq.Where(db => db.IdBdq == idBdq).ToList();
+        ViewData["detail_bdq"] = dbdq;
+
+        //Tableau
+        ViewData["detail_bde"] = _context.Detail_bde.Where(d => d.DetailBdq.IdBdq == idBdq).ToList();
+        return View();
+    }
+    public IActionResult Insert_bde(string designation, double pu)
+    {
+        Detail_bde dbde = new() { 
+        PrixUnitaire = pu,
+        IdDetailBdq = designation
+        };
+        _context.Detail_bde.Add(dbde);
+        _context.SaveChanges();
+
+        return RedirectToAction(nameof(F_bde));
+    }
+    public IActionResult BDE()
+    {
+        string? idBdq = HttpContext.Session.GetString("id_bdq");
+        var bdes = _context.Detail_bde
+            .Include(d => d.DetailBdq)
+            .ThenInclude(dbq => dbq.Unite)
+            .Include(d => d.DetailBdq.SerieTravaux)
+            .Include(d => d.DetailBdq.Bdq)
+            .Where(d => d.DetailBdq.IdBdq == idBdq)
+            .ToList();
+
+        if (bdes.Count > 0)
+        {
+            ViewBag.titre = bdes[0].DetailBdq?.Bdq?.Titre;
+        }
+        var groupedBdes = bdes
+            .GroupBy(d => d.DetailBdq.SerieTravaux)
+            .ToDictionary(g => g.Key, g => g.ToList());
+
+        // Calculer les montants et les sous-totaux
+        var viewModels = new Dictionary<SerieTravaux, List<DetailBdeViewModel>>();
+        var subtotals = new Dictionary<SerieTravaux, double>();
+
+        foreach (var group in groupedBdes)
+        {
+            var serieTravaux = group.Key;
+            var details = group.Value;
+
+            // Calcul des montants pour chaque Detail_bde
+            var detailViewModels = details.Select(d => new DetailBdeViewModel
+            {
+                Designation = d.DetailBdq?.Designation,
+                Unite = d.DetailBdq?.Unite?.Nom,
+                Quantite = d.DetailBdq?.Quantite ?? 0,
+                PrixUnitaire = d.PrixUnitaire,
+                Montant = d.PrixUnitaire * (d.DetailBdq?.Quantite ?? 0)
+            }).ToList();
+
+            // Calcul du sous-total pour cette série de travaux
+            var subtotal = detailViewModels.Sum(vm => vm.Montant);
+            viewModels[serieTravaux] = detailViewModels;
+            subtotals[serieTravaux] = subtotal;
+        }
+
+        ViewBag.GroupedBde = viewModels;
+        ViewBag.Subtotals = subtotals;
+
+        return View();
+    }
+
+
+
+
 
 
     public IActionResult F_serie_Typebordereau()

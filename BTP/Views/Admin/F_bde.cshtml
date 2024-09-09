@@ -1,0 +1,70 @@
+﻿@{
+    Layout = "_Layout";
+    var detail_bdq = ViewData["detail_bdq"] as List<DetailBdq>;
+    var detail_bde = ViewData["detail_bde"] as List<Detail_bde>;
+}
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="col-md-12 grid-margin grid-margin-md-0 stretch-card">
+                            <div class="card">
+                                <form class="forms-sample" asp-controller="Admin" asp-action="Insert_bde" method="post">
+                                    <div class="card-body">
+                                        <div class="form-group row align-items-center">
+                                            <label class="col-sm-2 col-form-label">Designation: </label>
+                                            <div class="col-sm-6">
+                                                <select class="js-example-basic-single w-100" name="designation">
+                                                    @if (detail_bdq != null)
+                                                    {
+                                                        @foreach(var item in detail_bdq)
+                                                        {
+                                                            <option value="@item.IdDetailBdq"> @item.Designation </option>
+                                                        }
+                                                    }
+                                                </select>
+                                            </div>
+                                            <label class="col-sm-2 col-form-label">Prix Unitaire: </label>
+                                            <div class="col-sm-2">
+                                                <input class="form-control" type="text" name="pu" placeholder="Prix Unitaire" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-sm-12 text-right">
+                                                <center><button type="submit" style="width: 200px; height: 50px;" class="btn btn-primary">VALIDER</button></center>
+                                            </div>
+                                        </div>
+
+                                        <hr />
+                                        <table class="table table-striped" style="height: 100px;">
+                                            <thead>
+                                                <tr>
+                                                    <th>Designation</th>
+                                                    <th>Prix Unitaire</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @if (detail_bde != null)
+                                                {
+                                                    @foreach (var i in detail_bde)
+                                                    {
+                                                        <tr style="height: 50px">
+                                                            <td>@i.DetailBdq?.Designation</td>
+                                                            <td>@i.PrixUnitaire</td>
+                                                        </tr>
+                                                    }
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

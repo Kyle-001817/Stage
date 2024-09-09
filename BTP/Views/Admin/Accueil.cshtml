@@ -1,77 +1,82 @@
 @{
-    Layout = "_Layout";
+    Layout = "_Layout_accueil";
 }
-<div class="container-scroller">
-    <div class="main-panel">
-        <div class="content-wrapper">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 grid-margin stretch-card">
-                    <div class="card">
-                        <div class="card-header bg-primary text-white text-center">
-                            <h3>Bienvenue dans le Gestionnaire de Projets</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="text-center mb-4">
-                                <p class="lead">Creez et gerez vos projets de maniere efficace et organisee.</p>
-                            </div>
-                            <form class="forms-sample" asp-controller="Admin" asp-action="F_bdq" method="post" novalidate enctype="multipart/form-data">
-                                <div class="text-center mb-4" id="body">
-                                    <button type="submit" class="btn btn-lg btn-outline-primary btn-icon-text" id="accueil" style="color: black;">
-                                        <i class="mdi mdi-plus-box btn-icon-prepend"></i>
-                                        CREER UN NOUVEAU PROJET
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <style>
-    .container-scroller {
-        background-color: #f5f6fa;
+    body{
+    background-color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    /* CSS pour le header */
+    #header {
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        /* Dégradé pour un effet moderne */
+        color: white;
+        padding: 20px;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
     }
 
-    .card {
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+            #header .logo .icon {
+                font-size: 2.5em;
+            }
 
-    .card-header {
-        border-bottom: 2px solid #d1d1d1;
-    }
-
-    .btn-outline-primary {
-        border: 2px solid #007bff;
-        color: #007bff;
-        transition: background-color 0.3s ease, color 0.3s ease;
-    }
-
-        .btn-outline-primary:hover {
-            background-color: #007bff;
-            color: white;
+        #header .content {
+            margin-top: 60px;
         }
 
-    .mdi {
-        font-size: 1.2rem;
+        #header h1 {
+            font-size: 3em;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        #header p {
+            font-size: 1.25em;
+        }
+
+    nav {
+        margin-top: 20px;
     }
 
-    #accueil {
-        padding: 12px 24px;
-        font-size: 1.1rem;
-        font-weight: bold;
-    }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
 
-    .text-center {
-        text-align: center;
-    }
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
 
-    p.lead {
-        font-size: 1.2rem;
-        font-weight: 300;
-        color: #555;
-    }
+                nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1em;
+                    transition: color 0.3s;
+                }
+
+                    nav ul li a:hover {
+                        color: #ffeb3b; 
+                    }
+
 </style>
+<header id="header">
+    <div class="logo">
+        <span class="fas fa-cogs fa-2x"></span>
+    </div>
+    <div class="content">
+        <div class="inner">
+            <h1>NOM DE L'ENTREPRISE</h1>
+            <p>
+               APPLICATION POUR LA GESTION DE VOTRE PROJET BTP
+            </p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a asp-controller="Admin" asp-action="F_bdq">Creer un nouveau Projet</a></li>
+            <!--<li><a href="#elements">Elements</a></li>-->
+        </ul>
+    </nav>
+</header>

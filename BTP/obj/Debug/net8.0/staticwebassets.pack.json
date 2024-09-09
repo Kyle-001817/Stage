@@ -5,6 +5,194 @@
       "PackagePath": "staticwebassets\\BTP.bundle.scp.css"
     },
     {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\css\\noscript.css",
+      "PackagePath": "staticwebassets\\assets\\css\\noscript.css"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\js\\breakpoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\breakpoints.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\js\\browser.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\browser.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\js\\util.js",
+      "PackagePath": "staticwebassets\\assets\\js\\util.js"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\base\\_page.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_page.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\base\\_reset.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_reset.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\base\\_typography.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_actions.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_actions.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_box.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_box.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_button.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_button.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_form.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_form.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_icon.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_icon.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_icons.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_image.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_list.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_list.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\components\\_table.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\components\\_table.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\layout\\_bg.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_bg.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_footer.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_header.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\layout\\_main.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_main.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\layout\\_wrapper.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\layout\\_wrapper.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\libs\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\libs\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\libs\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\libs\\_functions.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\libs\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\libs\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\libs\\_vars.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\libs\\_vars.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\libs\\_vendor.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\libs\\_vendor.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\main.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\sass\\noscript.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\noscript.scss"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
       "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\css\\Chart.css",
       "PackagePath": "staticwebassets\\css\\Chart.css"
     },
@@ -157,24 +345,16 @@
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-SemiBold.woff2"
     },
     {
-      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\Certificat.png",
-      "PackagePath": "staticwebassets\\images\\Certificat.png"
-    },
-    {
-      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\Logo3.png",
-      "PackagePath": "staticwebassets\\images\\Logo3.png"
-    },
-    {
-      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\Tritriva.png",
-      "PackagePath": "staticwebassets\\images\\Tritriva.png"
-    },
-    {
       "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\accueil\\accueil.jpg",
       "PackagePath": "staticwebassets\\images\\accueil\\accueil.jpg"
     },
     {
       "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\auth\\login.jpg",
       "PackagePath": "staticwebassets\\images\\auth\\login.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\images\\bg.jpg"
     },
     {
       "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\dashboard\\bg.png",
@@ -317,16 +497,20 @@
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\logo1.png",
-      "PackagePath": "staticwebassets\\images\\logo1.png"
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\overlay.png",
+      "PackagePath": "staticwebassets\\images\\overlay.png"
     },
     {
-      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\marker-icon.png",
-      "PackagePath": "staticwebassets\\images\\marker-icon.png"
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\pic01.jpg",
+      "PackagePath": "staticwebassets\\images\\pic01.jpg"
     },
     {
-      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\section-4.jpg",
-      "PackagePath": "staticwebassets\\images\\section-4.jpg"
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\pic02.jpg",
+      "PackagePath": "staticwebassets\\images\\pic02.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\images\\pic03.jpg",
+      "PackagePath": "staticwebassets\\images\\pic03.jpg"
     },
     {
       "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\js\\Chart.js",
@@ -1563,6 +1747,10 @@
     {
       "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\lib\\wow\\dist\\wow.js",
       "PackagePath": "staticwebassets\\lib\\wow\\dist\\wow.js"
+    },
+    {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
     },
     {
       "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\scss\\_background.scss",

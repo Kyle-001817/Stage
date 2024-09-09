@@ -9,6 +9,7 @@ INSERT INTO unite(nom) VALUES ('kg');
 INSERT INTO unite(nom) VALUES ('feuille');
 INSERT INTO unite(nom) VALUES ('L');
 INSERT INTO unite(nom) VALUES ('Fft');
+INSERT INTO unite(nom) VALUES ('m2');
 
 CREATE VIEW v_bdq AS
 SELECT 

@@ -51,6 +51,13 @@ CREATE TABLE detail_bdq(
    FOREIGN KEY(id_bdq) REFERENCES bdq(id_bdq),
    FOREIGN KEY(id_unite) REFERENCES unite(id_unite)
 );
+CREATE SEQUENCE dbde_seq;
+CREATE TABLE detail_bde(
+   id_detail_bde VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('DBDE', LPAD(nextval('dbde_seq')::TEXT, 3, '0')),
+   prix_unitaire NUMERIC(15,2)   NOT NULL,
+   id_detail_dbq VARCHAR(50)  NOT NULL,
+   FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
+);
 CREATE SEQUENCE profil_seq;
 CREATE TABLE profil(
    id_profil VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('PROFIL', LPAD(nextval('profil_seq')::TEXT, 3, '0')),

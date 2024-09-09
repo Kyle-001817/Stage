@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -55,8 +55,7 @@
               "ViewState": "AgIAAEAAAAAAAAAAAAAQwE8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T05:55:08.712Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -69,8 +68,11 @@
               "ViewState": "AgIAABYAAAAAAAAAAAAYwCUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-04T08:09:14.927Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -82,8 +84,7 @@
               "RelativeToolTip": "Views\\Admin\\Accueil.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T08:37:35.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T08:37:35.653Z"
             },
             {
               "$type": "Document",
@@ -95,8 +96,7 @@
               "RelativeToolTip": "Views\\Admin\\Materiaux.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T08:28:13.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T08:28:13.651Z"
             },
             {
               "$type": "Document",
@@ -106,14 +106,10 @@
               "RelativeDocumentMoniker": "Views\\Admin\\V_bdq.cshtml",
               "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\V_bdq.cshtml",
               "RelativeToolTip": "Views\\Admin\\V_bdq.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAcwGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwE0AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-05T07:55:30.285Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",

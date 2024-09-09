@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjdWVpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ITU/Stage/WEB/BTP/Views/Admin/BDE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQkRFLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITU/Stage/WEB/BTP/Views/Admin/BDQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQkRRLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ITU/Stage/WEB/BTP/Views/Admin/F_ajoutMateriaux_inBdq.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9ham91dE1hdGVyaWF1eF9pbkJkcS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_bde.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9iZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ITU/Stage/WEB/BTP/Views/Admin/F_bdq.cshtml]
@@ -116,6 +124,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ITU/Stage/WEB/BTP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/Stage/WEB/BTP/Views/Shared/_Layout_accueil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfYWNjdWVpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ITU/Stage/WEB/BTP/Views/Shared/_Layout_Error.cshtml]

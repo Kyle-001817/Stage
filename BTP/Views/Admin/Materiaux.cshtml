@@ -34,13 +34,14 @@
                             <!-- Material List -->
                             <div class="table-responsive">
                                 <h4 class="card-title text-center">LISTE DES MATERIAUX</h4>
-                                <hr />
                                 @if (type_materiauxByBdq != null)
                                 {
                                     @for (int i = 0; i < type_materiauxByBdq.Count; i++)
                                     {
                                         var idTypeMateriel = type_materiauxByBdq[i]?.IdTypeMateriel;
+                                        <hr />
                                                 <h5 class="text-primary text-center mb-3"><b>@type_materiauxByBdq[i].TypeMateriel?.Nom</b></h5>
+                                        <hr />
                                                 <table class="table table-hover table-bordered">
                                                     <thead class="thead-light">
                                                         <tr>

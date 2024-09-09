@@ -19,6 +19,7 @@ public class K_Context : DbContext
         public DbSet<DetailBdq> DetailBdq { get; set; }
         public DbSet<DetailMateriaux> DetailMateriaux { get; set; }
         public DbSet<V_bdq> V_bdq { get; set; }
+        public DbSet<Detail_bde> Detail_bde { get; set; }
 
     public void ResetDatabase(K_Context context)
         {
@@ -89,6 +90,11 @@ public class K_Context : DbContext
             modelBuilder.Entity<DetailBdq>()
                 .Property(p => p.IdDetailBdq)
                 .HasDefaultValueSql($"NEXT VALUE FOR dbdq_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Detail_bde>()
+                .Property(p => p.IdDetailBde)
+                .HasDefaultValueSql($"NEXT VALUE FOR dbde_seq");
 
 
     }

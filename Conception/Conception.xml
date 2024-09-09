@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Database>
+   <Name>Conception</Name>
+   <Table>
+      <Name>genre</Name>
+      <Column>
+         <Name>id_genre</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>nom</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_genre</Key>
+      </PK>
+   </Table>
+   <Table>
+      <Name>type_materiel</Name>
+      <Column>
+         <Name>id_type_materiel</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>nom</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_type_materiel</Key>
+      </PK>
+   </Table>
+   <Table>
+      <Name>unite</Name>
+      <Column>
+         <Name>id_unite</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>nom</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_unite</Key>
+      </PK>
+   </Table>
+   <Table>
+      <Name>type_bordereau</Name>
+      <Column>
+         <Name>id_type_bordereau</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>nom</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_type_bordereau</Key>
+      </PK>
+   </Table>
+   <Table>
+      <Name>serie_travaux</Name>
+      <Column>
+         <Name>id_serie_travaux</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>nom</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_type_bordereau</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_serie_travaux</Key>
+      </PK>
+      <FK>
+         <Key>id_type_bordereau</Key>
+         <Reference>type_bordereau(id_type_bordereau)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>bdq</Name>
+      <Column>
+         <Name>id_bdq</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>titre</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_type_bordereau</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_bdq</Key>
+      </PK>
+      <FK>
+         <Key>id_type_bordereau</Key>
+         <Reference>type_bordereau(id_type_bordereau)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>detail_bdq</Name>
+      <Column>
+         <Name>id_detail_dbq</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>designation</Name>
+         <Type>TEXT</Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>quantite</Name>
+         <Type>NUMERIC(15,2)  </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_serie_travaux</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_bdq</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_unite</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_detail_dbq</Key>
+      </PK>
+      <FK>
+         <Key>id_serie_travaux</Key>
+         <Reference>serie_travaux(id_serie_travaux)</Reference>
+      </FK>
+      <FK>
+         <Key>id_bdq</Key>
+         <Reference>bdq(id_bdq)</Reference>
+      </FK>
+      <FK>
+         <Key>id_unite</Key>
+         <Reference>unite(id_unite)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>profil</Name>
+      <Column>
+         <Name>id_profil</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>nom</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>prenom</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>date_naissance</Name>
+         <Type>TIMESTAMP</Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>adresse</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_genre</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_profil</Key>
+      </PK>
+      <FK>
+         <Key>id_genre</Key>
+         <Reference>genre(id_genre)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>utilisateur</Name>
+      <Column>
+         <Name>id_utilisateur</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>email</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>mdp</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_profil</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_utilisateur</Key>
+      </PK>
+      <FK>
+         <Key>id_profil</Key>
+         <Reference>profil(id_profil)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>materiaux</Name>
+      <Column>
+         <Name>id_materiaux</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>nom</Name>
+         <Type>VARCHAR(250) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>prix_unitaire</Name>
+         <Type>NUMERIC(15,2)  </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_unite</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
+         <Name>id_type_materiel</Name>
+         <Type>VARCHAR(50) </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_materiaux</Key>
+      </PK>
+      <FK>
+         <Key>id_unite</Key>
+         <Reference>unite(id_unite)</Reference>
+      </FK>
+      <FK>
+         <Key>id_type_materiel</Key>
+         <Reference>type_materiel(id_type_materiel)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>detail_materiaux</Name>
+      <Column>
+         <Name>id_materiaux</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>id_detail_dbq</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>quantite</Name>
+         <Type>NUMERIC(15,2)  </Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <PK>
+         <Key>id_materiaux, id_detail_dbq</Key>
+      </PK>
+      <FK>
+         <Key>id_materiaux</Key>
+         <Reference>materiaux(id_materiaux)</Reference>
+      </FK>
+      <FK>
+         <Key>id_detail_dbq</Key>
+         <Reference>detail_bdq(id_detail_dbq)</Reference>
+      </FK>
+   </Table>
+   <Table>
+      <Name>materiaux_bdq</Name>
+      <Column>
+         <Name>id_materiaux</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <Column>
+         <Name>id_bdq</Name>
+         <Type>VARCHAR(50) </Type>
+      </Column>
+      <PK>
+         <Key>id_materiaux, id_bdq</Key>
+      </PK>
+      <FK>
+         <Key>id_materiaux</Key>
+         <Reference>materiaux(id_materiaux)</Reference>
+      </FK>
+      <FK>
+         <Key>id_bdq</Key>
+         <Reference>bdq(id_bdq)</Reference>
+      </FK>
+   </Table>
+</Database>

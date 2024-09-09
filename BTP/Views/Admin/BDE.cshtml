@@ -1,0 +1,67 @@
+﻿@{
+    Layout = "_Layout";
+    var groupedBde = ViewBag.GroupedBde as Dictionary<SerieTravaux, List<DetailBdeViewModel>>;
+    var subtotals = ViewBag.Subtotals as Dictionary<SerieTravaux, double>;
+}
+
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card shadow-sm">
+                        <div class="table-responsive">
+                            <div class="card-body">
+                                <center>
+                                    <h4 class="card-title text-uppercase font-weight-bold">Bordereau du Détail Estimatif</h4>
+                                    <h3 class="card-title">@ViewBag.titre</h3>
+                                </center>
+                                @if (groupedBde != null && subtotals != null)
+                                {
+                                    @foreach (var group in groupedBde)
+                                    {
+                                        <hr />
+                                        <center>
+                                            <h5 class="text-primary">@group.Key?.Nom</h5>
+                                        </center>
+                                        <hr />
+                                        <table class="table table-hover table-bordered">
+                                            <thead class="thead-light">
+                                                <tr>
+                                                    <th>Designation des travaux</th>
+                                                    <th>Unite</th>
+                                                    <th>Quantite</th>
+                                                    <th>PU (Ar)</th>
+                                                    <th>Montant</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in group.Value)
+                                                {
+                                                    <tr style="height: 50px">
+                                                        <td>@item.Designation</td>
+                                                        <td class="text-center">@item.Unite</td>
+                                                        <td class="text-center">@item.Quantite</td>
+                                                        <td style="text-align: right;">@item.PrixUnitaire.ToString("N2")</td>
+                                                        <td style="text-align: right;">@item.Montant.ToString("N2")</td>
+                                                    </tr>
+                                                }
+                                                <!-- Sous-total pour la SerieTravaux -->
+                                                <tr style="font-family:Airborne; background-color: cornflowerblue; color:white;">
+                                                    <td colspan="4" class="text-right font-weight-bold">Sous-total</td>
+                                                    <td style="text-align: right;" class="font-weight-bold">
+                                                        @subtotals[group.Key].ToString("N2")
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
