@@ -36,3 +36,15 @@ LEFT JOIN
     unite u2 ON m.id_unite = u2.id_unite
 ORDER BY 
     dbq.id_detail_dbq;
+
+CREATE view v_bde as
+select 
+    detail_bdq.designation,
+    detail_bdq.id_unite,
+    detail_bdq.quantite,
+    detail_bde.prix_unitaire,
+    detail_bdq.id_serie_travaux,
+    detail_bdq.id_bdq,
+    (detail_bde.prix_unitaire * detail_bdq.quantite) as montant 
+from detail_bde 
+join detail_bdq on detail_bdq.id_detail_dbq = detail_bde.id_detail_dbq;

@@ -1,0 +1,62 @@
+﻿@{
+    Layout = "_Layout";
+    var rendement = ViewData["rendement"] as List<Rendement>;
+}
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="col-md-12 grid-margin grid-margin-md-0 stretch-card">
+                            <div class="card">
+                                <form class="forms-sample" asp-controller="Admin" asp-action="ImportCSV" method="post" novalidate enctype="multipart/form-data">
+                                    <div class="card-body">
+                                        <div class="form-group row">
+                                            <div class="col-md-12">
+                                                <label for="inputName5" class="form-label">Rendements</label>
+                                                <input type="file" name="fichier" class="form-control" id="inputName5" required>
+                                                <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary me-2">VALIDER</button>
+
+                                        <hr />
+                                        <table class="table table-hover table-bordered" style="color:black">
+                                            <thead class="thead-light">
+                                                <tr>
+                                                    <th>Num Prix</th>
+                                                    <th>Designation</th>
+                                                    <th>Unite</th>
+                                                    <th>Rendement par Heure/Unite</th>
+                                                    <th>Rendement Unite/Jour</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @if (rendement != null)
+                                                {
+                                                    @foreach (var i in rendement)
+                                                    {
+                                                        var rowClass = (i.Heure_Unite == 0 && i.Unite_Jour == 0 && i.NumPrix == "" && i.Unite == "" && i.Designation != "" && i.Designation.StartsWith("I") || i.Designation.StartsWith("V") || i.Designation.StartsWith("X")) ? "table-primary" : ""; 
+                                                        <tr style="height: 50px" class="@rowClass">
+                                                            <td>@i.NumPrix</td>
+                                                            <td>@i.Designation</td>
+                                                            <td>@i.Unite</td>
+                                                            <td>@(i.Heure_Unite == 0 ? "" : i.Heure_Unite.ToString())</td>
+                                                            <td>@(i.Unite_Jour == 0 ? "" : i.Unite_Jour.ToString())</td>
+                                                        </tr>
+                                                    }
+                                                }
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

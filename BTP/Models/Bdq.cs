@@ -21,5 +21,17 @@
 
         [Column("etat")]
         public int? Etat { get; set; }
+
+        [ForeignKey("IdProprietaire")]
+        public virtual Proprietaire? Proprietaire { get; set; }
+
+        [Column("id_proprietaire")]
+        public string? IdProprietaire { get; set; }
+
+        [ForeignKey("IdUtilisateur")]
+        public virtual Utilisateur? Utilisateur { get; set; }
+
+        [Column("id_utilisateur")]
+        public string? IdUtilisateur { get; set; }
     }
 }

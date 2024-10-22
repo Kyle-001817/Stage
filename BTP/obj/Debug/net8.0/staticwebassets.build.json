@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mtlYFQOZb6Aty3sM+/OIHzMmhrs8X8pAW+jL+NakJZ8=",
+  "Hash": "qsqpksuJnwXFGsKHZhO8v5mmjqicRmof9BIVg5xng8o=",
   "Source": "BTP",
   "BasePath": "_content/BTP",
   "Mode": "Default",
@@ -1212,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\files\\PLAN_DE_FONDATION.pdf",
+      "SourceId": "BTP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\",
+      "BasePath": "_content/BTP",
+      "RelativePath": "files/PLAN_DE_FONDATION.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\PLAN_DE_FONDATION.pdf"
     },
     {
       "Identity": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.eot",

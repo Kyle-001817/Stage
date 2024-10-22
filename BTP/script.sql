@@ -31,12 +31,44 @@ CREATE TABLE serie_travaux(
    id_type_bordereau VARCHAR(50)  NOT NULL,
    FOREIGN KEY(id_type_bordereau) REFERENCES type_bordereau(id_type_bordereau)
 );
+CREATE SEQUENCE propri_seq;
+CREATE TABLE proprietaire(
+   id_proprietaire VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('PROPRI', LPAD(nextval('propri_seq')::TEXT, 3, '0')),
+   lieu VARCHAR(250)  NOT NULL,
+   client VARCHAR(250)  NOT NULL,
+   adresse VARCHAR(250)  NOT NULL,
+   telephone VARCHAR(10)  NOT NULL,
+   email VARCHAR(250)  NOT NULL
+);
+
+CREATE SEQUENCE profil_seq;
+CREATE TABLE profil(
+   id_profil VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('PROFIL', LPAD(nextval('profil_seq')::TEXT, 3, '0')),
+   nom VARCHAR(250)  NOT NULL,
+   prenom VARCHAR(250)  NOT NULL,
+   date_naissance TIMESTAMP NOT NULL,
+   adresse VARCHAR(250)  NOT NULL,
+   id_genre VARCHAR(50)  NOT NULL,
+   FOREIGN KEY(id_genre) REFERENCES genre(id_genre)
+);
+CREATE SEQUENCE user_seq;
+CREATE TABLE utilisateur(
+   id_utilisateur VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('USER', LPAD(nextval('user_seq')::TEXT, 3, '0')),
+   email VARCHAR(250)  NOT NULL,
+   mdp VARCHAR(250)  NOT NULL,
+   id_profil VARCHAR(50)  NOT NULL,
+   FOREIGN KEY(id_profil) REFERENCES profil(id_profil)
+);
 CREATE SEQUENCE bdq_seq;
 CREATE TABLE bdq(
    id_bdq VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('BDQ', LPAD(nextval('bdq_seq')::TEXT, 3, '0')),
    titre VARCHAR(250)  NOT NULL,
    id_type_bordereau VARCHAR(50)  NOT NULL,
    etat int DEFAULT 1,
+   id_proprietaire VARCHAR(50) ,
+   id_utilisateur VARCHAR(50) ,
+   FOREIGN KEY(id_proprietaire) REFERENCES proprietaire(id_proprietaire),
+   FOREIGN KEY(id_utilisateur) REFERENCES utilisateur(id_utilisateur),
    FOREIGN KEY(id_type_bordereau) REFERENCES type_bordereau(id_type_bordereau)
 );
 CREATE SEQUENCE dbdq_seq;
@@ -58,24 +90,6 @@ CREATE TABLE detail_bde(
    id_detail_dbq VARCHAR(50)  NOT NULL,
    FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
 );
-CREATE SEQUENCE profil_seq;
-CREATE TABLE profil(
-   id_profil VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('PROFIL', LPAD(nextval('profil_seq')::TEXT, 3, '0')),
-   nom VARCHAR(250)  NOT NULL,
-   prenom VARCHAR(250)  NOT NULL,
-   date_naissance TIMESTAMP NOT NULL,
-   adresse VARCHAR(250)  NOT NULL,
-   id_genre VARCHAR(50)  NOT NULL,
-   FOREIGN KEY(id_genre) REFERENCES genre(id_genre)
-);
-CREATE SEQUENCE user_seq;
-CREATE TABLE utilisateur(
-   id_utilisateur VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('USER', LPAD(nextval('user_seq')::TEXT, 3, '0')),
-   email VARCHAR(250)  NOT NULL,
-   mdp VARCHAR(250)  NOT NULL,
-   id_profil VARCHAR(50)  NOT NULL,
-   FOREIGN KEY(id_profil) REFERENCES profil(id_profil)
-);
 CREATE SEQUENCE matx_seq;
 CREATE TABLE materiaux(
    id_materiaux VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('MATX', LPAD(nextval('matx_seq')::TEXT, 3, '0')),
@@ -93,6 +107,24 @@ CREATE TABLE detail_materiaux(
    id_detail_dbq VARCHAR(50),
    quantite NUMERIC(15,2) NOT NULL,
    FOREIGN KEY(id_materiaux) REFERENCES materiaux(id_materiaux),
+   FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
+);
+CREATE TABLE rendement(
+	num_prix VARCHAR(20),
+	designation VARCHAR(250),
+	unite varchar(20),
+	heure_unite numeric(15,2),
+	unite_jour numeric(15,2)
+);
+CREATE SEQUENCE perso_seq;
+CREATE TABLE Personnel(
+   id_personnel VARCHAR(50)  PRIMARY KEY DEFAULT CONCAT('PERSO', LPAD(nextval('perso_seq')::TEXT, 3, '0')),
+   rendement NUMERIC(15,2)  ,
+   jour_travail INTEGER,
+   personnel VARCHAR(250) ,
+   heure_travail NUMERIC(15,2)  ,
+   salaire_par_heure NUMERIC(15,2)  ,
+   id_detail_dbq VARCHAR(50)  NOT NULL,
    FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
 );
 

@@ -19,7 +19,11 @@ public class K_Context : DbContext
         public DbSet<DetailBdq> DetailBdq { get; set; }
         public DbSet<DetailMateriaux> DetailMateriaux { get; set; }
         public DbSet<V_bdq> V_bdq { get; set; }
+        public DbSet<V_bde> V_bde { get; set; }
         public DbSet<Detail_bde> Detail_bde { get; set; }
+        public DbSet<Proprietaire> Proprietaire { get; set; }
+        public DbSet<Rendement> Rendement { get; set; }
+        public DbSet<Personnel> Personnel { get; set; }
 
     public void ResetDatabase(K_Context context)
         {
@@ -41,6 +45,11 @@ public class K_Context : DbContext
             .HasKey(dm => new { dm.IdMateriaux, dm.IdDetailBdq });
 
         modelBuilder.Entity<V_bdq>()
+            .HasNoKey();
+
+        modelBuilder.Entity<V_bde>()
+            .HasNoKey();
+        modelBuilder.Entity<Rendement>()
             .HasNoKey();
 
         base.OnModelCreating(modelBuilder);
@@ -95,6 +104,16 @@ public class K_Context : DbContext
             modelBuilder.Entity<Detail_bde>()
                 .Property(p => p.IdDetailBde)
                 .HasDefaultValueSql($"NEXT VALUE FOR dbde_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Proprietaire>()
+                .Property(p => p.IdProprietaire)
+                .HasDefaultValueSql($"NEXT VALUE FOR propri_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Personnel>()
+                .Property(p => p.IdPersonnel)
+                .HasDefaultValueSql($"NEXT VALUE FOR perso_seq");
 
 
     }

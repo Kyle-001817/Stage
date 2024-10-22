@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ITU\Stage\WEB\BTP
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ITU/Stage/WEB/BTP/Views/Admin/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITU/Stage/WEB/BTP/Views/Admin/Accueil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjdWVpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,12 +34,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQkRRLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ITU/Stage/WEB/BTP/Views/Admin/Convention.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udmVudGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITU/Stage/WEB/BTP/Views/Admin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ITU/Stage/WEB/BTP/Views/Admin/F1_AjoutTravaux.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRjFfQWpvdXRUcmF2YXV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ITU/Stage/WEB/BTP/Views/Admin/F_ajoutMateriaux_inBdq.cshtml]
@@ -58,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9kZXRhaWxCZHEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_personnel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9wZXJzb25uZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITU/Stage/WEB/BTP/Views/Admin/F_serie_Typebordereau.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9zZXJpZV9UeXBlYm9yZGVyZWF1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ITU/Stage/WEB/BTP/Views/Admin/F_typeMateriel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl90eXBlTWF0ZXJpZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/Stage/WEB/BTP/Views/Admin/Importation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW1wb3J0YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ITU/Stage/WEB/BTP/Views/Admin/Materiaux.cshtml]

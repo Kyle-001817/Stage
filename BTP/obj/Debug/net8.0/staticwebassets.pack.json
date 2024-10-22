@@ -249,6 +249,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\files\\PLAN_DE_FONDATION.pdf",
+      "PackagePath": "staticwebassets\\files\\PLAN_DE_FONDATION.pdf"
+    },
+    {
       "Id": "D:\\ITU\\Stage\\WEB\\BTP\\wwwroot\\fonts\\sourcesanspro\\SourceSansPro-Black.eot",
       "PackagePath": "staticwebassets\\fonts\\sourcesanspro\\SourceSansPro-Black.eot"
     },

@@ -6,6 +6,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 using Microsoft.AspNetCore.Http;
 using System.Data;
 using System.Linq;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace BTP.Controllers;
 public class AdminController : Controller
@@ -20,20 +21,26 @@ public class AdminController : Controller
     }
     public IActionResult Accueil()
     {
+        string? idAdmin = HttpContext.Session.GetString("id_admin");
         return View();
     }
     public IActionResult F_bdq()
     {
-        List<TypeBordereau> val = _context.TypeBordereau.ToList();
+        string? idPro = HttpContext.Session.GetString("id_proprietaire");
+        List <TypeBordereau> val = _context.TypeBordereau.ToList();
         ViewData["type_bordereau"] = val;
         return View();
     }
     public IActionResult Insert_bdq(string id_typeBordereau,string titre)
     {
+        string? idPro = HttpContext.Session.GetString("id_proprietaire");
+        string? idUtilisateur = HttpContext.Session.GetString("id_admin");
         Bdq bdq = new()
         {
             Titre = titre,
             IdTypeBordereau = id_typeBordereau,
+            IdProprietaire = idPro,
+            IdUtilisateur=idUtilisateur,
         };
         _context.Bdq.Add(bdq);
         _context.SaveChanges();
@@ -41,6 +48,24 @@ public class AdminController : Controller
     }
     public IActionResult F_convention()
     {
+        return View();
+    }
+    public IActionResult Convention(string idBdq)
+    {
+        string? idAdmin = HttpContext.Session.GetString("id_admin");
+        Bdq? bdq = _context.Bdq.Find(idBdq);
+        Proprietaire? proprietaire = _context.Proprietaire.Find(bdq?.IdProprietaire);
+        double somme_montant = _context.V_bde
+                                .Where(v => v.IdBdq == idBdq)
+                                .Sum(v => v.Montant);
+        Utilisateur? user = _context.Utilisateur
+                                .Include(u => u.Profil)
+                                .FirstOrDefault(u => u.IdUtilisateur == idAdmin);
+
+        ViewBag.proprietaire = proprietaire;
+        ViewBag.bdq = bdq;
+        ViewBag.montant = somme_montant;
+        ViewBag.user = user;
         return View();
     }
     public IActionResult F_typeBordereau()
@@ -64,10 +89,13 @@ public class AdminController : Controller
     }
     public IActionResult BDQ()
     {
+        string? idUtilisateur = HttpContext.Session.GetString("id_admin");
+
         List<Bdq> bdq = _context.Bdq
             .Include(t =>t.TypeBordereau)
             .OrderBy(t => t.IdBdq)
             .Where(t => t.Etat == 1)
+            .Where(t => t.IdUtilisateur == idUtilisateur)
             .ToList();
         ViewData["bdq"] = bdq;
         return View();
@@ -177,7 +205,7 @@ public class AdminController : Controller
                 Unite = d.DetailBdq?.Unite?.Nom,
                 Quantite = d.DetailBdq?.Quantite ?? 0,
                 PrixUnitaire = d.PrixUnitaire,
-                Montant = d.PrixUnitaire * (d.DetailBdq?.Quantite ?? 0)
+                Montant = d.PrixUnitaire * (d.DetailBdq?.Quantite ?? 0 )
             }).ToList();
 
             // Calcul du sous-total pour cette série de travaux
@@ -185,9 +213,10 @@ public class AdminController : Controller
             viewModels[serieTravaux] = detailViewModels;
             subtotals[serieTravaux] = subtotal;
         }
-
+        double valiny = subtotals.Values.Sum();
         ViewBag.GroupedBde = viewModels;
         ViewBag.Subtotals = subtotals;
+        ViewBag.Total = valiny;
 
         return View();
     }
@@ -467,6 +496,52 @@ public class AdminController : Controller
         _context.SaveChanges();
         return RedirectToAction(nameof(F_ajoutMateriaux_inBdq));
     }
+    public IActionResult F_About()
+    {
+        return View();
+    }
+    public IActionResult Insert_about(string lieu,string client,string adresse,string telephone,string email)
+    {
+        Proprietaire pro = new Proprietaire() { 
+            Lieu = lieu,
+            Client = client,
+            Adresse = adresse,
+            Telephone = telephone,
+            Email = email
+        };
+        _context.Proprietaire.Add(pro);
+        _context.SaveChanges();
+
+        HttpContext.Session.SetString("id_proprietaire", pro.IdProprietaire.ToString());
+        return RedirectToAction(nameof(F_bdq));
+    }
+    public IActionResult F_personnel()
+    {
+        ViewData["details"] = _context.DetailBdq.ToList();
+        ViewData["rendement"] = _context.Rendement.ToList();
+        return View();
+    }
+    public IActionResult InsertPersonnel(string designation, double rendement, int jour_travail, string[] personnel, double[] heure_travail, double[] salaire_par_heure)
+    {
+        for (int i = 0; i < personnel.Length; i++)
+        {
+            Personnel personnels = new()
+            {
+                IdDetailBdq = designation,
+                Rendement = rendement,
+                Jour_travail = jour_travail,
+                Personnels = personnel[i],
+                Heure_travail = heure_travail[i],
+                Salaire_parHeure = salaire_par_heure[i]
+            };
+
+            _context.Personnel.Add(personnels);
+        }
+
+        _context.SaveChanges();
+        return RedirectToAction(nameof(F_personnel));
+    }
+
 
     public IActionResult Deconnect()
     {
@@ -477,6 +552,30 @@ public class AdminController : Controller
     {
         _context.ResetDatabase(_context);
         return RedirectToAction("LoginAdmin", "Login");
+    }
+    public IActionResult Importation() {
+        List<Rendement> rendements = _context.Rendement.ToList();
+        ViewData["rendement"] = rendements;
+        return View();
+    }
+    public IActionResult ImportCSV(IFormFile fichier)
+    {
+        Import i = new();
+        if (fichier == null)
+        {
+            TempData["Error"] = "Le fichier est vide ou n'existe pas.";
+            return Ok(TempData["Error"]);
+        }
+        try
+        {
+            i.ImportCsvToDatabase(_context, "rendement", fichier, Rendement.MapRendement);
+            return RedirectToAction("Importation");
+        }
+        catch (Exception ex)
+        {
+            string message = ex.Message;
+            return Ok(message);
+        }
     }
 
 }

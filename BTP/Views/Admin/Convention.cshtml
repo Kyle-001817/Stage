@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "_Layout";
+}
+<style>
+     body{color: black;}
+</style>
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 grid-margin stretch-card">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center mb-4">
+                                <h5 class="font-weight-bold text-primary"> <b> CONVENTION </b></h5>
+                            </div>
+                            <hr />
+                            <div class="mb-4">
+                                <p><strong class="text-uppercase text-secondary">MAITRE D'OUVRAGE:</strong> @ViewBag.proprietaire.Client</p>
+                                <p>Représentée par @ViewBag.proprietaire.Client</p>
+                            </div>
+                            <div class="mb-4">
+                                <p><strong class="text-uppercase text-secondary">OBJET:</strong> @ViewBag.bdq.Titre à @ViewBag.proprietaire.Lieu</p>
+                            </div>
+                            <div class="mb-4">
+                                <p><strong class="text-uppercase text-secondary">Montant Hors Taxe:</strong> Ar @ViewBag.montant.ToString("N2")</p>
+                                <p><strong class="text-uppercase text-secondary">TVA 20%:</strong> NON ASSUJETTI</p>
+                                <p><strong class="text-uppercase text-secondary">Montant TTC:</strong> Ar @ViewBag.montant.ToString("N2")</p>
+                                <p><strong class="text-uppercase text-secondary">Responsable d’Exécution:</strong> Représentée par Mr @ViewBag.user.Profil.Nom @ViewBag.user.Profil.Prenom</p>
+                                <p><strong class="text-uppercase text-secondary">Adresse:</strong> @ViewBag.user.Profil.Adresse</p>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                    <tbody>
+
+                                        <tr style="height: 50px;">
+                                            <td>Date de signature de la convention</td>
+                                            <td>02 Oct 2020</td>
+                                        </tr>
+                                        <tr style="height: 50px;">
+                                            <td>Date de l’Approbation</td>
+                                            <td>02 Oct 2020</td>
+                                        </tr>
+                                        <tr style="height: 50px;">
+                                            <td>Date de la notification</td>
+                                            <td>15 Oct 2020</td>
+                                        </tr>
+                                        <tr style="height: 50px;">
+                                            <td>Délai d’exécution</td>
+                                            <td>135 jours</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

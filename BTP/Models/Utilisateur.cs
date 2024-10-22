@@ -16,9 +16,11 @@ namespace BTP.Models
         [Column("mdp")]
         public string? Mdp { get; set; }
 
-        [ForeignKey("id_profil")]
+        [ForeignKey("IdProfil")]
+        public virtual Profil? Profil { get; set; }
+
         [Column("id_profil")]
-        public Profil? Profil { get; set; }
+        public string? IdProfil { get; set; }
 
         public Utilisateur? Login(string email, string mdp, K_Context co)
         {

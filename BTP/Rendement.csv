@@ -1,0 +1,127 @@
+﻿NUM PRIX;DESIGNATION DES TRAVAUX;UNITE;RENDEMENT HEURE/UNITE;RENDEMENT PAR UNITE/JOUR
+;I. TRAVAUX PREPARATOIRES;;;
+1.1;Installation de chantier;Fft; 8,00 ; 1,00   
+1.2;Repli de chantier;Fft; 8,00 ; 1,00   
+;;;;
+;II. TERRASSEMENT;;;
+2.1;Terrassement général de plateforme;Fft; 5,00 ; 1,60   
+2.2;Décapage et débroussaillage;m2;; 500,00   
+2.3;Fouille en rigole;m3;; 1,50   
+2.4;Remblai de terre;m3; 1,61 ; 4,97 
+;;;;
+;IV. OUVRAGES EN INFRASTRUCTURES;;;
+4.1;Béton de proprèté dosé à 200kg/m3;m3; 9,50 ; 0,84   
+4.2;Béton ordinaire dosé à 250kg/m3;m3; 9,50 ; 0,84   
+4.3;Béton armé dosé à 350kg/m3;m3; 9,50 ; 0,84   
+4.4;Coffrage en bois ordinaire;m2; 0,50 ; 16,00   
+4.5;Acier pour armature;kg; 0,07 ; 114,29   
+4.6;Hérissonnage en 40/70;m3; 4,00 ; 2,00   
+4.7;Maçonnerie de moellons;m3; 4,00 ; 2,00   
+;;;;
+;V. OUVRAGES EN SUPERSTRUCTURES;;;
+5.1;Plancher en béton armé;m2; 9,50 ; 0,84   
+;;;;
+;VI. MACONNERIE;;;
+;Maçonnerie de brique 35;m3; 6,37 ; 1,26   
+6.1;Maçonnerie de brique 22;m3; 6,37 ; 1,26   
+6.2;Maçonnerie de brique 11;m3; 6,37 ; 1,26   
+6.3;Enduit ordinaire dosé à 300kg/m3;m2; 1,27 ; 6,30   
+6.4;Enduit Beissier;m2;;
+6.5;Chape incorporée et bouchardée ép.2,5cm;m2; 0,40 ; 20,00   
+6.6;Revêtement mural aux carreaux de faïence;m2; 2,00 ; 4,00   
+;;;;
+;VII. CHARPENTE ET COUVERTURE;;;
+7.1;Charpente en  bois non assemblée;m3; 14,00 ; 0,57   
+7.2;Charpente assemblée pour ferme en bois;m3; 19,50 ; 0,41   
+7.3;Couverture en TOG;m2; 0,19 ; 42,11   
+7.4;Couverture en Galvabac;m2; 0,19 ; 42,11   
+7.5;Faitière en TPG;ml; 0,16 ; 50,00   
+7.6;Plafond en volige;m2; 1,00 ; 8,00   
+7.7;Descente d'eau pluviale;ml; 0,25 ; 32,00   
+7.8;Solin en TPG 60/100ème;ml; 0,25 ; 32,00   
+;;;;
+;VIII. MENUISERIE - QUINCAILLERIE;;;
+;Porte;;;
+8.1;Fourniture et pose de porte pleine à panneau d'ép.;m2; 3,10 ; 2,58   
+;2cm avec bati de 7x7 à simple feuillure y compris;;;
+;patte à scellement,paumelle140,serrure,targette  ;;;
+;à baionnette,chambranles de2x5 : dim 80x210;;;
+8.2;Fourniture et pose NACO 65x65;U; 4,50 ; 1,78   
+;Fenêtre;;;
+8.3;Fourniture et pose de chassis vitré à deux vantaux;m2; 4,60 ; 1,74   
+; avec bati de 7x7 à simple feuillure y compris;;;
+;patte à scellement,paumelle110,serrure,cremone,  ;;;
+;chambranles de2x5 : dim 150x115;;;
+8.4;Fourniture et pose grille de protection de toutes;U; 4,00 ; 2,00   
+;dimensions;;;
+8.5;Fourniture et pose garde corps;ml; 0,80 ; 10,00   
+;;;;
+;IX. PLOMBERIE SANITAIRE;;;
+9.1;Fourniture et pose de  WC à l'anglaise ;U;; 3,00   
+;avec accèssoires;;;
+9.2;Fourniture et pose de lavabo avec accèssoires  ;U;; 3,50   
+9.3;Fourniture et pose de  receveur de douche en;U;; 3,00   
+;céramiques avec accèssoires;;;
+9.4;Fourniture et pose d'evier simple avec accessoires ;U;; 1,65   
+9.5;Canalisation d'évacuation des eaux usées;Fft; 30,00 ; 0,27   
+9.6;Fourniture et pose des tuyaux d'évacuation galva;Fft; 30,00 ; 0,27   
+;20/27 y compris accèssoires;;;
+9.7;Fourniture et pose des tuyaux d'évacuation PVC;Fft; 30,00 ; 0,27   
+; y compris accèssoires;;;
+;;;;
+;X.  ELECTRICITE;;;
+10.1;Fourniture et pose compteur;U; 4,00 ; 2,00   
+10.2;Fourniture et pose de reglette 120 cm y compris;U; 1,82 ; 4,40   
+;les fils d'installation;;;
+10.3;Fourniture et pose de point lumineux y compris;U; 0,94 ; 8,51   
+;les fils d'installation et globe;;;
+10.4;Fourniture et pose des prises avec accèssoires;U; 2,00 ; 4,00   
+10.5;Fourniture et pose d'intérrupteur avec accèssoires;U; 0,57 ; 14,04   
+10.6;Fourniture et pose du paratonnerre avec réseau;U; 2,00 ; 4,00   
+;de mise à la terre;;;
+10.7;Fourniture et pose de projecteur y compris les fils;U; 0,25 ; 32,00   
+;d'installation;;;
+;;;;
+;XI.  PEINTURE ET VITRERIE;;;
+11.1;Badigeon à la chaux grasse appliqué en 2 couches;m2; 0,14 ; 57,14   
+11.2;Peinture vinylique intérieure appliquée en deux;m2; 0,55 ; 14,55   
+;couches y compris tous travaux préparatoire de ;;;
+;la surface à peindre;;;
+11.3;Peinture vinylique extérieure appliquée en deux;m2; 0,55 ; 14,55   
+;couches y compris tous travaux préparatoire de ;;;
+;la surface à peindre;;;
+11.4;Peinture glycérophtalique extérieure appliquée ;m2; 0,40 ; 20,00   
+;en deux couches y compris tous travaux  ;;;
+;préparatoire de la surface à peindre pour menuiserie ;;;
+;bois et métallique;;;
+11.5;Peinture glycérophtalique extérieure appliquée ;m2; 0,50 ; 16,00   
+;en deux couches y compris tous travaux  ;;;
+;préparatoire de la surface à peindre pour plafond ;;;
+;volige;;;
+11.6;Fourniture et pose vitre double (ép=4mm) posé;m2; 1,60 ; 5,00   
+;sous paraclose en bois soigneusement calfeutre;;;
+;pour naco et fençetre;;;
+;;;;
+;XII.  ASSAINISSEMENT;;;
+12.1;Regard en béton armé de dimension 60 x 60;U; 4,00 ; 2,00   
+;Puisard;U; 30,00 ; 0,27   
+12.2;Fosse septique pour 40 personnes;U; 30,00 ; 0,27   
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;XIII.  AMENAGEMENT EXTERIEUR;;;
+13.1;Jardin;m2; 4,00 ; 2,00   
+13.2;Bordure jardin;ml; 0,50 ; 16,00   
+13.3;Fourniture et pose des pierres plates;m2; 0,50 ; 16,00   
+13.4;Compteur eau;Fft; 30,00 ; 0,27   
+13.5;Portail métallique de 4,00 x 1,80 à deux vantaux,;U; 4,00 ; 2,00   
+;y compris fixation et toutes sujétions de mise ;;;
+;en oeuvre;;;
+;;;;
+;XIV.  EQUIPEMENT ANTI-INCENDIE;;;
+;Extincteur ural à poudre de capacité 20 kg;U; 0,50 ; 16,00   
+;;;;

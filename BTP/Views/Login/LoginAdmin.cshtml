@@ -1,5 +1,6 @@
 @{
   Layout = "_Layout_loginAdmin";
+    var extractedText = ViewBag.ExtractedText ?? "";
 }
 <div class="container-scroller">
     <div class="container-fluid page-body-wrapper full-page-wrapper">
@@ -51,8 +52,6 @@
                     <a asp-controller="Register" asp-action="F_Inscription" class="btn btn-outline-success btn-fw" style="margin-left: 50px; height: 50px; padding-top: 17px;">S'INSCRIRE</a>
                   </div>
                 </div>
-
-
                 <div class="text-center mt-4 font-weight-light">
                   <a asp-controller="Register" asp-action="ForgetPass" class="text-primary"> Mot de passe oublié? </a>
                 </div>
@@ -79,3 +78,30 @@
       </div>
     </div>
   </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Ajout de l'événement click sur chaque span
+        var clickableNumbers = document.querySelectorAll('.clickable-number');
+        clickableNumbers.forEach(function (span) {
+            span.addEventListener('click', function () {
+                var number = this.textContent.trim();
+                console.log('Chiffre cliqué: ' + number);
+                alert('Chiffre récupéré : ' + number); // Affiche une alerte avec le chiffre cliqué
+            });
+        });
+    });
+</script>
+
+@functions {
+    // Méthode pour entourer chaque chiffre dans le texte avec un span cliquable
+    public string TransformTextToClickable(string text)
+    {
+        // RegEx pour trouver les nombres dans le texte
+        var regex = new System.Text.RegularExpressions.Regex(@"\b\d+(\.\d+)?\b");
+
+        // Remplacer chaque chiffre par un span HTML cliquable
+        string transformedText = regex.Replace(text, match => $"<span class='clickable-number'>{match.Value}</span>");
+        return transformedText;
+    }
+}
