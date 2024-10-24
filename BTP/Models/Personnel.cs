@@ -14,11 +14,14 @@ namespace BTP.Models
         [Column("rendement")]
         public double? Rendement { get; set; }
 
-        [Column("jour_travail")]
-        public int Jour_travail { get; set; }
+        [Column("nb_main_oeuvre")]
+        public int Nb_main_oeuvre { get; set; }
 
-        [Column("personnel")]
-        public string? Personnels { get; set; }
+        [ForeignKey("IdService")]
+        public virtual Service? Service { get; set; }
+
+        [Column("id_service")]
+        public string? IdService { get; set; }
 
         [Column("heure_travail")]
         public double? Heure_travail { get; set; }

@@ -116,15 +116,21 @@ CREATE TABLE rendement(
 	heure_unite numeric(15,2),
 	unite_jour numeric(15,2)
 );
+CREATE SEQUENCE service_seq;
+CREATE TABLE Service(
+   Id_service VARCHAR(20) PRIMARY KEY DEFAULT CONCAT('SERVICE', LPAD(nextval('service_seq')::TEXT, 3, '0')),
+   Nom VARCHAR(250) 
+);
 CREATE SEQUENCE perso_seq;
 CREATE TABLE Personnel(
    id_personnel VARCHAR(50)  PRIMARY KEY DEFAULT CONCAT('PERSO', LPAD(nextval('perso_seq')::TEXT, 3, '0')),
-   rendement NUMERIC(15,2)  ,
-   jour_travail INTEGER,
-   personnel VARCHAR(250) ,
+   rendement NUMERIC(15,2),
+   nb_main_oeuvre INTEGER,
+   Id_service VARCHAR(50)  NOT NULL,
    heure_travail NUMERIC(15,2)  ,
    salaire_par_heure NUMERIC(15,2)  ,
    id_detail_dbq VARCHAR(50)  NOT NULL,
+   FOREIGN KEY(Id_service) REFERENCES Service(Id_service),
    FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
 );
 

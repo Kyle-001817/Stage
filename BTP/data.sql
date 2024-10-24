@@ -11,6 +11,10 @@ INSERT INTO unite(nom) VALUES ('L');
 INSERT INTO unite(nom) VALUES ('Fft');
 INSERT INTO unite(nom) VALUES ('m2');
 
+INSERT INTO service(nom) VALUES ('Main d''oeuvre');
+INSERT INTO service(nom) VALUES ('Maitre de chantier');
+INSERT INTO service(nom) VALUES ('Chef d''equipe');
+
 CREATE VIEW v_bdq AS
 SELECT 
     dbq.id_detail_dbq,
@@ -48,3 +52,35 @@ select
     (detail_bde.prix_unitaire * detail_bdq.quantite) as montant 
 from detail_bde 
 join detail_bdq on detail_bdq.id_detail_dbq = detail_bde.id_detail_dbq;
+
+CREATE VIEW v_salaire_personnel as
+WITH JourExecutionService001 AS (
+    SELECT 
+        detail_bdq.id_detail_dbq, 
+        CEIL((detail_bdq.quantite / personnel.rendement) / personnel.nb_main_oeuvre) AS jour_execution_service001
+    FROM 
+        personnel 
+    JOIN 
+        detail_bdq 
+    ON 
+        detail_bdq.id_detail_dbq = personnel.id_detail_dbq
+    WHERE 
+        personnel.id_service = 'SERVICE001'
+)
+SELECT 
+    personnel.*, 
+    detail_bdq.quantite AS quantite,
+    COALESCE(jour_execution_service001.jour_execution_service001, CEIL((detail_bdq.quantite / personnel.rendement) / personnel.nb_main_oeuvre)) AS jour_execution,
+    ((personnel.salaire_par_heure * personnel.heure_travail) * personnel.nb_main_oeuvre) * COALESCE(jour_execution_service001.jour_execution_service001, CEIL((detail_bdq.quantite / personnel.rendement) / personnel.nb_main_oeuvre)) AS salaire_personnel
+FROM 
+    personnel 
+JOIN 
+    detail_bdq 
+ON 
+    detail_bdq.id_detail_dbq = personnel.id_detail_dbq
+LEFT JOIN 
+    JourExecutionService001 AS jour_execution_service001 
+ON 
+    detail_bdq.id_detail_dbq = jour_execution_service001.id_detail_dbq;
+
+

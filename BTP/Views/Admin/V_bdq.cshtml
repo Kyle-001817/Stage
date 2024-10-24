@@ -97,10 +97,21 @@
                                         <td colspan="8" class="text-center">Aucun Détail trouvé.</td>
                                     </tr>
                                 }
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-primary mx-2" asp-controller="Admin" asp-action="F_bde" style="font-weight:bold; text-transform:uppercase;">
+                                    Generer un BDE
+                                </a>
+                                <a class="btn btn-secondary mx-2" asp-controller="Admin" asp-action="BDE" style="font-weight:bold; text-transform:uppercase;">
+                                    Voir BDE
+                                </a>
+                                <a class="btn btn-info mx-2" asp-controller="Admin" asp-action="F_personnel" style="font-weight:bold; text-transform:uppercase;">
+                                    Salaire des personnels
+                                </a>
+                                <hr />
                             </div>
-                            <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" asp-controller="Admin" asp-action="F_bde">Generer un BDE</a>
+                            </div>
+
                         </div>
-                            <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" asp-controller="Admin" asp-action="BDE">Voir BDE</a>
                     </div>
                 </div>
             </div>

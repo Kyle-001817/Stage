@@ -221,11 +221,6 @@ public class AdminController : Controller
         return View();
     }
 
-
-
-
-
-
     public IActionResult F_serie_Typebordereau()
     {
         ViewData["type_bordereau"] = _context.TypeBordereau.ToList();
@@ -517,11 +512,13 @@ public class AdminController : Controller
     }
     public IActionResult F_personnel()
     {
-        ViewData["details"] = _context.DetailBdq.ToList();
+        string? idBdq = HttpContext.Session.GetString("id_bdq");
+        ViewData["service"] = _context.Service.ToList();
+        ViewData["details"] = _context.DetailBdq.Where(d => d.IdBdq == idBdq).ToList();
         ViewData["rendement"] = _context.Rendement.ToList();
         return View();
     }
-    public IActionResult InsertPersonnel(string designation, double rendement, int jour_travail, string[] personnel, double[] heure_travail, double[] salaire_par_heure)
+    public IActionResult InsertPersonnel(string designation, double rendement, int[] nb_main_oeuvre, string[] personnel, string[] heure_travail, string[] salaire_par_heure)
     {
         for (int i = 0; i < personnel.Length; i++)
         {
@@ -529,10 +526,10 @@ public class AdminController : Controller
             {
                 IdDetailBdq = designation,
                 Rendement = rendement,
-                Jour_travail = jour_travail,
-                Personnels = personnel[i],
-                Heure_travail = heure_travail[i],
-                Salaire_parHeure = salaire_par_heure[i]
+                Nb_main_oeuvre = nb_main_oeuvre[i],
+                IdService = personnel[i],
+                Heure_travail = double.Parse(heure_travail[i].Replace(",", "."), CultureInfo.InvariantCulture),
+                Salaire_parHeure = double.Parse(salaire_par_heure[i].Replace(",", "."), CultureInfo.InvariantCulture)
             };
 
             _context.Personnel.Add(personnels);

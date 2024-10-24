@@ -2,6 +2,7 @@
     Layout = "_Layout";
     var details = ViewData["details"] as List<DetailBdq>;
     var rendement = ViewData["rendement"] as List<Rendement>;
+    var service = ViewData["service"] as List<Service>;
 }
 <div class="container-scroller">
     <div class="main-panel">
@@ -38,25 +39,32 @@
                                                     </select>
                                                 </div>
                                             }
-                                            <div class="col-md-12">
-                                                <label for="inputPersonnel" class="form-label">Jour de travail</label>
-                                                <input type="text" name="jour_travail" class="form-control" required>
-                                                <div class="invalid-feedback">Remplir s'il vous plait</div>
-                                            </div>
                                         </div>
                                         <div id="form-container">
                                             <div class="form-group row">
-                                                <div class="col-md-4">
-                                                    <label for="inputPersonnel" class="form-label">Personnel</label>
-                                                    <input type="text" name="personnel[]" class="form-control" required>
+                                                @if (service != null)
+                                                {
+                                                    <div class="col-md-3">
+                                                        <label for="inputPersonnel" class="form-label">Service</label>
+                                                        <select class="js-example-basic-single w-100" name="personnel[]">
+                                                            @foreach (var i in service)
+                                                            {
+                                                                <option value="@i.IdService">@i.Nom</option>
+                                                            }
+                                                        </select>
+                                                    </div>
+                                                }
+                                                <div class="col-md-3">
+                                                    <label for="inputPersonnel" class="form-label">Nb de personnel</label>
+                                                    <input type="text" name="nb_main_oeuvre" class="form-control" required>
                                                     <div class="invalid-feedback">Remplir s'il vous plait</div>
                                                 </div>
-                                                <div class="col-md-4">
+                                                <div class="col-md-3">
                                                     <label for="inputHeureTravail" class="form-label" lang="en" inputmode="decimal">Heure de travail par jour</label>
                                                     <input type="text" name="heure_travail[]" class="form-control" required>
                                                     <div class="invalid-feedback">Remplir s'il vous plait</div>
                                                 </div>
-                                                <div class="col-md-4">
+                                                <div class="col-md-3">
                                                     <label for="inputSalaireParHeure" class="form-label">Salaire par heure</label>
                                                     <input type="text" name="salaire_par_heure[]" class="form-control" required>
                                                     <div class="invalid-feedback">Remplir s'il vous plait</div>
@@ -89,24 +97,36 @@
         const newGroup = document.createElement("div");
         newGroup.className = "form-group row";
         newGroup.innerHTML = `
-            <div class="col-md-4">
-                <label class="form-label">Personnel</label>
-                <input type="text" name="personnel[]" class="form-control" required>
-                <div class="invalid-feedback">Remplir s'il vous plait</div>
-            </div>
-            <div class="col-md-4">
-                <label class="form-label">Heure de travail par jour</label>
-                <input type="text" name="heure_travail[]" class="form-control" required>
-                <div class="invalid-feedback">Remplir s'il vous plait</div>
-            </div>
-            <div class="col-md-4">
-                <label class="form-label">Salaire par heure</label>
-                <input type="text" name="salaire_par_heure[]" class="form-control" required>
-                <div class="invalid-feedback">Remplir s'il vous plait</div>
-            </div>
-            <div class="col-md-12 text-end mt-2">
-                <button type="button" class="btn btn-danger" onclick="supprimerChamps(this)">SUPPRIMER</button>
-            </div>
+                @if (service != null)
+                {
+                <div class="col-md-3">
+                    <label for="inputPersonnel" class="form-label">Service</label>
+                    <select class="js-example-basic-single w-100" name="personnel[]">
+                    @foreach (var i in service)
+                    {
+                        <option value="@i.IdService">@i.Nom</option>
+                    }
+                    </select>
+                </div>
+                }
+                <div class="col-md-3">
+                    <label for="inputPersonnel" class="form-label">Nb de personnel</label>
+                    <input type="text" name="nb_main_oeuvre" class="form-control" required>
+                    <div class="invalid-feedback">Remplir s'il vous plait</div>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputHeureTravail" class="form-label" lang="en" inputmode="decimal">Heure de travail par jour</label>
+                    <input type="text" name="heure_travail[]" class="form-control" required>
+                    <div class="invalid-feedback">Remplir s'il vous plait</div>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputSalaireParHeure" class="form-label">Salaire par heure</label>
+                    <input type="text" name="salaire_par_heure[]" class="form-control" required>
+                    <div class="invalid-feedback">Remplir s'il vous plait</div>
+                </div>
+                <div class="col-md-12 text-end mt-2">
+                    <button type="button" class="btn btn-danger" onclick="supprimerChamps(this)">SUPPRIMER</button>
+                </div>
         `;
 
         formContainer.appendChild(newGroup);
