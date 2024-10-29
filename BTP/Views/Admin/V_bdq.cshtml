@@ -17,20 +17,19 @@
                                 {
                                     foreach (var group in Model)
                                     {
-                                        <hr />
+                                        <hr class="my-3" />
                                         <center>
                                             <h5 class="text-primary">@group.SerieTravaux.Nom</h5>
                                         </center>
-                                        <hr />
-                                        <table class="table table-hover table-bordered">
+                                        <table class="table table-hover table-bordered mt-2">
                                             <thead class="thead-light">
                                                 <tr>
                                                     <th>Designation des travaux</th>
-                                                    <th>Unite</th>
-                                                    <th>Quantite</th>
-                                                    <th>Materiaux</th>
-                                                    <th>Unite</th>
-                                                    <th>Quantite</th>
+                                                    <th>Unité</th>
+                                                    <th>Quantité</th>
+                                                    <th>Matériaux</th>
+                                                    <th>Unité</th>
+                                                    <th>Quantité</th>
                                                     <th>PU (Ar)</th>
                                                     <th>Montant</th>
                                                 </tr>
@@ -38,79 +37,90 @@
                                             <tbody>
                                                 @foreach (var item in group.Bdqs)
                                                 {
-                                                    <tr style="height: 50px">
+                                                    <tr>
                                                         <td>@item.Designation</td>
                                                         <td class="text-center">@item.NomUniteBdq</td>
                                                         <td class="text-center">@item.QuantiteBdq</td>
                                                         <td style="width:250px">
                                                             @foreach (var mat in item.NomMateriaux)
                                                             {
-                                                                <div style="border-bottom: 1px solid #ccc; padding: 5px;">@mat</div>
+                                                                <div class="py-1 border-bottom">@mat</div>
                                                             }
                                                         </td>
-
                                                         <td class="text-center">
                                                             @foreach (var unit in item.NomUniteMateriaux)
                                                             {
-                                                                <div style="border-bottom: 1px solid #ccc; padding: 5px;">@unit</div>
+                                                                <div class="py-1 border-bottom">@unit</div>
                                                             }
                                                         </td>
                                                         <td class="text-center">
                                                             @foreach (var quant in item.QuantiteMateriaux)
                                                             {
-                                                                <div style="border-bottom: 1px solid #ccc; padding: 5px;">@(quant.HasValue ? quant.Value.ToString("N2") : "N/A")</div>
+                                                                <div class="py-1 border-bottom">@quant?.ToString("N2")</div>
                                                             }
                                                         </td>
                                                         <td class="text-center">
                                                             @foreach (var price in item.PrixUnitaire)
                                                             {
-                                                                <div style="border-bottom: 1px solid #ccc; padding: 5px;">@(price.HasValue ? price.Value.ToString("N2") : "N/A")</div>
+                                                                <div class="py-1 border-bottom">@price?.ToString("N2")</div>
                                                             }
                                                         </td>
                                                         <td class="text-center">
                                                             @foreach (var amount in item.Montant)
                                                             {
-                                                                <div style="border-bottom: 1px solid #ccc; padding: 5px;">@(amount.HasValue ? amount.Value.ToString("N2") : "N/A")</div>
+                                                                <div class="py-1 border-bottom">@amount?.ToString("N2")</div>
                                                             }
                                                         </td>
                                                     </tr>
                                                 }
                                                 <tr class="font-weight-bold bg-light">
-                                                    <td colspan="6" class="text-right" style="font-family:Airborne; background-color: cornflowerblue; color:white;">Sous Total @group.SerieTravaux.Nom</td>
-                                                    <td colspan="2" class="text-right" style="font-family:Airborne; background-color: cornflowerblue; color:white;">
-                                                        @(group.SousTotal.HasValue ? group.SousTotal.Value.ToString("N2") : "N/A")
-                                                    </td>
+                                                    <td colspan="6" class="text-right bg-primary text-white">Sous Total @group.SerieTravaux.Nom</td>
+                                                    <td colspan="2" class="text-right bg-primary text-white">@group.SousTotal?.ToString("N2")</td>
                                                 </tr>
-                                                @if (!group.Bdqs.Any())
-                                                {
-                                                    <tr>
-                                                        <td colspan="8" class="text-center">Aucun détail trouvé pour cet ID.</td>
-                                                    </tr>
-                                                }
                                             </tbody>
                                         </table>
                                     }
                                 }
                                 else
                                 {
-                                    <tr>
-                                        <td colspan="8" class="text-center">Aucun Détail trouvé.</td>
-                                    </tr>
+                                    <div class="text-center py-4">Aucun Détail trouvé.</div>
                                 }
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-primary mx-2" asp-controller="Admin" asp-action="F_bde" style="font-weight:bold; text-transform:uppercase;">
-                                    Generer un BDE
-                                </a>
-                                <a class="btn btn-secondary mx-2" asp-controller="Admin" asp-action="BDE" style="font-weight:bold; text-transform:uppercase;">
-                                    Voir BDE
-                                </a>
-                                <a class="btn btn-info mx-2" asp-controller="Admin" asp-action="F_personnel" style="font-weight:bold; text-transform:uppercase;">
-                                    Salaire des personnels
-                                </a>
-                                <hr />
-                            </div>
-                            </div>
 
+                                <div class="d-flex justify-content-center mt-4">
+                                    <a class="btn btn-primary mx-2 font-weight-bold text-uppercase" asp-controller="Admin" asp-action="F_bde">
+                                        Générer un BDE
+                                    </a>
+                                    <a class="btn btn-secondary mx-2 font-weight-bold text-uppercase" asp-controller="Admin" asp-action="BDE">
+                                        Voir BDE
+                                    </a>
+                                    <a class="btn btn-info mx-2 font-weight-bold text-uppercase" asp-controller="Admin" asp-action="F_personnel">
+                                        Salaire des personnels
+                                    </a>
+                                </div>
+
+                                <hr class="my-4" />
+                                <center><h5 class="text-uppercase font-weight-bold">Récapitulatif</h5></center>
+                                <hr class="my-2" />
+
+                                @if (Model != null && Model.Any())
+                                {
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            @foreach (var group in Model)
+                                            {
+                                                <tr>
+                                                    <td style="width:500px"><h6 class="text-primary">@group.SerieTravaux.Nom</h6></td>
+                                                    <td style="text-align:right; font-size:x-large;" class="text-right font-weight-bold">@group.SousTotal?.ToString("N0") </td>
+                                                </tr>
+                                            }
+                                            <tr class="bg-primary text-white">
+                                                <td><h5 class="text-uppercase">Total Général</h5></td>
+                                                <td style="text-align:right; font-size:x-large;" class="text-right font-weight-bold">@ViewBag.Total?.ToString("N0") Ariary</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>

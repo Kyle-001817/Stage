@@ -57,8 +57,27 @@
                                         </table>
                                     }
                                 }
-                                <hr />
-                                <h1 style="text-align: right;" class="font-weight-bold">Total: @ViewBag.Total.ToString("N2")</h1>
+                                <hr class="my-4" />
+                                <center><h5 class="text-uppercase font-weight-bold">Récapitulatif</h5></center>
+                                <hr class="my-4" />
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        @if (groupedBde != null && subtotals != null)
+                                        {
+                                            @foreach (var group in groupedBde)
+                                            {
+                                                <tr>
+                                                    <td>@group.Key?.Nom</td>
+                                                    <td style="text-align:right; font-size:x-large;" class="text-right font-weight-bold">@subtotals[group.Key].ToString("N0")</td>
+                                                </tr>
+                                            }
+                                        }
+                                        <tr class="bg-primary text-white">
+                                            <td><h5 class="text-uppercase">Total Général</h5></td>
+                                            <td style="text-align:right; font-size:x-large;" class="text-right font-weight-bold">@ViewBag.Total?.ToString("N0") Ariary</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>

@@ -145,8 +145,10 @@ public class AdminController : Controller
                 SousTotal = g.Sum(b => b.Montant)
             })
             .ToList();
+        var total = groupedBdq.Sum(g => g.SousTotal);
         ViewBag.Bdq = _context.Bdq.Find(idBdq) ?? new Bdq();
         ViewData["groupedBdq"] = groupedBdq;
+        ViewBag.Total = total;
         return View(groupedBdq);
     }
     public IActionResult F_bde()
@@ -564,6 +566,7 @@ public class AdminController : Controller
             ViewData["rendement"] = _context.Rendement.ToList();
             ViewData["v_salaire_personnel"] = _context.V_SalairePersonnel
             .Where(p => p.IdDetailBdq == selectedIdDetailBdq)
+            .Include(p=> p.Service)
             .ToList();
             return View("F_personnel");
         }

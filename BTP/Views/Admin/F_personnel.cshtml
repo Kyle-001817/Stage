@@ -95,19 +95,20 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @if (v_salaire_personnel != null)
-                                            {
-                                                @foreach (var item in v_salaire_personnel)
+                                        <tbody>
+                                                @if (v_salaire_personnel != null)
                                                 {
+                                                    @foreach (var item in v_salaire_personnel)
+                                                    {
                                                     <tr>
-                                                        <td>@item.Service?.Nom</td>
+                                                        <td>@(item.Service?.Nom ?? "N/A")</td>
                                                         <td>@item.Nb_main_oeuvre</td>
                                                         <td>@item.Heure_travail</td>
                                                         <td>@item.Salaire_parHeure</td>
                                                         <td>@item.Rendement</td>
                                                         <td>@item.Quantite</td>
                                                         <td>@item.Jour_execution jour(s)</td>
-                                                        <td>@item.Salaire.Value.ToString("N0")</td>
+                                                        <td>@(item.Salaire.HasValue ? item.Salaire.Value.ToString("N0") : "N/A")</td>
                                                         <td>
                                                             <div class="btn-group">
                                                                 <a class="btn btn-outline-danger" asp-controller="Admin" asp-action="Suppresion_personnel" asp-route-idPersonnel="@item.IdPersonnel">
@@ -119,8 +120,10 @@
                                                             </div>
                                                         </td>
                                                     </tr>
+                                                    }
                                                 }
-                                            }
+                                        </tbody>
+
                                         </tbody>
                                     </table>
                                 </div>
