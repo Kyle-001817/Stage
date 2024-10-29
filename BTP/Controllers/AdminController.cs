@@ -364,18 +364,14 @@ public class AdminController : Controller
         _context.Materiel.Add(mtrx);
         _context.SaveChanges();
 
-        // Charger la liste des unités
         ViewData["unite"] = _context.Unite.ToList();
-
-        // Marquer que le second modal doit rester ouvert
         TempData["ShowSecondModal"] = true;
-
-        // Redirection vers l'action Materiaux pour éviter la répétition de l'insertion sur actualisation
         return RedirectToAction("Materiaux", new { idBdq = idBdq });
     }
 
     public IActionResult Suppression(string id)
     {
+        Console.WriteLine("ID" + id);
         var materiel = _context.Materiel.Find(id);
         if (materiel != null)
         {
@@ -513,13 +509,24 @@ public class AdminController : Controller
     public IActionResult F_personnel()
     {
         string? idBdq = HttpContext.Session.GetString("id_bdq");
+        string? selectedIdDetailBdq = HttpContext.Session.GetString("SelectedIdDetailBdq");
+
         ViewData["service"] = _context.Service.ToList();
         ViewData["details"] = _context.DetailBdq.Where(d => d.IdBdq == idBdq).ToList();
         ViewData["rendement"] = _context.Rendement.ToList();
+        if (!string.IsNullOrEmpty(selectedIdDetailBdq))
+        {
+            ViewData["v_salaire_personnel"] = _context.V_SalairePersonnel
+            .Where(p => p.IdDetailBdq == selectedIdDetailBdq)
+            .Include(p => p.Service)
+            .ToList();
+        }
         return View();
     }
     public IActionResult InsertPersonnel(string designation, double rendement, int[] nb_main_oeuvre, string[] personnel, string[] heure_travail, string[] salaire_par_heure)
     {
+        HttpContext.Session.SetString("SelectedIdDetailBdq", designation);
+        bool exists = false;
         for (int i = 0; i < personnel.Length; i++)
         {
             Personnel personnels = new()
@@ -533,9 +540,71 @@ public class AdminController : Controller
             };
 
             _context.Personnel.Add(personnels);
+
+            exists = _context.V_SalairePersonnel
+            .Any(st => st.IdDetailBdq == designation);
+        }
+
+        if (exists)
+        {
+            ModelState.AddModelError(string.Empty, "Il y a deja un salaire pour ca.");
+            string? idBdq = HttpContext.Session.GetString("id_bdq");
+            string? selectedIdDetailBdq = HttpContext.Session.GetString("SelectedIdDetailBdq");
+
+            ViewData["service"] = _context.Service.ToList();
+            ViewData["details"] = _context.DetailBdq.Where(d => d.IdBdq == idBdq).ToList();
+            ViewData["rendement"] = _context.Rendement.ToList();
+            ViewData["v_salaire_personnel"] = _context.V_SalairePersonnel
+            .Where(p => p.IdDetailBdq == selectedIdDetailBdq)
+            .ToList();
+            return View("F_personnel");
         }
 
         _context.SaveChanges();
+        return RedirectToAction(nameof(F_personnel));
+    }
+    public IActionResult Suppresion_personnel(string idPersonnel)
+    {
+        var perso = _context.Personnel.Find(idPersonnel);
+        if (perso != null)
+        {
+            _context.Personnel.Remove(perso);
+            _context.SaveChanges();
+        }
+        return RedirectToAction(nameof(F_personnel));
+    }
+    public IActionResult PageModif_perso(string idPersonnel) 
+    {
+        var personnel = _context.Personnel.Find(idPersonnel);
+        if (personnel == null)
+        {
+            return NotFound();
+        }
+        string? idBdq = HttpContext.Session.GetString("id_bdq");
+
+        ViewData["service"] = _context.Service.ToList();
+        ViewData["details"] = _context.DetailBdq.Where(d => d.IdBdq == idBdq).ToList();
+        ViewData["rendement"] = _context.Rendement.ToList();
+        ViewData["personnel"] = personnel;
+        HttpContext.Session.SetString("id", idPersonnel);
+        return View();
+    }
+    public IActionResult Modification_personnel(string designation,double rendement,string personnel, int nb_main_oeuvre,double heure_travail,double salaire_par_heure) {
+        string? id = HttpContext.Session.GetString("id");
+        Personnel? perso = _context.Personnel.Find(id);
+        Console.WriteLine("AKORYYYY" + id);
+        if(perso != null)
+        {
+            perso.IdDetailBdq = designation;
+            perso.Rendement = rendement;
+            perso.Nb_main_oeuvre = nb_main_oeuvre;
+            perso.IdService = personnel;
+            perso.Heure_travail = heure_travail;
+            perso.Salaire_parHeure = salaire_par_heure;
+
+            _context.Personnel.Update(perso);
+            _context.SaveChanges();
+        };
         return RedirectToAction(nameof(F_personnel));
     }
 

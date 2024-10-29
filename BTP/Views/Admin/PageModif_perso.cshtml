@@ -1,0 +1,107 @@
+﻿@{
+    var personnel = ViewData["personnel"] as Personnel;
+    var service = ViewData["service"] as List<Service>;
+    var details = ViewData["details"] as List<DetailBdq>;
+    var rendement = ViewData["rendement"] as List<Rendement>;
+}
+
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+                        <form class="forms-sample" asp-controller="Admin" asp-action="Modification_personnel" method="post" novalidate enctype="multipart/form-data">
+                            <div class="card-body">
+                            @if (personnel != null)
+                            {
+                            <div class="form-group row">
+                                @if (details != null)
+                                {
+                                    <label class="col-sm-2 col-form-label">Designation: </label>
+                                    <div class="col-sm-4">
+                                        <select class="js-example-basic-single w-100" name="designation">
+                                            @foreach (var i in details)
+                                            {
+                                                if (i.IdDetailBdq == personnel.IdDetailBdq)
+                                                {
+                                                    <option value="@i.IdDetailBdq" selected>@i.Designation</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="@i.IdDetailBdq">@i.Designation</option>
+                                                }
+                                            }
+                                        </select>
+
+                                    </div>
+                                }
+                                @if (rendement != null)
+                                {
+                                    <label class="col-sm-2 col-form-label">Rendement: </label>
+                                    <div class="col-sm-4">
+                                                <select class="js-example-basic-single w-100" name="rendement">
+                                                    @foreach (var i in rendement)
+                                                    {
+                                                        if (i.Unite_Jour == personnel.Rendement)
+                                                        {
+                                                            <option value="@i.Unite_Jour" selected>@i.Designation</option>
+                                                        }
+                                                        else
+                                                        {
+                                                            <option value="@i.Unite_Jour">@i.Designation</option>
+                                                        }
+                                                    }
+                                                </select>
+                                    </div>
+                                }
+                            </div>
+                            <div id="form-container">
+                                <div class="form-group row">
+                                    @if (service != null)
+                                    {
+                                        <div class="col-md-3">
+                                            <label for="inputPersonnel" class="form-label">Service</label>
+                                                <select class="js-example-basic-single w-100" name="personnel">
+                                                    @foreach (var i in service)
+                                                    {
+                                                        if (i.IdService == personnel.IdService)
+                                                        {
+                                                            <option value="@i.IdService" selected>@i.Nom</option>
+                                                        }
+                                                        else
+                                                        {
+                                                            <option value="@i.IdService">@i.Nom</option>
+                                                        }
+                                                    }
+                                                </select>
+                                        </div>
+                                    }
+                                    <div class="col-md-3">
+                                        <label for="inputPersonnel" class="form-label">Nb de personnel</label>
+                                        <input type="text" name="nb_main_oeuvre" class="form-control" value="@personnel.Nb_main_oeuvre" required>
+                                        <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputHeureTravail" class="form-label" lang="en" inputmode="decimal">Heure de travail par jour</label>
+                                        <input type="text" name="heure_travail" class="form-control" value="@personnel.Heure_travail" required>
+                                        <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="inputSalaireParHeure" class="form-label">Salaire par heure</label>
+                                        <input type="text" name="salaire_par_heure" class="form-control" value="@personnel.Salaire_parHeure" required>
+                                        <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                    </div>
+                                </div>
+                                    <button type="submit" class="btn btn-primary me-2 mt-3">VALIDER</button>
+                            </div>
+                            }
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

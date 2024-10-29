@@ -25,6 +25,7 @@ public class K_Context : DbContext
         public DbSet<Rendement> Rendement { get; set; }
         public DbSet<Personnel> Personnel { get; set; }
         public DbSet<Service> Service { get; set; }
+        public DbSet<V_SalairePersonnel> V_SalairePersonnel { get; set; }
 
     public void ResetDatabase(K_Context context)
         {
@@ -50,7 +51,11 @@ public class K_Context : DbContext
 
         modelBuilder.Entity<V_bde>()
             .HasNoKey();
+
         modelBuilder.Entity<Rendement>()
+            .HasNoKey();
+
+        modelBuilder.Entity<V_SalairePersonnel>()
             .HasNoKey();
 
         base.OnModelCreating(modelBuilder);

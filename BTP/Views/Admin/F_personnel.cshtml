@@ -3,144 +3,132 @@
     var details = ViewData["details"] as List<DetailBdq>;
     var rendement = ViewData["rendement"] as List<Rendement>;
     var service = ViewData["service"] as List<Service>;
+    var v_salaire_personnel = ViewData["v_salaire_personnel"] as List<V_SalairePersonnel>;
+    var personnel = ViewData["personnel"] as Personnel;
 }
 <div class="container-scroller">
     <div class="main-panel">
         <div class="content-wrapper">
             <div class="row">
                 <div class="col-lg-12 grid-margin stretch-card">
-                    <div class="col-lg-12 grid-margin stretch-card">
-                        <div class="col-md-12 grid-margin grid-margin-md-0 stretch-card">
-                            <div class="card">
-                                <form class="forms-sample" asp-controller="Admin" asp-action="InsertPersonnel" method="post" novalidate enctype="multipart/form-data">
-                                    <div class="card-body">
-                                        <div class="form-group row">
-                                            @if(details != null)
-                                            {
-                                                <label class="col-sm-2 col-form-label">Designation: </label>
-                                                <div class="col-sm-4">
-                                                    <select class="js-example-basic-single w-100" name="designation">
-                                                        @foreach (var i in details)
-                                                        {
-                                                            <option value="@i.IdDetailBdq">@i.Designation</option>
-                                                        }
-                                                    </select>
-                                                </div>
-                                            }
-                                            @if (rendement != null)
-                                            {
-                                                <label class="col-sm-2 col-form-label">Rendement: </label>
-                                                <div class="col-sm-4">
-                                                    <select class="js-example-basic-single w-100" name="rendement">
-                                                        @foreach (var i in rendement)
-                                                        {
-                                                            <option value="@i.Unite_Jour">@i.Designation</option>
-                                                        }
-                                                    </select>
-                                                </div>
-                                            }
-                                        </div>
-                                        <div id="form-container">
-                                            <div class="form-group row">
-                                                @if (service != null)
+                    <div class="card">
+                        <form class="forms-sample" asp-controller="Admin" asp-action="InsertPersonnel" method="post" novalidate enctype="multipart/form-data">
+                            <div class="card-body">
+                                <div class="form-group row">
+                                    @Html.ValidationSummary(true, "", new { @class = "form-group custom-validation-summary" })
+                                    @if(details != null)
+                                    {
+                                        <label class="col-sm-2 col-form-label">Designation: </label>
+                                        <div class="col-sm-4">
+                                            <select class="js-example-basic-single w-100" name="designation">
+                                                @foreach (var i in details)
                                                 {
-                                                    <div class="col-md-3">
-                                                        <label for="inputPersonnel" class="form-label">Service</label>
-                                                        <select class="js-example-basic-single w-100" name="personnel[]">
-                                                            @foreach (var i in service)
-                                                            {
-                                                                <option value="@i.IdService">@i.Nom</option>
-                                                            }
-                                                        </select>
-                                                    </div>
+                                                    <option value="@i.IdDetailBdq">@i.Designation</option>
                                                 }
-                                                <div class="col-md-3">
-                                                    <label for="inputPersonnel" class="form-label">Nb de personnel</label>
-                                                    <input type="text" name="nb_main_oeuvre" class="form-control" required>
-                                                    <div class="invalid-feedback">Remplir s'il vous plait</div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <label for="inputHeureTravail" class="form-label" lang="en" inputmode="decimal">Heure de travail par jour</label>
-                                                    <input type="text" name="heure_travail[]" class="form-control" required>
-                                                    <div class="invalid-feedback">Remplir s'il vous plait</div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <label for="inputSalaireParHeure" class="form-label">Salaire par heure</label>
-                                                    <input type="text" name="salaire_par_heure[]" class="form-control" required>
-                                                    <div class="invalid-feedback">Remplir s'il vous plait</div>
-                                                </div>
-                                                <div class="col-md-12 text-end mt-2">
-                                                    <button type="button" class="btn btn-danger" onclick="supprimerChamps(this)">SUPPRIMER</button>
-                                                </div>
-                                            </div>
+                                            </select>
                                         </div>
-
-                                        <button type="button" class="btn btn-secondary mt-3" onclick="ajouterChamps()">AJOUTER</button>
-                                        <button type="submit" class="btn btn-primary me-2 mt-3">VALIDER</button>
+                                    }
+                                    @if (rendement != null)
+                                    {
+                                        <label class="col-sm-2 col-form-label">Rendement: </label>
+                                        <div class="col-sm-4">
+                                            <select class="js-example-basic-single w-100" name="rendement">
+                                                @foreach (var i in rendement)
+                                                {
+                                                    <option value="@i.Unite_Jour">@i.Designation</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    }
+                                </div>
+                                <div id="form-container">
+                                    <div class="form-group row">
+                                        @if (service != null)
+                                        {
+                                            <div class="col-md-3">
+                                                <label for="inputPersonnel" class="form-label">Service</label>
+                                                <select class="js-example-basic-single w-100" name="personnel[]">
+                                                    @foreach (var i in service)
+                                                    {
+                                                        <option value="@i.IdService">@i.Nom</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                        }
+                                        <div class="col-md-3">
+                                            <label for="inputPersonnel" class="form-label">Nb de personnel</label>
+                                            <input type="text" name="nb_main_oeuvre" class="form-control" required>
+                                            <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="inputHeureTravail" class="form-label">Heure de travail par jour</label>
+                                            <input type="text" name="heure_travail[]" class="form-control" required>
+                                            <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="inputSalaireParHeure" class="form-label">Salaire par heure</label>
+                                            <input type="text" name="salaire_par_heure[]" class="form-control" required>
+                                            <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                        </div>
+                                        <div class="col-md-12 text-end mt-2">
+                                            <button type="button" class="btn btn-danger" onclick="supprimerChamps(this)">SUPPRIMER</button>
+                                        </div>
                                     </div>
-                                </form>
+                                </div>
+                                <button type="button" class="btn btn-secondary mt-3" onclick="ajouterChamps()">AJOUTER</button>
+                                <button type="submit" class="btn btn-primary me-2 mt-3">VALIDER</button>
                             </div>
-                        </div>
+                            <div class="card-body">
+                                <div class="form-group row">
+                                    <table class="table table-hover table-bordered">
+                                        <thead class="thead-light">
+                                            <tr>
+                                                <th>Service</th>
+                                                <th>Nombre personnel</th>
+                                                <th>Heure de travail</th>
+                                                <th>Salaire par heure</th>
+                                                <th>Rendement par unite/jour</th>
+                                                <th>Quantite total</th>
+                                                <th>Jour d'execution</th>
+                                                <th>Salaire (Ariary)</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @if (v_salaire_personnel != null)
+                                            {
+                                                @foreach (var item in v_salaire_personnel)
+                                                {
+                                                    <tr>
+                                                        <td>@item.Service?.Nom</td>
+                                                        <td>@item.Nb_main_oeuvre</td>
+                                                        <td>@item.Heure_travail</td>
+                                                        <td>@item.Salaire_parHeure</td>
+                                                        <td>@item.Rendement</td>
+                                                        <td>@item.Quantite</td>
+                                                        <td>@item.Jour_execution jour(s)</td>
+                                                        <td>@item.Salaire.Value.ToString("N0")</td>
+                                                        <td>
+                                                            <div class="btn-group">
+                                                                <a class="btn btn-outline-danger" asp-controller="Admin" asp-action="Suppresion_personnel" asp-route-idPersonnel="@item.IdPersonnel">
+                                                                    <i class="mdi mdi-delete"></i> Supprimer
+                                                                </a>
+                                                                <a class="btn btn-outline-info" asp-controller="Admin" asp-action="PageModif_perso" asp-route-idPersonnel="@item.IdPersonnel">
+                                                                    <i class="mdi mdi-pencil"></i> Modifier
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<script>
-    function ajouterChamps() {
-        // Récupérer le conteneur des formulaires
-        const formContainer = document.getElementById("form-container");
-        
-        // Créer un nouveau groupe de champs
-        const newGroup = document.createElement("div");
-        newGroup.className = "form-group row";
-        newGroup.innerHTML = `
-                @if (service != null)
-                {
-                <div class="col-md-3">
-                    <label for="inputPersonnel" class="form-label">Service</label>
-                    <select class="js-example-basic-single w-100" name="personnel[]">
-                    @foreach (var i in service)
-                    {
-                        <option value="@i.IdService">@i.Nom</option>
-                    }
-                    </select>
-                </div>
-                }
-                <div class="col-md-3">
-                    <label for="inputPersonnel" class="form-label">Nb de personnel</label>
-                    <input type="text" name="nb_main_oeuvre" class="form-control" required>
-                    <div class="invalid-feedback">Remplir s'il vous plait</div>
-                </div>
-                <div class="col-md-3">
-                    <label for="inputHeureTravail" class="form-label" lang="en" inputmode="decimal">Heure de travail par jour</label>
-                    <input type="text" name="heure_travail[]" class="form-control" required>
-                    <div class="invalid-feedback">Remplir s'il vous plait</div>
-                </div>
-                <div class="col-md-3">
-                    <label for="inputSalaireParHeure" class="form-label">Salaire par heure</label>
-                    <input type="text" name="salaire_par_heure[]" class="form-control" required>
-                    <div class="invalid-feedback">Remplir s'il vous plait</div>
-                </div>
-                <div class="col-md-12 text-end mt-2">
-                    <button type="button" class="btn btn-danger" onclick="supprimerChamps(this)">SUPPRIMER</button>
-                </div>
-        `;
-
-        formContainer.appendChild(newGroup);
-    }
-
-    function supprimerChamps(button) {
-        button.parentElement.parentElement.remove();
-    }
-</script>
-<script>
-    document.querySelector('form').addEventListener('submit', function (event) {
-        let quantiteField = document.querySelector('input[name="heure_travail[]"]');
-        if (quantiteField) {
-            quantiteField.value = quantiteField.value.replace('.', ',');
-        }
-    });
-</script>

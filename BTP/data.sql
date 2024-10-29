@@ -53,7 +53,7 @@ select
 from detail_bde 
 join detail_bdq on detail_bdq.id_detail_dbq = detail_bde.id_detail_dbq;
 
-CREATE VIEW v_salaire_personnel as
+CREATE OR REPLACE VIEW v_salaire_personnel as
 WITH JourExecutionService001 AS (
     SELECT 
         detail_bdq.id_detail_dbq, 

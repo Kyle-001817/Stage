@@ -98,6 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW9kaWZpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ITU/Stage/WEB/BTP/Views/Admin/PageModif_perso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFnZU1vZGlmX3BlcnNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITU/Stage/WEB/BTP/Views/Admin/SecondModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2Vjb25kTW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
