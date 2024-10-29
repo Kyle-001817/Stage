@@ -3,64 +3,16 @@
   "WorkspaceRootPath": "D:\\ITU\\Stage\\WEB\\BTP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\f_personnel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\f_personnel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\f_personnel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\f_personnel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\models\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:models\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\f_typebordereau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\f_typebordereau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\f_detailbdq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\f_detailbdq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\models\\v_salairepersonnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:models\\v_salairepersonnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\models\\v_bdq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:models\\v_bdq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\materiaux.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\materiaux.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\v_bdq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\v_bdq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|d:\\itu\\stage\\web\\btp\\views\\admin\\modification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A2EE623-AC10-463D-A93E-8602644E2124}|BTP.csproj|solutionrelative:views\\admin\\modification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,73 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAgCAAAAAAAAAAAgwDQCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPYBAAAAAAAAAAAQwAgCAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T05:55:08.712Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "F_typeBordereau.cshtml",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_typeBordereau.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\F_typeBordereau.cshtml",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_typeBordereau.cshtml",
-              "RelativeToolTip": "Views\\Admin\\F_typeBordereau.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T11:56:55.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "V_bdq.cs",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\V_bdq.cs",
-              "RelativeDocumentMoniker": "Models\\V_bdq.cs",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\V_bdq.cs",
-              "RelativeToolTip": "Models\\V_bdq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T10:57:23.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "V_SalairePersonnel.cs",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\V_SalairePersonnel.cs",
-              "RelativeDocumentMoniker": "Models\\V_SalairePersonnel.cs",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\V_SalairePersonnel.cs",
-              "RelativeToolTip": "Models\\V_SalairePersonnel.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA6wCoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T10:53:35.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Materiaux.cshtml",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\Materiaux.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Materiaux.cshtml",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\Materiaux.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Materiaux.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowE0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T10:46:27.561Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -144,99 +43,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\Genre.cs",
-              "RelativeDocumentMoniker": "Models\\Genre.cs",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\Genre.cs",
-              "RelativeToolTip": "Models\\Genre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:57:35.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Service.cs",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "Models\\Service.cs",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\Service.cs",
-              "RelativeToolTip": "Models\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:57:28.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "V_bdq.cshtml",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\V_bdq.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\V_bdq.cshtml",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\V_bdq.cshtml",
-              "RelativeToolTip": "Views\\Admin\\V_bdq.cshtml",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAUwGMAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Modification.cshtml",
+              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\Modification.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Modification.cshtml",
+              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\Modification.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Modification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T10:46:28.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "script.sql ",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\script.sql",
-              "RelativeDocumentMoniker": "script.sql",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\script.sql",
-              "RelativeToolTip": "script.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-22T08:38:55.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T14:12:22.594Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "data.sql ",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\data.sql",
-              "RelativeDocumentMoniker": "data.sql",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\data.sql",
-              "RelativeToolTip": "data.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-22T08:38:30.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "F_detailBdq.cshtml",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_detailBdq.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\F_detailBdq.cshtml",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_detailBdq.cshtml",
-              "RelativeToolTip": "Views\\Admin\\F_detailBdq.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T16:45:21.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Personnel.cs",
-              "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\Personnel.cs",
-              "RelativeDocumentMoniker": "Models\\Personnel.cs",
-              "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Models\\Personnel.cs",
-              "RelativeToolTip": "Models\\Personnel.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:34:13.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "F_personnel.cshtml",
               "DocumentMoniker": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_personnel.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\F_personnel.cshtml",
               "ToolTip": "D:\\ITU\\Stage\\WEB\\BTP\\Views\\Admin\\F_personnel.cshtml",
               "RelativeToolTip": "Views\\Admin\\F_personnel.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowBkAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAF4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T16:30:14.7Z",
               "EditorCaption": ""

@@ -132,3 +132,54 @@
         </div>
     </div>
 </div>
+
+<script>
+    function ajouterChamps() {
+        // Récupérer le conteneur des formulaires
+        const formContainer = document.getElementById("form-container");
+
+        // Créer un nouveau groupe de champs
+        const newGroup = document.createElement("div");
+        newGroup.className = "form-group row";
+        newGroup.innerHTML = `
+            @if (service != null)
+            {
+                                <div class="col-md-3">
+                                    <label for="inputPersonnel" class="form-label">Service</label>
+                                    <select class="js-example-basic-single w-100" name="personnel[]">
+                        @foreach (var i in service)
+                        {
+                                            <option value="@i.IdService">@i.Nom</option>
+                        }
+                                    </select>
+                                </div>
+            }
+                    <div class="col-md-3">
+                        <label for="inputPersonnel" class="form-label">Nb de personnel</label>
+                        <input type="text" name="nb_main_oeuvre" class="form-control" required>
+                        <div class="invalid-feedback">Remplir s'il vous plait</div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputHeureTravail" class="form-label" lang="en" inputmode="decimal">Heure de travail par jour</label>
+                        <input type="text" name="heure_travail[]" class="form-control" required>
+                        <div class="invalid-feedback">Remplir s'il vous plait</div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputSalaireParHeure" class="form-label">Salaire par heure</label>
+                        <input type="text" name="salaire_par_heure[]" class="form-control" required>
+                        <div class="invalid-feedback">Remplir s'il vous plait</div>
+                    </div>
+                <div class="col-md-12 text-end mt-2">
+                    <button type="button" class="btn btn-danger" onclick="supprimerChamps(this)">SUPPRIMER</button>
+                </div>
+            `;
+
+        // Ajouter le nouveau groupe de champs au conteneur
+        formContainer.appendChild(newGroup);
+    }
+
+    function supprimerChamps(button) {
+        // Retirer le groupe de champs parent du bouton
+        button.parentElement.parentElement.remove();
+    }
+</script>

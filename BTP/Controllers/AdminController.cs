@@ -289,14 +289,21 @@ public class AdminController : Controller
         for (int i = 0; i < typeMat.Count; i++)
         {
             string idTypeMateriel = typeMat[i].IdTypeMateriel;
-            List<Materiel> materiaux = Materiel.GetmaterielsbyIdBdq(_context, idBdq, idTypeMateriel);
 
+            var materiaux = _context.Materiel
+                .Include(m => m.TypeMateriel)
+                .Include(m => m.Unite)
+                .Where(m => m.IdBdq == idBdq && m.IdTypeMateriel == idTypeMateriel)
+                .ToList();
+
+
+            // Apply search filter
             if (!string.IsNullOrEmpty(searchTerm))
             {
                 searchTerm = searchTerm.ToLower();
                 materiaux = materiaux.Where(m =>
                     m.Nom.ToLower().Contains(searchTerm) ||
-                    m.IdUnite.ToLower().Contains(searchTerm) ||
+                    (m.Unite.Nom != null && m.Unite.Nom.ToLower().Contains(searchTerm)) ||
                     m.PrixUnitaire.ToString().Contains(searchTerm) ||
                     m.TypeMateriel.Nom.ToLower().Contains(searchTerm)
                 ).ToList();
@@ -322,6 +329,7 @@ public class AdminController : Controller
 
         return View();
     }
+
 
     [HttpPost]
     public IActionResult SecondModal(string idmateriel)

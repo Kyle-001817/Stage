@@ -18,10 +18,16 @@ namespace BTP.Models
         public virtual Bdq? Bdq { get; set; }
         [Column("id_bdq")]
         public string? IdBdq { get; set; }
+
+        [ForeignKey("IdUnite")]
+        public virtual Unite? Unite { get; set; }
+
         [Column("id_unite")]
         public string? IdUnite { get; set; }
+
         [ForeignKey("IdTypeMateriel")]
         public virtual TypeMateriel? TypeMateriel { get; set; }
+
         [Column("id_type_materiel")]
         public string? IdTypeMateriel { get; set; }
 
