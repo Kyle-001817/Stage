@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "_Layout";
+    var details = ViewData["details"] as List<DetailBdq>;
+}
+<div class="container-scroller">
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+                        <form class="forms-sample" asp-controller="Admin" asp-action="InsertMateriel_travail" method="post" novalidate enctype="multipart/form-data">
+                            <div class="card-body">
+                                <div class="form-group row">
+                                    @Html.ValidationSummary(true, "", new { @class = "form-group custom-validation-summary" })
+                                    @if(details != null)
+                                    {
+                                        <label class="col-sm-2 col-form-label">Designation: </label>
+                                        <div class="col-sm-4">
+                                            <select class="js-example-basic-single w-100" name="designation">
+                                                @foreach (var i in details)
+                                                {
+                                                    if (i.IdDetailBdq == ViewBag.idDetailBDQ)
+                                                    {
+                                                        <option value="@i.IdDetailBdq" selected>@i.Designation</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="@i.IdDetailBdq">@i.Designation</option>
+                                                    }
+                                                    
+                                                }
+                                            </select>
+                                        </div>
+                                    }
+                                </div>
+                                <div id="form-container">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="inputPersonnel" class="form-label">Nom du materiel</label>
+                                            <input type="text" name="nom_materiel[]" class="form-control" required>
+                                            <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="inputHeureTravail" class="form-label">Quantite</label>
+                                            <input type="text" name="quantite[]" class="form-control" required>
+                                            <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="inputSalaireParHeure" class="form-label">Prix</label>
+                                            <input type="text" name="prix[]" class="form-control" required>
+                                            <div class="invalid-feedback">Remplir s'il vous plait</div>
+                                        </div>
+                                        <div class="col-md-12 text-end mt-2">
+                                            <button type="button" class="btn btn-danger" onclick="supprimerChamps(this)">SUPPRIMER</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-secondary mt-3" onclick="ajouterChamps()">AJOUTER</button>
+                                <button type="submit" class="btn btn-primary me-2 mt-3">VALIDER</button>
+                                <a asp-controller="Admin" asp-action="F_montantBDE" class="btn btn-outline-warning btn-icon-text me-2 mt-3" style="float: right">Generer le montant de la BDE</a>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function ajouterChamps() {
+        const formContainer = document.getElementById("form-container");
+
+        const newGroup = document.createElement("div");
+        newGroup.className = "form-group row";
+        newGroup.innerHTML = `
+            <div class="col-md-4">
+                <label for="inputPersonnel" class="form-label">Nom du materiel</label>
+                <input type="text" name="nom_materiel[]" class="form-control" required>
+                <div class="invalid-feedback">Remplir s'il vous plait</div>
+            </div>
+            <div class="col-md-4">
+                <label for="inputHeureTravail" class="form-label">Quantite</label>
+                <input type="text" name="quantite[]" class="form-control" required>
+                <div class="invalid-feedback">Remplir s'il vous plait</div>
+            </div>
+            <div class="col-md-4">
+                <label for="inputSalaireParHeure" class="form-label">Prix</label>
+                <input type="text" name="prix[]" class="form-control" required>
+                <div class="invalid-feedback">Remplir s'il vous plait</div>
+            </div>
+            <div class="col-md-12 text-end mt-2">
+                <button type="button" class="btn btn-danger" onclick="supprimerChamps(this)">SUPPRIMER</button>
+            </div>
+                `;
+
+        formContainer.appendChild(newGroup);
+    }
+
+    function supprimerChamps(button) {
+        button.parentElement.parentElement.remove();
+    }
+</script>

@@ -70,6 +70,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9kZXRhaWxCZHEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_Materiel_Travail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9NYXRlcmllbF9UcmF2YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/Stage/WEB/BTP/Views/Admin/F_montantBDE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9tb250YW50QkRFLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITU/Stage/WEB/BTP/Views/Admin/F_personnel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRl9wZXJzb25uZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

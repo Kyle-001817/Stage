@@ -2,11 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using BTP.Models;
 using System.Globalization;
 using Microsoft.EntityFrameworkCore;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using Microsoft.AspNetCore.Http;
 using System.Data;
-using System.Linq;
-using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Http;
 
 namespace BTP.Controllers;
 public class AdminController : Controller
@@ -14,7 +11,7 @@ public class AdminController : Controller
     private readonly ILogger<HomeController> _logger;
     private readonly K_Context _context;
 
-    public AdminController(ILogger<HomeController> logger, K_Context context) 
+    public AdminController(ILogger<HomeController> logger, K_Context context)
     {
         _logger = logger;
         _context = context;
@@ -27,11 +24,11 @@ public class AdminController : Controller
     public IActionResult F_bdq()
     {
         string? idPro = HttpContext.Session.GetString("id_proprietaire");
-        List <TypeBordereau> val = _context.TypeBordereau.ToList();
+        List<TypeBordereau> val = _context.TypeBordereau.ToList();
         ViewData["type_bordereau"] = val;
         return View();
     }
-    public IActionResult Insert_bdq(string id_typeBordereau,string titre)
+    public IActionResult Insert_bdq(string id_typeBordereau, string titre)
     {
         string? idPro = HttpContext.Session.GetString("id_proprietaire");
         string? idUtilisateur = HttpContext.Session.GetString("id_admin");
@@ -40,7 +37,7 @@ public class AdminController : Controller
             Titre = titre,
             IdTypeBordereau = id_typeBordereau,
             IdProprietaire = idPro,
-            IdUtilisateur=idUtilisateur,
+            IdUtilisateur = idUtilisateur,
         };
         _context.Bdq.Add(bdq);
         _context.SaveChanges();
@@ -80,7 +77,7 @@ public class AdminController : Controller
             ModelState.AddModelError(string.Empty, "Ce Type de Bordereau existe deja");
             return View("F_typeBordereau");
         }
-            TypeBordereau tb = new() { 
+        TypeBordereau tb = new() {
             Nom = type
         };
         _context.TypeBordereau.Add(tb);
@@ -92,7 +89,7 @@ public class AdminController : Controller
         string? idUtilisateur = HttpContext.Session.GetString("id_admin");
 
         List<Bdq> bdq = _context.Bdq
-            .Include(t =>t.TypeBordereau)
+            .Include(t => t.TypeBordereau)
             .OrderBy(t => t.IdBdq)
             .Where(t => t.Etat == 1)
             .Where(t => t.IdUtilisateur == idUtilisateur)
@@ -151,21 +148,27 @@ public class AdminController : Controller
         ViewBag.Total = total;
         return View(groupedBdq);
     }
-    public IActionResult F_bde()
+    public IActionResult F_bde(string? prixBDE, string? idDetailBDQ)
     {
         string? idBdq = HttpContext.Session.GetString("id_bdq");
         List<DetailBdq> dbdq = _context.DetailBdq.Where(db => db.IdBdq == idBdq).ToList();
         ViewData["detail_bdq"] = dbdq;
+        Console.WriteLine(prixBDE);
 
         //Tableau
         ViewData["detail_bde"] = _context.Detail_bde.Where(d => d.DetailBdq.IdBdq == idBdq).ToList();
+        if (prixBDE != null && idDetailBDQ != null)
+        {
+            ViewBag.prixBDE = prixBDE;
+            ViewBag.idDetailBDQ = idDetailBDQ;
+        }
         return View();
     }
-    public IActionResult Insert_bde(string designation, double pu)
+    public IActionResult Insert_bde(string designation, double montant)
     {
-        Detail_bde dbde = new() { 
-        PrixUnitaire = pu,
-        IdDetailBdq = designation
+        Detail_bde dbde = new() {
+            Montant = montant,
+            IdDetailBdq = designation
         };
         _context.Detail_bde.Add(dbde);
         _context.SaveChanges();
@@ -206,11 +209,11 @@ public class AdminController : Controller
                 Designation = d.DetailBdq?.Designation,
                 Unite = d.DetailBdq?.Unite?.Nom,
                 Quantite = d.DetailBdq?.Quantite ?? 0,
-                PrixUnitaire = d.PrixUnitaire,
-                Montant = d.PrixUnitaire * (d.DetailBdq?.Quantite ?? 0 )
+                Montant = d.Montant,
+                PrixUnitaire = d.Montant / (d.DetailBdq?.Quantite ?? 0)
             }).ToList();
 
-            // Calcul du sous-total pour cette série de travaux
+            // Calcul du sous-total pour cette sï¿½rie de travaux
             var subtotal = detailViewModels.Sum(vm => vm.Montant);
             viewModels[serieTravaux] = detailViewModels;
             subtotals[serieTravaux] = subtotal;
@@ -262,7 +265,7 @@ public class AdminController : Controller
             ModelState.AddModelError(string.Empty, "Ce Type de Materiel existe deja.");
             return View("F_typeMateriel");
         }
-            TypeMateriel tm = new()
+        TypeMateriel tm = new()
         {
             Nom = materiel
         };
@@ -341,7 +344,7 @@ public class AdminController : Controller
         ViewBag.ShowSecondModal = true;
         ViewData["unite"] = _context.Unite.ToList();
 
-        // Charger les données nécessaires pour la vue Materiaux
+        // Charger les donnï¿½es nï¿½cessaires pour la vue Materiaux
         string idBdq = HttpContext.Session.GetString("id_bdq");
         List<Materiel> typeMat = Materiel.GetListTypeMaterielExistant(_context, idBdq);
         ViewData["type_materiauxbyBdq"] = typeMat;
@@ -427,7 +430,7 @@ public class AdminController : Controller
     {
         HttpContext.Session.SetString("id_bdq", IdBdq);
         ViewData["serie_travaux"] = _context.SerieTravaux.ToList();
-        return View(); 
+        return View();
     }
     public IActionResult F_detailBdq(string id_serieTravaux)
     {
@@ -440,7 +443,7 @@ public class AdminController : Controller
             id_serieTravaux = HttpContext.Session.GetString("id_serieTravaux");
         }
         string? id_bdq = HttpContext.Session.GetString("id_bdq");
-        SerieTravaux ? st = _context.SerieTravaux.Find(id_serieTravaux);
+        SerieTravaux? st = _context.SerieTravaux.Find(id_serieTravaux);
         Bdq? bdq = _context.Bdq.Find(id_bdq);
         ViewBag.st = st;
         ViewBag.bdq = bdq;
@@ -448,11 +451,11 @@ public class AdminController : Controller
         ViewData["unite"] = _context.Unite.ToList();
         return View();
     }
-    public IActionResult Insert_detailBdq(string designation,string id_unite, double quantite)
+    public IActionResult Insert_detailBdq(string designation, string id_unite, double quantite)
     {
         string? id_serieTravaux = HttpContext.Session.GetString("id_serieTravaux");
         string? idBdq = HttpContext.Session.GetString("id_bdq");
-        DetailBdq detailBdq = new() { 
+        DetailBdq detailBdq = new() {
             Designation = designation,
             Quantite = quantite,
             IdSerieTravaux = id_serieTravaux,
@@ -463,7 +466,7 @@ public class AdminController : Controller
         _context.SaveChanges();
         return RedirectToAction(nameof(F_detailBdq));
     }
-    public IActionResult Details() 
+    public IActionResult Details()
     {
         string? id_bdq = HttpContext.Session.GetString("id_bdq");
         List<DetailBdq> a = _context.DetailBdq.Where(d => d.IdBdq == id_bdq).Include(d => d.Unite).OrderBy(d => d.IdSerieTravaux).ToList();
@@ -487,7 +490,7 @@ public class AdminController : Controller
     public IActionResult Insert_detailMateriel(string materiel, double quantite)
     {
         string? idDetailBdq = HttpContext.Session.GetString("id_detailBdq");
-        DetailMateriaux detailMateriaux = new ()
+        DetailMateriaux detailMateriaux = new()
         {
             IdMateriaux = materiel,
             IdDetailBdq = idDetailBdq,
@@ -501,9 +504,9 @@ public class AdminController : Controller
     {
         return View();
     }
-    public IActionResult Insert_about(string lieu,string client,string adresse,string telephone,string email)
+    public IActionResult Insert_about(string lieu, string client, string adresse, string telephone, string email)
     {
-        Proprietaire pro = new Proprietaire() { 
+        Proprietaire pro = new Proprietaire() {
             Lieu = lieu,
             Client = client,
             Adresse = adresse,
@@ -531,6 +534,7 @@ public class AdminController : Controller
             .Include(p => p.Service)
             .ToList();
         }
+
         return View();
     }
     public IActionResult InsertPersonnel(string designation, double rendement, int[] nb_main_oeuvre, string[] personnel, string[] heure_travail, string[] salaire_par_heure)
@@ -566,8 +570,9 @@ public class AdminController : Controller
             ViewData["rendement"] = _context.Rendement.ToList();
             ViewData["v_salaire_personnel"] = _context.V_SalairePersonnel
             .Where(p => p.IdDetailBdq == selectedIdDetailBdq)
-            .Include(p=> p.Service)
+            .Include(p => p.Service)
             .ToList();
+            ViewBag.designation = designation;
             return View("F_personnel");
         }
 
@@ -584,7 +589,7 @@ public class AdminController : Controller
         }
         return RedirectToAction(nameof(F_personnel));
     }
-    public IActionResult PageModif_perso(string idPersonnel) 
+    public IActionResult PageModif_perso(string idPersonnel)
     {
         var personnel = _context.Personnel.Find(idPersonnel);
         if (personnel == null)
@@ -600,11 +605,10 @@ public class AdminController : Controller
         HttpContext.Session.SetString("id", idPersonnel);
         return View();
     }
-    public IActionResult Modification_personnel(string designation,double rendement,string personnel, int nb_main_oeuvre,double heure_travail,double salaire_par_heure) {
+    public IActionResult Modification_personnel(string designation, double rendement, string personnel, int nb_main_oeuvre, double heure_travail, double salaire_par_heure) {
         string? id = HttpContext.Session.GetString("id");
         Personnel? perso = _context.Personnel.Find(id);
-        Console.WriteLine("AKORYYYY" + id);
-        if(perso != null)
+        if (perso != null)
         {
             perso.IdDetailBdq = designation;
             perso.Rendement = rendement;
@@ -617,6 +621,44 @@ public class AdminController : Controller
             _context.SaveChanges();
         };
         return RedirectToAction(nameof(F_personnel));
+    }
+    public IActionResult F_Materiel_Travail() {
+        string? idBdq = HttpContext.Session.GetString("id_bdq");
+        ViewData["details"] = _context.DetailBdq.Where(d => d.IdBdq == idBdq).ToList();
+        ViewBag.idDetailBDQ = HttpContext.Session.GetString("SelectedIdDetailBdq");
+        return View();    
+    }
+    public IActionResult InsertMateriel_travail(string designation, string[] nom_materiel, string[] quantite, string[] prix)
+    {
+        for (int i = 0; i < nom_materiel.Length; i++)
+        {
+            MaterielTravail mt = new()
+            {
+                Nom = nom_materiel[i],
+                Quantite = double.Parse(quantite[i].Replace(",", "."), CultureInfo.InvariantCulture),
+                Prix = double.Parse(prix[i].Replace(",", "."), CultureInfo.InvariantCulture),
+                IdDetailBdq = designation
+            };
+            _context.MaterielTravail.Add(mt);
+        }
+        _context.SaveChanges();
+        return RedirectToAction(nameof(F_Materiel_Travail));
+    }
+    public IActionResult F_montantBDE()
+    {
+        string? idBdq = HttpContext.Session.GetString("id_bdq");
+        ViewData["details"] = _context.DetailBdq.Where(d => d.IdBdq == idBdq).ToList();
+        ViewBag.idDetailBDQ = HttpContext.Session.GetString("SelectedIdDetailBdq");
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult montantBDE(string designation, double benefice)
+    {
+        ViewBag.montantBDE = V_materielTravail.Get_MontanBDE(_context, benefice, designation);
+        string? idBdq = HttpContext.Session.GetString("id_bdq");
+        ViewData["details"] = _context.DetailBdq.Where(d => d.IdBdq == idBdq).ToList();
+        return View("F_montantBDE");
     }
 
 

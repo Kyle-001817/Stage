@@ -41,15 +41,15 @@ LEFT JOIN
 ORDER BY 
     dbq.id_detail_dbq;
 
-CREATE view v_bde as
+CREATE or replace view v_bde as
 select 
     detail_bdq.designation,
     detail_bdq.id_unite,
     detail_bdq.quantite,
-    detail_bde.prix_unitaire,
+    detail_bde.montant,
     detail_bdq.id_serie_travaux,
     detail_bdq.id_bdq,
-    (detail_bde.prix_unitaire * detail_bdq.quantite) as montant 
+    (detail_bde.montant / detail_bdq.quantite) as prix_unitaire 
 from detail_bde 
 join detail_bdq on detail_bdq.id_detail_dbq = detail_bde.id_detail_dbq;
 
@@ -82,5 +82,23 @@ LEFT JOIN
     JourExecutionService001 AS jour_execution_service001 
 ON 
     detail_bdq.id_detail_dbq = jour_execution_service001.id_detail_dbq;
+
+-- PERSONNEL-MATERIEL-BENEFICE-MONTANT_BDE
+SELECT 
+    m.id_detail_dbq,
+    total_prix_materiel,
+    COALESCE(SUM(v.salaire_personnel), 0) AS total_salaire_personnel,
+    total_prix_materiel + COALESCE(SUM(v.salaire_personnel), 0) AS total_general,
+    (total_prix_materiel + COALESCE(SUM(v.salaire_personnel), 0)) * 25/100 AS benefice,
+    (total_prix_materiel + COALESCE(SUM(v.salaire_personnel), 0)) + 
+    ((total_prix_materiel + COALESCE(SUM(v.salaire_personnel), 0)) * 25/100) AS montant
+FROM 
+    (SELECT id_detail_dbq, SUM(prix) AS total_prix_materiel
+     FROM materiel_travail
+     GROUP BY id_detail_dbq) AS m
+LEFT JOIN 
+    v_salaire_personnel v ON m.id_detail_dbq = v.id_detail_dbq
+GROUP BY 
+    m.id_detail_dbq, total_prix_materiel;
 
 

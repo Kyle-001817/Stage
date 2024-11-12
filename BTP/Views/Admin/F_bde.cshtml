@@ -21,14 +21,22 @@
                                                     {
                                                         @foreach(var item in detail_bdq)
                                                         {
-                                                            <option value="@item.IdDetailBdq"> @item.Designation </option>
+                                                            if (item.IdDetailBdq == ViewBag.idDetailBDQ)
+                                                            {
+                                                                <option value="@item.IdDetailBdq" selected>@item.Designation</option>
+                                                            }
+                                                            else
+                                                            {
+                                                                <option value="@item.IdDetailBdq"> @item.Designation </option>
+                                                            }
+                                                            
                                                         }
                                                     }
                                                 </select>
                                             </div>
-                                            <label class="col-sm-2 col-form-label">Prix Unitaire: </label>
+                                            <label class="col-sm-2 col-form-label">Montant: </label>
                                             <div class="col-sm-2">
-                                                <input class="form-control" type="text" name="pu" placeholder="Prix Unitaire" />
+                                                <input class="form-control" type="text" name="montant" value="@ViewBag.prixBDE" placeholder="Montant" />
                                             </div>
                                         </div>
                                         <div class="form-group row">
@@ -42,7 +50,7 @@
                                             <thead>
                                                 <tr>
                                                     <th>Designation</th>
-                                                    <th>Prix Unitaire</th>
+                                                    <th>Montant</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -52,7 +60,7 @@
                                                     {
                                                         <tr style="height: 50px">
                                                             <td>@i.DetailBdq?.Designation</td>
-                                                            <td>@i.PrixUnitaire</td>
+                                                            <td>@i.Montant</td>
                                                         </tr>
                                                     }
                                                 }

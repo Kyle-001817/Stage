@@ -26,6 +26,7 @@ public class K_Context : DbContext
         public DbSet<Personnel> Personnel { get; set; }
         public DbSet<Service> Service { get; set; }
         public DbSet<V_SalairePersonnel> V_SalairePersonnel { get; set; }
+        public DbSet<MaterielTravail> MaterielTravail { get; set; }
 
     public void ResetDatabase(K_Context context)
         {
@@ -125,6 +126,11 @@ public class K_Context : DbContext
             modelBuilder.Entity<Service>()
                 .Property(p => p.IdService)
                 .HasDefaultValueSql($"NEXT VALUE FOR service_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<MaterielTravail>()
+                .Property(p => p.IdMaterielTravail)
+                .HasDefaultValueSql($"NEXT VALUE FOR mattrav_seq");
 
 
     }

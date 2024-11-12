@@ -10,8 +10,8 @@ namespace BTP.Models
         [Column("id_detail_bde")]
         public string? IdDetailBde { get; set; }
 
-        [Column("prix_unitaire")]
-        public double PrixUnitaire { get; set; }
+        [Column("montant")]
+        public double Montant { get; set; }
 
         [Column("id_detail_dbq")]
         public string? IdDetailBdq { get; set; }

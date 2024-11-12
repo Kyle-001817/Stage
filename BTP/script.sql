@@ -86,7 +86,7 @@ CREATE TABLE detail_bdq(
 CREATE SEQUENCE dbde_seq;
 CREATE TABLE detail_bde(
    id_detail_bde VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('DBDE', LPAD(nextval('dbde_seq')::TEXT, 3, '0')),
-   prix_unitaire NUMERIC(15,2)   NOT NULL,
+   montant NUMERIC(15,2)   NOT NULL,
    id_detail_dbq VARCHAR(50)  NOT NULL,
    FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
 );
@@ -133,4 +133,12 @@ CREATE TABLE Personnel(
    FOREIGN KEY(Id_service) REFERENCES Service(Id_service),
    FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
 );
-
+CREATE SEQUENCE mattrav_seq;
+CREATE TABLE Materiel_travail(
+   Id_materiel_travail VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('MATTRAV', LPAD(nextval('mattrav_seq')::TEXT, 3, '0')),
+   Nom VARCHAR(250)  NOT NULL,
+   Quantite NUMERIC(15,2)   NOT NULL,
+   Prix NUMERIC(15,2)   NOT NULL,
+   id_detail_dbq VARCHAR(50)  NOT NULL,
+   FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
+);
