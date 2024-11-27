@@ -293,7 +293,7 @@ public class AdminController : Controller
 
         for (int i = 0; i < typeMat.Count; i++)
         {
-            string idTypeMateriel = typeMat[i].IdTypeMateriel;
+            string? idTypeMateriel = typeMat[i].IdTypeMateriel;
 
             var materiaux = _context.Materiel
                 .Include(m => m.TypeMateriel)
@@ -314,8 +314,6 @@ public class AdminController : Controller
                 ).ToList();
             }
 
-            totalItems += materiaux.Count;
-            materiaux = materiaux.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
             materiauxByType[idTypeMateriel] = materiaux;
         }
 

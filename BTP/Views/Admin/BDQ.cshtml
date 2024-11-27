@@ -6,6 +6,16 @@
     <div class="main-panel">
         <div class="content-wrapper">
             <div class="row">
+                <form class="form-inline mb-3" asp-controller="Admin" asp-action="Materiaux" method="post">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Rechercher un Bordereau" name="searchTerm" value="">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">
+                                <i class="mdi mdi-magnify"></i> Rechercher
+                            </button>
+                        </div>
+                    </div>
+                </form>
                 @if (bdq != null)
                 {
                     @for (int i = 0; i < bdq.Count; i++)
