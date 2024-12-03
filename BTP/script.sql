@@ -133,6 +133,13 @@ CREATE TABLE Personnel(
    FOREIGN KEY(Id_service) REFERENCES Service(Id_service),
    FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
 );
+CREATE SEQUENCE approb_seq;
+CREATE TABLE approbation(
+   id_approbation VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('APPROB', LPAD(nextval('approb_seq')::TEXT, 3, '0')),
+   date_approbation TIMESTAMP NOT NULL,
+   id_bdq VARCHAR(50)  NOT NULL,
+   FOREIGN KEY(id_bdq) REFERENCES bdq(id_bdq)
+);
 CREATE SEQUENCE mattrav_seq;
 CREATE TABLE Materiel_travail(
    Id_materiel_travail VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('MATTRAV', LPAD(nextval('mattrav_seq')::TEXT, 3, '0')),

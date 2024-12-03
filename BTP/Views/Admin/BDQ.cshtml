@@ -1,14 +1,17 @@
 @{
     Layout = "_Layout";
     var bdq = ViewData["bdq"] as List<Bdq>;
+    var bdqApprouver = ViewData["bdqApprouver"] as List<Bdq>;
+    var searchTerm = ViewData["searchTerm"] as string;
 }
 <div class="container-scroller">
     <div class="main-panel">
         <div class="content-wrapper">
             <div class="row">
-                <form class="form-inline mb-3" asp-controller="Admin" asp-action="Materiaux" method="post">
+                <!-- Formulaire de recherche -->
+                <form class="form-inline mb-3" asp-controller="Admin" asp-action="BDQ" method="get">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Rechercher un Bordereau" name="searchTerm" value="">
+                        <input type="text" class="form-control" placeholder="Rechercher un Bordereau" name="searchTerm" value="@searchTerm">
                         <div class="input-group-append">
                             <button class="btn btn-primary" type="submit">
                                 <i class="mdi mdi-magnify"></i> Rechercher
@@ -16,17 +19,26 @@
                         </div>
                     </div>
                 </form>
-                @if (bdq != null)
+
+                <!-- Affichage des BDQs -->
+                @if (bdq != null && bdq.Any())
                 {
                     @for (int i = 0; i < bdq.Count; i++)
                     {
                         <div class="col-md-4 mb-4">
                             <a asp-controller="Admin" asp-action="V_bdq" asp-route-idBdq="@bdq[i].IdBdq" class="card-link" style="text-decoration: none;">
                                 <div class="card border-info mb-3 shadow-sm">
-                                    <div class="card-header text-center text-uppercase font-weight-bold" style="font-family: 'Roboto', sans-serif; background-color: #f8f9fa;">
+                                    @if(bdq[i].Etat == 22){
+                                    <div class="card-header text-center text-uppercase font-weight-bold" style="font-family: 'Roboto', sans-serif; background-color: #06558e; color:antiquewhite" >
                                         @bdq[i].TypeBordereau?.Nom
                                     </div>
-                                    <div class="card-body" >
+                                    }
+                                    else{
+                                    <div class="card-header text-center text-uppercase font-weight-bold" style="font-family: 'Roboto', sans-serif; background-color: #f8f8f8;" >
+                                        @bdq[i].TypeBordereau?.Nom
+                                    </div>
+                                    }
+                                    <div class="card-body">
                                         <h5 class="card-title text-center text-primary">@bdq[i].Titre</h5>
                                         <hr>
                                         <ul class="list-unstyled">
@@ -53,6 +65,9 @@
                                         </ul>
                                         <hr />
                                         <div class="text-center">
+                                            <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#approuvModal-@bdq[i].IdBdq">
+                                                <i class="mdi mdi-check"></i> Approuver
+                                            </button>
                                             <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal-@bdq[i].IdBdq">
                                                 <i class="mdi mdi-delete"></i> Supprimer
                                             </button>
@@ -62,7 +77,7 @@
                             </a>
                         </div>
 
-                        <!-- Modale spécifique pour chaque BDQ -->
+                        <!-- Modale de confirmation de suppression -->
                         <div class="modal fade" id="deleteModal-@bdq[i].IdBdq" tabindex="-1" style="margin-top: 200px;" aria-labelledby="deleteModalLabel-@bdq[i].IdBdq" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
@@ -82,7 +97,31 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="modal fade" id="approuvModal-@bdq[i].IdBdq" tabindex="-1" style="margin-top: 200px;" aria-labelledby="deleteModalLabel-@bdq[i].IdBdq" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="deleteModalLabel-@bdq[i].IdBdq">Voulez-vous vraiment supprimer cette BDQ ?</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Voulez-vous Approuver ce BDQ: "@bdq[i].Titre" ?</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <form method="post" asp-action="ApprouvBDQ" asp-controller="Admin" asp-route-idBdq="@bdq[i].IdBdq">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="submit" class="btn btn-primary">Approuver</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     }
+                }
+                else
+                {
+                    <p class="text-center">Aucun bordereau trouvé pour le terme de recherche "<strong>@searchTerm</strong>".</p>
                 }
             </div>
         </div>

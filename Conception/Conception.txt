@@ -116,6 +116,14 @@ CREATE TABLE Personnel(
    FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
 );
 
+CREATE TABLE approbation(
+   id_approbation VARCHAR(50) ,
+   date_approbation TIMESTAMPZ NOT NULL,
+   id_bdq VARCHAR(50)  NOT NULL,
+   PRIMARY KEY(id_approbation),
+   FOREIGN KEY(id_bdq) REFERENCES bdq(id_bdq)
+);
+
 CREATE TABLE materiaux(
    id_materiaux VARCHAR(50) ,
    nom VARCHAR(250)  NOT NULL,

@@ -58,11 +58,12 @@ public class AdminController : Controller
         Utilisateur? user = _context.Utilisateur
                                 .Include(u => u.Profil)
                                 .FirstOrDefault(u => u.IdUtilisateur == idAdmin);
-
+        Approbation? approbation = _context.Approbations.FirstOrDefault(u => u.IdBdq == idBdq);
         ViewBag.proprietaire = proprietaire;
         ViewBag.bdq = bdq;
         ViewBag.montant = somme_montant;
         ViewBag.user = user;
+        ViewBag.approbation = approbation;
         return View();
     }
     public IActionResult F_typeBordereau()
@@ -84,16 +85,30 @@ public class AdminController : Controller
         _context.SaveChanges();
         return RedirectToAction(nameof(F_typeBordereau));
     }
-    public IActionResult BDQ()
+    public IActionResult BDQ(string searchTerm)
     {
         string? idUtilisateur = HttpContext.Session.GetString("id_admin");
+        var BDQByType = new Dictionary<string, List<Bdq>>();
 
         List<Bdq> bdq = _context.Bdq
             .Include(t => t.TypeBordereau)
+            .Include(t => t.Proprietaire)
             .OrderBy(t => t.IdBdq)
-            .Where(t => t.Etat == 1)
+            .Where(t => t.Etat != 11)
             .Where(t => t.IdUtilisateur == idUtilisateur)
             .ToList();
+
+        if(!string.IsNullOrEmpty(searchTerm))
+        {
+            searchTerm = searchTerm.ToLower();
+            bdq = bdq.Where(t => 
+            t.Titre.ToLower().Contains(searchTerm) ||
+            (t.TypeBordereau?.Nom != null && t.TypeBordereau.Nom.ToLower().Contains(searchTerm)) ||
+            (t.Proprietaire?.Client != null && t.Proprietaire.Client.ToLower().Contains(searchTerm))
+            ).ToList();
+        }
+        BDQByType[idUtilisateur] = bdq;
+        ViewData["BDQByType"] = BDQByType;
         ViewData["bdq"] = bdq;
         return View();
     }
@@ -106,6 +121,24 @@ public class AdminController : Controller
             _context.Bdq.Update(Bdq);
             _context.SaveChanges();
         }
+        return RedirectToAction(nameof(BDQ));
+    }
+    public IActionResult ApprouvBDQ(string idBdq)
+    {
+        var Bdq = _context.Bdq.Find(idBdq);
+        if (Bdq != null)
+        {
+            Bdq.Etat = 22;
+            _context.Bdq.Update(Bdq);
+            _context.SaveChanges();
+        }
+        Approbation a = new(){
+            DateApprobation = DateTime.Now.ToUniversalTime(),
+            IdBdq = idBdq
+        };
+        _context.Add(a);
+        _context.SaveChanges();
+
         return RedirectToAction(nameof(BDQ));
     }
     public IActionResult V_bdq(string idBdq)
@@ -308,7 +341,7 @@ public class AdminController : Controller
                 searchTerm = searchTerm.ToLower();
                 materiaux = materiaux.Where(m =>
                     m.Nom.ToLower().Contains(searchTerm) ||
-                    (m.Unite.Nom != null && m.Unite.Nom.ToLower().Contains(searchTerm)) ||
+                    (m.Unite?.Nom != null && m.Unite.Nom.ToLower().Contains(searchTerm)) ||
                     m.PrixUnitaire.ToString().Contains(searchTerm) ||
                     m.TypeMateriel.Nom.ToLower().Contains(searchTerm)
                 ).ToList();
