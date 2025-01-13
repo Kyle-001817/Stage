@@ -1,0 +1,79 @@
+@{
+    Layout = "_Layout";
+    var plan = ViewData["plan"] as List<Plan>;
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <!-- Formulaire d'importation -->
+        <div class="col-md-8">
+            <form class="form-inline mb-4" asp-controller="Admin" asp-action="InsertPlan" method="post" enctype="multipart/form-data">
+                <div class="row g-3">
+                    <!-- Champ pour le titre -->
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" name="titre" placeholder="Titre du fichier" aria-label="Titre du fichier" required>
+                    </div>
+                    <!-- Champ pour le fichier -->
+                    <div class="col-md-6">
+                        <input type="file" class="form-control" name="fichier" aria-label="Fichier PDF" accept=".pdf" required>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <button class="btn btn-primary" type="submit">
+                        <i class="mdi mdi-upload"></i> Importer
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        @if (plan != null)
+        {
+            @foreach (var i in plan)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card border-info shadow-sm">
+                        <div class="card-header bg-info text-white text-center">
+                            <h5 class="card-title mb-0">@i.Titre</h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <!-- Bouton pour voir le plan -->
+                            <form class="form-inline mb-4" method="post" asp-action="VoirPlan" asp-controller="Admin" asp-route-idPlan="@i.IdPlan">
+                                <button type="submit" class="btn btn-success btn-sm mx-2">
+                                    <i class="mdi mdi-eye"></i> Voir
+                                </button>
+                            </form>
+
+                            <!-- Bouton pour supprimer le plan -->
+                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal-@i.IdPlan">
+                                <i class="mdi mdi-delete"></i> Supprimer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal pour la confirmation de suppression -->
+                <div class="modal fade" id="deleteModal-@i.IdPlan" tabindex="-1" aria-labelledby="deleteModalLabel-@i.IdPlan" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="deleteModalLabel-@i.IdPlan">Confirmation de suppression</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Êtes-vous sûr de vouloir supprimer <strong>@i.Titre</strong> ?</p>
+                            </div>
+                            <div class="modal-footer">
+                                <form method="post" asp-action="DeletePlan" asp-controller="Admin" asp-route-idPlan="@i.IdPlan">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                    <button type="submit" class="btn btn-danger">Supprimer</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

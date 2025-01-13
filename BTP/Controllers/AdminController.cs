@@ -101,7 +101,8 @@ public class AdminController : Controller
             bdqs = bdqs.Where(t =>
                 t.Titre.ToLower().Contains(searchTerm) ||
                 (t.TypeBordereau?.Nom != null && t.TypeBordereau.Nom.ToLower().Contains(searchTerm)) ||
-                (t.Proprietaire?.Client != null && t.Proprietaire.Client.ToLower().Contains(searchTerm))
+                (t.Proprietaire?.Client != null && t.Proprietaire.Client.ToLower().Contains(searchTerm)) ||
+                (t.Proprietaire?.Lieu != null && t.Proprietaire.Lieu.ToLower().Contains(searchTerm)) 
             ).ToList();
         }
 
@@ -726,8 +727,100 @@ public class AdminController : Controller
         ViewData["details"] = _context.DetailBdq.Where(d => d.IdBdq == idBdq).ToList();
         return View("F_montantBDE");
     }
+    public IActionResult Plan(string idBdq)
+    {
+        HttpContext.Session.SetString("id", idBdq);
+
+        ViewData["plan"] = _context.Plan
+                                .Where(p => p.IdBdq == idBdq)
+                                .ToList();
+        return View();
+    }
 
 
+    public IActionResult InsertPlan(string titre, IFormFile fichier)
+    {
+        string? idBdq = HttpContext.Session.GetString("id");
+        if (fichier != null && fichier.Length > 0)
+        {
+            // Lire le contenu du fichier comme une chaîne
+            string fileContent;
+            using (var reader = new StreamReader(fichier.OpenReadStream()))
+            {
+                fileContent = reader.ReadToEnd();
+            }
+
+            // Chemin où le fichier sera enregistré (optionnel)
+            string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+            Directory.CreateDirectory(uploadsFolder); // Crée le dossier s'il n'existe pas
+            string filePath = Path.Combine(uploadsFolder, fichier.FileName);
+
+            // Sauvegarder le fichier sur le serveur (si nécessaire)
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                fichier.CopyTo(stream);
+            }
+
+            Plan p = new()
+            {
+                Titre = titre,
+                Emplacement = $"/uploads/{fichier.FileName}", // Assurez-vous que c'est le chemin relatif
+                IdBdq = idBdq
+            };
+
+            _context.Plan.Add(p);
+            _context.SaveChanges();
+        }
+        else
+        {
+            ModelState.AddModelError("", "Veuillez fournir un fichier valide.");
+            return View();
+        }
+
+        return RedirectToAction(nameof(Plan), new { idBdq = idBdq }); // Passer idBdq explicitement
+    }
+
+    public IActionResult VoirPlan(string idPlan)
+    {
+        Plan? plan = _context.Plan.FirstOrDefault(p => p.IdPlan == idPlan);
+        if (plan == null)
+        {
+            return NotFound();
+        }
+
+        // Assurez-vous que l'emplacement du fichier est correct et dans le bon dossier
+        plan.Emplacement = "/uploads/" + Path.GetFileName(plan.Emplacement);
+
+        ViewBag.plan = plan;
+
+        return View(plan);
+    }
+    [HttpPost]
+    public IActionResult DeletePlan(string idBdq, string idPlan)
+    {
+        var plan = _context.Plan.FirstOrDefault(p => p.IdPlan == idPlan);
+        if (plan != null)
+        {
+            // Supprimer le fichier physique si nécessaire
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", plan.Emplacement.TrimStart('/'));
+            if (System.IO.File.Exists(filePath))
+            {
+                System.IO.File.Delete(filePath);
+            }
+
+            // Supprimer le plan de la base de données
+            _context.Plan.Remove(plan);
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Plan supprimé avec succès.";
+        }
+        else
+        {
+            TempData["ErrorMessage"] = "Le plan demandé n'existe pas.";
+        }
+
+        return RedirectToAction(nameof(Plan), new { idBdq = idBdq }); // Passer idBdq explicitement
+    }
     public IActionResult Deconnect()
     {
         HttpContext.Session.Clear();
@@ -762,5 +855,6 @@ public class AdminController : Controller
             return Ok(message);
         }
     }
+    
 
 }

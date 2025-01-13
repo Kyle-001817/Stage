@@ -149,3 +149,11 @@ CREATE TABLE Materiel_travail(
    id_detail_dbq VARCHAR(50)  NOT NULL,
    FOREIGN KEY(id_detail_dbq) REFERENCES detail_bdq(id_detail_dbq)
 );
+CREATE SEQUENCE plan_seq;
+CREATE TABLE plan(
+   id_plan VARCHAR(50) PRIMARY KEY DEFAULT CONCAT('PLAN', LPAD(nextval('plan_seq')::TEXT, 3, '0')),
+   Titre VARCHAR(250)  NOT NULL,
+   emplacement VARCHAR(250)  NOT NULL,
+   id_bdq VARCHAR(50)  NOT NULL,
+   FOREIGN KEY(id_bdq) REFERENCES bdq(id_bdq)
+);

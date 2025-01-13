@@ -124,6 +124,15 @@ CREATE TABLE approbation(
    FOREIGN KEY(id_bdq) REFERENCES bdq(id_bdq)
 );
 
+CREATE TABLE plan(
+   id_plan VARCHAR(50) ,
+   Titre VARCHAR(250)  NOT NULL,
+   emplacement VARCHAR(250)  NOT NULL,
+   id_bdq VARCHAR(50)  NOT NULL,
+   PRIMARY KEY(id_plan),
+   FOREIGN KEY(id_bdq) REFERENCES bdq(id_bdq)
+);
+
 CREATE TABLE materiaux(
    id_materiaux VARCHAR(50) ,
    nom VARCHAR(250)  NOT NULL,

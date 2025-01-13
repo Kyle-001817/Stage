@@ -249,6 +249,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\files\\PLAN_DE_FONDATION.pdf",
       "PackagePath": "staticwebassets\\files\\PLAN_DE_FONDATION.pdf"
     },
@@ -495,10 +499,6 @@
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\faces\\face9.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\face9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\favicon.png",
-      "PackagePath": "staticwebassets\\images\\favicon.png"
     },
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\images\\logo-mini.svg",
@@ -1777,8 +1777,28 @@
       "PackagePath": "staticwebassets\\lib\\wow\\dist\\wow.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\logo.png",
-      "PackagePath": "staticwebassets\\logo.png"
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\pdfjs\\build\\pdf.mjs",
+      "PackagePath": "staticwebassets\\pdfjs\\build\\pdf.mjs"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\pdfjs\\build\\pdf.mjs.map",
+      "PackagePath": "staticwebassets\\pdfjs\\build\\pdf.mjs.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\pdfjs\\build\\pdf.sandbox.mjs",
+      "PackagePath": "staticwebassets\\pdfjs\\build\\pdf.sandbox.mjs"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\pdfjs\\build\\pdf.sandbox.mjs.map",
+      "PackagePath": "staticwebassets\\pdfjs\\build\\pdf.sandbox.mjs.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\pdfjs\\build\\pdf.worker.mjs",
+      "PackagePath": "staticwebassets\\pdfjs\\build\\pdf.worker.mjs"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\pdfjs\\build\\pdf.worker.mjs.map",
+      "PackagePath": "staticwebassets\\pdfjs\\build\\pdf.worker.mjs.map"
     },
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\_background.scss",
@@ -2047,6 +2067,26 @@
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\uploads\\COUPE BB.pdf",
+      "PackagePath": "staticwebassets\\uploads\\COUPE BB.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\uploads\\COUPE CC.pdf",
+      "PackagePath": "staticwebassets\\uploads\\COUPE CC.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\uploads\\FACADE PRINCIPALE.pdf",
+      "PackagePath": "staticwebassets\\uploads\\FACADE PRINCIPALE.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\uploads\\PLAN DE FONDATION.pdf",
+      "PackagePath": "staticwebassets\\uploads\\PLAN DE FONDATION.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\uploads\\VUE EN PLAN.pdf",
+      "PackagePath": "staticwebassets\\uploads\\VUE EN PLAN.pdf"
     },
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\Stage\\BTP\\wwwroot\\vendors\\base\\bootstrap.min.js.map",

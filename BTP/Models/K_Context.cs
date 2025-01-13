@@ -28,6 +28,7 @@ public class K_Context : DbContext
         public DbSet<V_SalairePersonnel> V_SalairePersonnel { get; set; }
         public DbSet<MaterielTravail> MaterielTravail { get; set; }
         public DbSet<Approbation> Approbations { get; set; }
+        public DbSet<Plan> Plan { get; set; }
 
     public void ResetDatabase(K_Context context)
         {
@@ -137,6 +138,11 @@ public class K_Context : DbContext
             modelBuilder.Entity<Approbation>()
                 .Property(p => p.Id_approbation)
                 .HasDefaultValueSql($"NEXT VALUE FOR approb_seq");
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Plan>()
+                .Property(p => p.IdPlan)
+                .HasDefaultValueSql($"NEXT VALUE FOR plan_seq");
 
 
     }
