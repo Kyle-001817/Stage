@@ -85,12 +85,9 @@ public class AdminController : Controller
         _context.SaveChanges();
         return RedirectToAction(nameof(F_typeBordereau));
     }
-    public IActionResult BDQ(string searchTerm)
+    private List<Bdq> GetFilteredBdqs(string? idUtilisateur, string? searchTerm)
     {
-        string? idUtilisateur = HttpContext.Session.GetString("id_admin");
-        var BDQByType = new Dictionary<string, List<Bdq>>();
-
-        List<Bdq> bdq = _context.Bdq
+        var bdqs = _context.Bdq
             .Include(t => t.TypeBordereau)
             .Include(t => t.Proprietaire)
             .OrderBy(t => t.IdBdq)
@@ -98,20 +95,35 @@ public class AdminController : Controller
             .Where(t => t.IdUtilisateur == idUtilisateur)
             .ToList();
 
-        if(!string.IsNullOrEmpty(searchTerm))
+        if (!string.IsNullOrEmpty(searchTerm))
         {
             searchTerm = searchTerm.ToLower();
-            bdq = bdq.Where(t => 
-            t.Titre.ToLower().Contains(searchTerm) ||
-            (t.TypeBordereau?.Nom != null && t.TypeBordereau.Nom.ToLower().Contains(searchTerm)) ||
-            (t.Proprietaire?.Client != null && t.Proprietaire.Client.ToLower().Contains(searchTerm))
+            bdqs = bdqs.Where(t =>
+                t.Titre.ToLower().Contains(searchTerm) ||
+                (t.TypeBordereau?.Nom != null && t.TypeBordereau.Nom.ToLower().Contains(searchTerm)) ||
+                (t.Proprietaire?.Client != null && t.Proprietaire.Client.ToLower().Contains(searchTerm))
             ).ToList();
         }
-        BDQByType[idUtilisateur] = bdq;
+
+        return bdqs;
+    }
+
+    public IActionResult BDQ(string searchTerm)
+    {
+        string? idUtilisateur = HttpContext.Session.GetString("id_admin");
+
+        var bdqs = GetFilteredBdqs(idUtilisateur, searchTerm);
+        var BDQByType = new Dictionary<string, List<Bdq>>
+        {
+            [idUtilisateur] = bdqs
+        };
+
         ViewData["BDQByType"] = BDQByType;
-        ViewData["bdq"] = bdq;
+        ViewData["bdq"] = bdqs;
+
         return View();
     }
+
     public IActionResult DeleteBdq(string idBdq)
     {
         var Bdq = _context.Bdq.Find(idBdq);
@@ -123,24 +135,47 @@ public class AdminController : Controller
         }
         return RedirectToAction(nameof(BDQ));
     }
-    public IActionResult ApprouvBDQ(string idBdq)
+    public IActionResult ApprouvBDQ(string searchTerm, string idBdq)
     {
+        string? idUtilisateur = HttpContext.Session.GetString("id_admin");
+
+        var bdqs = GetFilteredBdqs(idUtilisateur, searchTerm);
+        var BDQByType = new Dictionary<string, List<Bdq>>
+        {
+            [idUtilisateur] = bdqs
+        };
+
+        ViewData["BDQByType"] = BDQByType;
+        ViewData["bdq"] = bdqs;
+
         var Bdq = _context.Bdq.Find(idBdq);
+        bool exists = _context.Approbations.Any(st => st.IdBdq == idBdq);
+
+        if (exists)
+        {
+            ModelState.AddModelError(string.Empty, "Ce Bordereau est déjà approuvé");
+            return View(nameof(BDQ));
+        }
+
         if (Bdq != null)
         {
             Bdq.Etat = 22;
             _context.Bdq.Update(Bdq);
             _context.SaveChanges();
         }
-        Approbation a = new(){
+
+        Approbation a = new()
+        {
             DateApprobation = DateTime.Now.ToUniversalTime(),
             IdBdq = idBdq
         };
+
         _context.Add(a);
         _context.SaveChanges();
 
         return RedirectToAction(nameof(BDQ));
     }
+
     public IActionResult V_bdq(string idBdq)
     {
         HttpContext.Session.SetString("id_bdq", idBdq);
